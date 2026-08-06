@@ -4,7 +4,7 @@ A complete documentation portfolio demonstrating
 enterprise software documentation using modern
 Docs-as-Code practices.
 
-## Explore
+## Documentation
 
 - Product Overview
 - User Guide
