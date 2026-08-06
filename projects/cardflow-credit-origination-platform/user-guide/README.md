@@ -1,1 +1,1 @@
-# Cardflow Credit Origination Platform
+# Cardflow Credit Origination Platform User Guide
