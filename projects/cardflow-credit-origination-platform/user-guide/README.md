@@ -1,3 +1,1 @@
 # Cardflow Credit Origination Platform
-
-Sample discussion
