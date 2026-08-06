@@ -2,7 +2,7 @@
 
 A space for learning, experimenting, and building.
 
-This repository contains my notes, exercises, and experiments as I learn:
+This repository contains my notes, exercises, and ongoing projects as I learn:
 
 - Markdown
 - Git
