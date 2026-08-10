@@ -1,12 +1,12 @@
 # Purpose of the Guide
 
-The User Guide provides instructions for using the **CardFlow Credit Origination Platform**
+The **User Guide** provides instructions for using the **CardFlow Credit Origination Platform**
 to create, review, approve, and track credit-related requests. It helps users understand the
 platform’s features, navigate the user interface, and perform workflow-related activities
 efficiently.
 
 # Product Overview
-The CardFlow Credit Origination Platform is a multi-tenant SaaS solution designed to
+The **CardFlow Credit Origination Platform** is a multi-tenant SaaS solution designed to
 automate and manage the end-to-end credit origination lifecycle. The platform supports
 credit application, amendment, and reinstatement workflows through configurable business
 rules, validation services, approval routing, notifications, and audit tracking.
