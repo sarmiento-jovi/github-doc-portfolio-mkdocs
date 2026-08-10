@@ -9,6 +9,8 @@ Before accessing the system, users should ensure that:
 - A supported web browser is available.
 - Network connectivity to the platform is established.
 
+! [Login Page](../images/getting-started/login-page.png)
+
 # Logging In
 
 Users must authenticate using their assigned credentials before accessing platform features.
