@@ -24,3 +24,6 @@ To log in:
 
 **Result**: Upon successful authentication, the system displays the appropriate dashboard
 based on your assigned role.
+
+![Tenant Dashboard](../images/getting-started/tenant-dashboard.png)
+*Tenant Dashboard*
