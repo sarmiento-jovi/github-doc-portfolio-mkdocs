@@ -6,7 +6,7 @@ The guide covers the primary functions available to applicants, reviewers, and a
 
 ## Getting Started
 
-- [Introduction](introduction.md)
+- [Introduction](introduction/README.md)
 - [Getting Started](getting-started/README.md)
 - [Understanding the Dashboard](dashboard/README.md)
 
