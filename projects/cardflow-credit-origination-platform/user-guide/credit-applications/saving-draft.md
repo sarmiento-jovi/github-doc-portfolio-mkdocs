@@ -13,4 +13,4 @@ To save an application as a draft:
 **Result**: Draft applications remain editable until submitted for workflow processing.
 
 ![Application Details (Draft)](../images/credit-applications/saving-draft-application-application-details.png)
-*Saving Draft Application – Application Details (Draft) *
+*Saving Draft Application – Application Details (Draft)*
