@@ -45,19 +45,19 @@ Located on the left side of the screen and provides access to the platform's pri
 - User profile access
 
 # Dashboard Filters
-Filters are used to adjust the displayed metrics and reporting period.
+**Filters** are used to adjust the displayed metrics and reporting period.
 Provides:
 - Date range selection
 - Dashboard filtering options
 
 ## Request Status Summary Cards
 **Request Status Summary Cards** allows users to quickly assess overall workflow activity, and provides high-level workflow metrics:
-- Total Applications
-- In Progress
-- Pending Approval
-- Approved
-- Returned
-- Rejected
+- **Total Applications**
+- **In Progress**
+- **Pending Approval**
+- **Approved**
+- **Returned**
+- **Rejected**
 
 # Workflow Status Distribution
 **Workflow Status Distribution** provides visibility into workflow progression and workload distribution. This dashboard component displays:
@@ -67,10 +67,10 @@ Provides:
 
 # Requests Requiring Attention
 **Requests Requiring Attention** helps users prioritize pending work and highlights items requiring action:
-- Pending Submissions
-- Returned Requests
-- Pending Approvals
-- Expiring Documents
+- **Pending Submissions**
+- **Returned Requests**
+- **Pending Approvals**
+- **Expiring Documents**
 
 # Notification Center
 **Notification Center** provides visibility into recent platform activity, and displays workflow-generated alerts such as:
@@ -82,22 +82,22 @@ Provides:
 
 # Recent Applications
 **Recent Applications** allows users to quickly access active requests. It displays a list of recently created or updated applications, including:
-- Application ID
-- Customer Name
-- Product Type
-- Application Date
-- Current Status
-- Priority
-- Assigned User
+- **Application ID**
+- **Customer Name**
+- **Product Type**
+- **Application Date**
+- **Current Status**
+- **Priority**
+**- Assigned User**
 
 # Quick Actions
 **Quick Actions** allows users to initiate common workflow activities, and provides shortcuts to frequently used functions:
-- Create Application
-- Create Amendment
-- Create Reinstatement
+- **Create Application**
+- **Create Amendment**
+- **Create Reinstatement**
 
 # Team Activity Summary
 **Team Activity Summary** provides a summary of organizational activity. It displays operational metrics such as:
-- Active Users
-- Applications Created
-- Applications Approved
+- **Active Users**
+- **Applications Created**
+- **Applications Approved**
