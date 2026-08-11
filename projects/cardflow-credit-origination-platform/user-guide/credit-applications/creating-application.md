@@ -1,9 +1,9 @@
 # Creating a New Credit Application
-Users can create a new credit application from the dashboard or Applications screen.
+Users can create a new credit application from the dashboard or **Applications** screen.
 
 To create a new credit application:
-1.	Navigate to Applications.
-2.	Click Create Application.
+1.	Navigate to **Applications**.
+2.	Click **Create Application**.
 3.	Select the desired application type, if applicable.
 4.	Enter the required applicant information.
 5.	Complete the application details.
