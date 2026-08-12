@@ -13,7 +13,7 @@ To submit an amendment request:
 - Uploaded files meet format and size requirements.
 - The requested changes comply with configured business rules.
 
-If validation fails, the request is returned for correction.
+    If validation fails, the request is returned for correction.
 
 **Result**: The amendment request is submitted and progresses to the review workflow.
 
