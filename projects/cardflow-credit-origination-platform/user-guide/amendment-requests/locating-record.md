@@ -11,7 +11,7 @@ To locate an existing record:
 - **Application Reference Number**
 - **Applicant Name**
 - **Account Number**
-- Other available search criteria
+Other available search criteria
 
 3. Review the search results.
 4. Select the appropriate record to open the **Application Details** (Figure 14 Submitting an Application – Application Details) screen.
