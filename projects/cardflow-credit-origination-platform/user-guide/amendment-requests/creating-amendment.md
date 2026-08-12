@@ -12,13 +12,13 @@ To create an amendment request:
     **Create Amendment Request** screen displays.
 
 ![Create Amendment Request Screen](../images/amendment-requests/create-amendment-request-screen.png)
-*Create Amendment Request Screen*
+*Creating an Amendment Request – Create Amendment Request Screen*
 
 3.	Review the current application information.
 4.	Provide a reason for the amendment.
 
 ![Reasons for Amendment](../images/amendment-requests/reasons-for-amendment.png)
-*Reasons for Amendment*
+*Creating an Amendment Request – Reasons for Amendment*
 
 5.	Confirm that the request details are correct.
 6.	Click **Continue**.
