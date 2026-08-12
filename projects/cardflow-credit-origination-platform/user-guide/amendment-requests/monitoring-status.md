@@ -2,7 +2,7 @@
 After submission, monitor the amendment request throughout the review and approval process.
 
 To monitor amendment status:
-1.	Navigate to Applications** > My Applications** or **My Requests**.
+1.	Navigate to **Applications > My Applications** or **My Requests**.
 2.	Locate the amendment request.
 3.	Review the current workflow status.
 
