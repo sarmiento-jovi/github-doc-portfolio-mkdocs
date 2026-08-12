@@ -18,3 +18,7 @@ To update information:
 
 ![Updating Information](../images/amendment-requests/updating-information.png)
 *Updating Information*
+
+5.	Save your changes.
+
+**Result**: The updated information is stored in the amendment request and remains editable until submission.
