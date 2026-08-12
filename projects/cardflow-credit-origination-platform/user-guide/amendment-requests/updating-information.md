@@ -1,4 +1,4 @@
-Updating Information
+# Updating Information
 
 Update the information that requires modification as part of the amendment request.
 
@@ -6,7 +6,8 @@ To update information:
 1.	Open the amendment request.
 2.	Navigate to the section requiring modification.
 3.	Update the necessary fields.
-Examples of information that may be updated include:
+
+    Examples of information that may be updated include:
 - Applicant details
 - Contact information
 - Employment information
