@@ -8,10 +8,10 @@ To locate an existing record:
 *Processing Application Screen*
 
 2.	Use the search field to locate the application by:
-- **Application Reference Number**
-- **Applicant Name**
-- **Account Number**
-- Other available search criteria
+    - **Application Reference Number**
+    - **Applicant Name**
+    - **Account Number**
+    - Other available search criteria
 
 3. Review the search results.
 4. Select the appropriate record to open the **Application Details** screen.
