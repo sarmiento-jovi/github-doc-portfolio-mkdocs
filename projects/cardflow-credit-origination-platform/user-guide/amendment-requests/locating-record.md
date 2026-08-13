@@ -14,9 +14,11 @@ To locate an existing record:
 - Other available search criteria
 
 3. Review the search results.
-4. Select the appropriate record to open the **Application Details** (Figure 14 Submitting an Application – Application Details) screen.
+4. Select the appropriate record to open the **Application Details** screen.
+
 ![Application Details](../images/credit-applications/submitting-an-application-application-details.png)
 *Submitting an Application – Application Details*
+
 5. Verify that the record is eligible for amendment before proceeding.
 
 **Result**: The selected application or account record is displayed and ready for amendment processing.
