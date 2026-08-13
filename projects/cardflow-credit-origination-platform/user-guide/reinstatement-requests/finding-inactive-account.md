@@ -11,3 +11,6 @@ To find an inactive account:
 5.	Open the account record.
 
 **Result**: The account details page is displayed, showing the current account status and reinstatement eligibility information.
+
+![Finding an Inactive Account](../images/reinstatement-requests/finding-inactive-account.png)
+*Finding an Inactive Account*
