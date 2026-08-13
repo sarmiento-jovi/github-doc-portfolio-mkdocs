@@ -7,13 +7,13 @@ To update information:
 2.	Navigate to the section requiring modification.
 3.	Update the necessary fields.
 
-    Examples of information that may be updated include:
-- Applicant details
-- Contact information
-- Employment information
-- Financial information
-- Credit card details
-- Other application-specific information
+  	Examples of information that may be updated include:
+    - Applicant details
+    - Contact information
+    - Employment information
+    - Financial information
+    - Credit card details
+    - Other application-specific information
 4.	Review the modified information for accuracy.
 
 ![Updating Information](../images/amendment-requests/updating-information.png)
