@@ -1,5 +1,6 @@
-6.5.	Tracking Reinstatement Progress
+# Tracking Reinstatement Progress
 Monitor the progress of a reinstatement request throughout the review and approval process.
+
 To track reinstatement progress:
 1.	Open the reinstatement request.
 2.	Review the status displayed on the request.
@@ -8,14 +9,14 @@ To track reinstatement progress:
 5.	Check notifications for status updates.
 
     Typical reinstatement statuses include:
-    - Draft
-    - Submitted
-    - Under Validation
-    - Under Review
-    - Pending Approval
-    - Approved
-    - Rejected
-    - Returned
+    - **Draft**
+    - **Submitted**
+    - **Under Validation**
+    - **Under Review**
+    - **Pending Approval**
+    - **Approved**
+    - **Rejected**
+    - **Returned**
 
 **Result**: Users can monitor request progress, review workflow activities, and determine whether additional action is required.
 

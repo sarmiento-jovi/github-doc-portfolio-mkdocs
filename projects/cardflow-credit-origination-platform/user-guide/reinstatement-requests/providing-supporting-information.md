@@ -17,7 +17,7 @@ Examples of supporting information may include:
 - Compliance documentation
 - Account reactivation justification
 
-**Result: The supporting information is saved and remains editable until the request is submitted.
+**Result**: The supporting information is saved and remains editable until the request is submitted.
 
 ![Providing Supporting Information](../images/reinstatement-requests/providing-supporting-information.png)
 *Providing Supporting Information*

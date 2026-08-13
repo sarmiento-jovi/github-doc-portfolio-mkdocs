@@ -1,4 +1,4 @@
-# Submitting the Request
+# Submitting the Reinstatement Request
 Submit the reinstatement request after all required information and supporting documents have been provided.
 To submit a reinstatement request:
 1.	Review the reinstatement request details.
@@ -18,4 +18,4 @@ To submit a reinstatement request:
 **Result**: The reinstatement request is submitted and enters the review workflow.
 
 ![Submitting the Request](../images/reinstatement-requests/submitting-the-request.png)
-*Submitting the Request*
+*Submitting the Reinstatement Request*
