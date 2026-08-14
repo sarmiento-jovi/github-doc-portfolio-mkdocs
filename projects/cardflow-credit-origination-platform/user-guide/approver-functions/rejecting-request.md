@@ -19,4 +19,4 @@ When a request is rejected:
 **Result**: The request is rejected and the workflow is terminated.
 
 ![Rejecting Request](../images/approver-functions/rejecting-requests.png)
-**Rejecting Request**
+*Rejecting Request*
