@@ -17,3 +17,6 @@ When a request is rejected:
 - Audit records are generated.
 
 **Result**: The request is rejected and the workflow is terminated.
+
+![Rejecting Request](../images/approver-functions/rejecting-requests.png)
+**Rejecting Request**
