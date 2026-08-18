@@ -15,3 +15,17 @@ See [Sample Reference Heading](https://www.markdownguide.org/extended-syntax#hea
 
 ## Sample Reference Heading 
 Sample content.
+
+~~The world is flat.~~ We now know that the world is round.
+
+- [ ] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+## Definition List
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
