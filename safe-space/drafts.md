@@ -11,7 +11,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     `{ my code }`
     Add as many paragraphs as you like.
 
-See [Sample Reference Heading](https://www.markdownguide.org/extended-syntax#heading-ids) for more information.
+See [Sample Reference Heading](https://www.markdownguide.org/extended-syntax#heading-ids) and [URL Linking](#url-linking) for more information.
 
 ## Sample Reference Heading 
 Sample content.
@@ -31,3 +31,7 @@ First Term
 Second Term
 : This is one definition of the second term.
 : This is another definition of the second term.
+
+
+## URL Linking
+http://www.example.com
