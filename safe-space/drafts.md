@@ -13,5 +13,5 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 See [Sample Reference Heading](#sample-reference-heading) for more information.
 
-
 ## Sample Reference Heading 
+Sample content.
