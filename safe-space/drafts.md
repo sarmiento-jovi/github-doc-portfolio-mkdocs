@@ -35,3 +35,6 @@ Second Term
 
 ## URL Linking
 http://www.example.com
+
+## Commit Co-Authoring
+Test
