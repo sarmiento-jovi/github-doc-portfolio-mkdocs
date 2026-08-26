@@ -18,7 +18,6 @@ The **Notification Details** panel may display:
 - Notification message
 - Available actions
 
-**Result**: Users can review notification information and access related workflow records.
-
+**Result**: Users can review notification information and access related workflow records.  
 ![Reviewing Notification Details](../images/notifications/reviewing-notification-details.png)
 *Reviewing Notification Details*

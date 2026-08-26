@@ -5,7 +5,6 @@ The **Notifications** module provides real-time updates regarding application ac
 *Notifications*
 
 > **Note:**
-> 
 > The **Notification Center** accessible through the Notifications badge is different from the Notifications module: 
 > 
 > - The **Notification Center** provides a condensed view of recent notifications and quick access to related records.
@@ -15,6 +14,7 @@ The **Notifications** module provides real-time updates regarding application ac
 *Notifications Center*
 
 *Notification Center VS Notifications Module*
+
 Feature|Notification Center|Notification Module
 ---|---|---
 **Access Method** | Notification icon in the application header | Notifications menu in the navigation panel

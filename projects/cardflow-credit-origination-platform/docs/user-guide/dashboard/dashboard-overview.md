@@ -32,7 +32,7 @@ Located on the left side of the screen and provides access to the platform's pri
 **Requests**|Displays submitted application, amendment, and reinstatement requests for tracking and processing.
 **Reviews**|Provides access to requests awaiting validation, assessment, or review activities.
 **Approvals**|Displays requests requiring approval decisions and approval workflow actions.
-**Customers**||Maintains customer information associated with credit applications and requests.
+**Customers**|Maintains customer information associated with credit applications and requests.
 **Documents**|Stores and manages supporting documents uploaded as part of workflow requests.
 **Reports**|Provides access to operational reports, workflow metrics, and application statistics.
 **Workflows**|Displays workflow definitions, request progress, and status tracking information.

@@ -5,6 +5,7 @@ Validation errors occur when required information is missing, incomplete, or doe
 The system displays a validation message indicating that mandatory fields have not been completed.
 
 *Required Information Missing*
+
 | | |
 | --- | --- |
 | **Possible Cause** | One or more required fields contain no value. |
@@ -14,6 +15,7 @@ The system displays a validation message indicating that mandatory fields have n
 The system rejects the entered value.
 
 *Invalid Data Format*
+
 | | |
 | --- | --- |
 | **Possible Cause** | The value does not match the expected format.<br><br>**Examples:**<br>• Invalid email address<br>• Invalid phone number<br>• Unsupported date format<br>• Invalid identification number |
@@ -23,6 +25,7 @@ The system rejects the entered value.
 The application cannot proceed to the next workflow stage.
 
 *Business Rule Validation Failure*
+
 | | |
 | --- | --- |
 | **Possible Cause** | One or more configured business rules have not been satisfied. <br><br> **Examples**: <br> • Required supporting documents not uploaded<br> •	Eligibility criteria not met <br> •	Mandatory review activities incomplete
@@ -32,6 +35,7 @@ The application cannot proceed to the next workflow stage.
 The selected file cannot be uploaded. Document upload issues may prevent applications from being submitted or processed.
 
 *Upload Failures*
+
 | | |
 | --- | --- |
 **Possible Cause** |• Unsupported file type<br> •  File exceeds maximum size limit<br>•	Network interruption during upload
@@ -41,6 +45,7 @@ The selected file cannot be uploaded. Document upload issues may prevent applica
 The uploaded document does not appear in the application.
 
 *Uploaded File Not Visible*
+
 | | |
 | --- | --- |
 **Possible Cause** | •	Upload process did not complete successfully <br>•	Browser session expired
@@ -50,6 +55,7 @@ The uploaded document does not appear in the application.
 The system prevents uploading a document that already exists.
 
 **Resolution**
+
 1.	Review existing uploaded documents.
 2.	Replace the existing file only if an updated version is required.
 
@@ -57,6 +63,7 @@ The system prevents uploading a document that already exists.
 Applications may be returned when additional information, clarification, or document updates are required.
 *
 *Returned Requests*
+
 | | |
 | --- | --- |
 **Possible Cause** | A reviewer or approver identified missing information or documentation.
@@ -65,6 +72,7 @@ Applications may be returned when additional information, clarification, or docu
 ## Unable to Resubmit Returned Request
 The application cannot be resubmitted.
 *Unable to Resubmit Returned Request*
+
 | | |
 | --- | --- |
 **Possible Cause** | • Required corrections have not been completed <br>• Mandatory fields remain incomplete <br>• Required documents are missing
@@ -74,6 +82,7 @@ The application cannot be resubmitted.
 The system displays an access denied message. Access-related issues may occur when users do not have sufficient permissions or when authentication problems exist.
 
 *Access Issues*
+
 | | |
 | --- | --- |
 **Possible Cause** | The user does not have permission to access the requested function or application.
@@ -83,6 +92,7 @@ The system displays an access denied message. Access-related issues may occur wh
 An expected application does not appear in search results.
 
 *Application Not Visible*
+
 | | |
 | --- | --- |
 **Possible Cause** | •	Application belongs to another tenant <br>•	User lacks access permissions<br>•	Search criteria are filtering results
@@ -92,6 +102,7 @@ An expected application does not appear in search results.
 The system redirects the user to the login page.
 
 *Session Expired*
+
 | | |
 | --- | --- |
 **Possible** | Cause	The user session timed out due to inactivity.

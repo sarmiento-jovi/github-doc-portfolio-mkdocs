@@ -2,6 +2,7 @@
 Supporting documents may be required to validate applicant information and satisfy business or regulatory requirements.
 
 To upload documents:
+
 1.	Open the application record.
 2.	Navigate to the **Documents** section.
 3.	Click **Upload Document**.

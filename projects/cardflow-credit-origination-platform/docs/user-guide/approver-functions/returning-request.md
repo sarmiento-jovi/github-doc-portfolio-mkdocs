@@ -11,13 +11,13 @@ To return a request:
 6.	Click **Submit Return Decision**.
 
 When a request is returned:
+
 - The request status changes to Returned.
 - Return comments become available to the requester.
 - The requester can update and resubmit the request.
 - Workflow history is updated.
 - Audit records are generated.
 
-**Result**: The request is returned for correction and may be resubmitted after updates are completed.
-
+**Result**: The request is returned for correction and may be resubmitted after updates are completed.  
 ![Returning Requests](../images/approver-functions/returning-requests.png)
 *Returning Requests*

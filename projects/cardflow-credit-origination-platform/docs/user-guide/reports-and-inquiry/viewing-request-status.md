@@ -10,6 +10,7 @@ To view request status:
 The system may display statuses such as:
 
 *Request Status*
+
 Status | Description
 --- | ---
 **Draft** | Application has not been submitted.
@@ -21,10 +22,8 @@ Status | Description
 **Returned** | Request requires updates or corrections.
 **Rejected** | Request has been rejected.
 
-**Result**: The user can determine the current processing stage and overall progress of the request.
-
+**Result**: The user can determine the current processing stage and overall progress of the request.  
 ![Viewing Request Status – Workflow Stage](../images/reports-and-inquiry/workflow-stage.png)
-*Viewing Request Status – Workflow Stage*
-
+*Viewing Request Status – Workflow Stage*  
 ![Viewing Request Status – Application Workflow](../images/reports-and-inquiry/application-workflow.png)
-*Viewing Request Status – Application Workflow*
+*Viewing Request Status – Appliation Workflow*

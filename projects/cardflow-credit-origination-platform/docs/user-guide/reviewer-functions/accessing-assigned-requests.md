@@ -2,6 +2,7 @@
 Reviewers can access requests assigned to them through the review work queue.
 
 To access assigned requests:
+
 1.	Navigate to **Reviews**.
 2.	Select **My Assigned Requests**.
 3.	Use the available filters to locate a specific request.
