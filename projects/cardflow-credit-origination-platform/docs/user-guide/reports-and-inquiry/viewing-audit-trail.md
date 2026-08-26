@@ -2,16 +2,17 @@
 The **Audit Trail** feature provides a detailed record of system activities performed against an application or request.
 
 To view audit history:
+
 1.	Open the required application.
 2.	Navigate to the **Audit Trail** section.
-3.	Review recorded audit events.
-
-    > **Note**: 
+3.	Review recorded audit events.  
+>**Note**:
     Audit records are maintained for compliance, security, and traceability purposes.
 
 **Result**: The user can review historical changes and actions performed against the application.
 
 Audit records may include:
+
 - Record creation
 - Data modifications
 - Status updates
@@ -23,6 +24,7 @@ Audit records may include:
 Each audit record typically includes:
 
 *Audit Trail Fields*
+
 Field | Description
 ---|---
 **Event** | Description of the action

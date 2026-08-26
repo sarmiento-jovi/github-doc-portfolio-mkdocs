@@ -2,6 +2,7 @@
 Users can configure how **CardFlow Credit Origination Platform** delivers notifications.
 
 To manage notification preferences:
+
 1.	Navigate to **Notifications**.
 2.	Locate the **Notification Preferences** panel.
 3.	Select the notification categories to receive.
@@ -29,7 +30,6 @@ Available notification settings may include:
 - Email Notifications
 - SMS Notification 
  
-**Result**: Notification delivery preferences are updated.
-
+**Result**: Notification delivery preferences are updated.  
 ![Managing Notification Preferences](../images/notifications/managing-notification-preferences.png)
 *Managing Notification Preferences*

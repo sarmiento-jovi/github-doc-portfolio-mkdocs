@@ -23,17 +23,18 @@ understanding workflow progression, and managing requests throughout their lifec
 # User Roles
 The platform supports multiple user roles, each with specific responsibilities and permissions
 in the credit origination process.
+
 - **Applicant**
-  - Creates and submits credit-related requests
-  - Provides supporting information and documents
-  - Responds to returned requests and monitor application status throughout the workflow lifecycle.
+    - Creates and submits credit-related requests
+    - Provides supporting information and documents
+    - Responds to returned requests and monitor application status throughout the workflow lifecycle.
 - **Tenant User**
-  - Manages credit requests on behalf of their organization
-  - Creates, updates, submits, and tracks applications, amendments, and reinstatement requests while coordinating with reviewers and approvers
+    - Manages credit requests on behalf of their organization
+    - Creates, updates, submits, and tracks applications, amendments, and reinstatement requests while coordinating with reviewers and approvers
 - **Reviewer**
-  - Assesses submitted requests
-  - Validates supporting information and documentation
-  - Provides review comments, and either return requests for correction or forward them for approval
+    - Assesses submitted requests
+    - Validates supporting information and documentation
+    - Provides review comments, and either return requests for correction or forward them for approval
 - **Approver**
-  - Evaluates reviewed requests and make final workflow decisions
-  - Depending on assigned permissions, approvers approve, reject, or return requests for additional information
+    - Evaluates reviewed requests and make final workflow decisions
+    - Depending on assigned permissions, approvers approve, reject, or return requests for additional information

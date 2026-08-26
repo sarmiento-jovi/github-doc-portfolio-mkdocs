@@ -2,6 +2,7 @@
 Users can monitor application progress throughout the credit origination lifecycle.
 
 Application statuses may include:
+
 - **Draft**
 - **Submitted**
 - **Under Validation**

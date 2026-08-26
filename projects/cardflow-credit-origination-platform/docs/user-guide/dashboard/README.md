@@ -2,6 +2,7 @@
 The **Dashboard** provides a centralized view of workflow activities, assigned tasks, request status information, notifications, and operational metrics.
 
 Depending on user role, dashboard content may include:
+
 - Pending requests
 - Assigned reviews
 - Pending approvals

@@ -2,6 +2,7 @@
 Applications may be returned when additional information, clarification, or document updates are required.
 
 To update a returned application:
+
 1.	Open the returned application.
 2.	Review reviewer comments and return reasons.
 3.	Update the required information.

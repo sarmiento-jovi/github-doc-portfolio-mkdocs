@@ -24,6 +24,7 @@ This section addresses common questions related to the use of **CardFlow Credit 
 - **Why am I unable to approve a request?**
 
     Possible reasons include:
+    
     - Required validations are incomplete
     - Supporting documents are missing
     - Approval prerequisites have not been satisfied

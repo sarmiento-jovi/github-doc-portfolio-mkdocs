@@ -11,7 +11,8 @@ nav:
 
       - Getting Started:
           - Getting Started: user-guide/getting-started/README.md
-          - System Access and Logging In: user-guide/getting-started/logging-in.md
+          - System Access: user-guide/getting-started/system-access.md
+          - Logging In: user-guide/getting-started/logging-in.md
           - Resetting Password: user-guide/getting-started/resetting-password.md
           - Navigating the Application: user-guide/getting-started/navigating-cardflow.md
 

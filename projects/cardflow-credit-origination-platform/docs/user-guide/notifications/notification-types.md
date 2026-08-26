@@ -2,6 +2,7 @@
 **CardFlow Credit Origination Platform** generates different notification categories to inform users of workflow events and required actions.
 
 *Notification Types*
+
 Notification Type |	Description
 --- | ---
 **Workflow Update** | Generated when application status changes occur.
@@ -10,6 +11,7 @@ Notification Type |	Description
 **System Alert** | Generated for platform announcements and maintenance events.
 
 Notification statuses may include:
+
 - **Unread**
 - **Read**
 - **Action Required**
