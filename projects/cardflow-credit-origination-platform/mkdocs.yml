@@ -1,7 +1,19 @@
+
+# Webpage Name
 site_name: CardFlow Credit Origination Platform
+
+# CSS
+theme:
+  name: material  
+  palette:
+    primary: black
+    accent: deep orange
+    
+# TOC
 nav:
   - Home: index.md
-
+  - Business Requirement Document (BRD)
+  - System Architecture Diagram (SAD)
   - User Guide:
       - Overview: user-guide/README.md
 
