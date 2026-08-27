@@ -27,7 +27,7 @@ the credit card origination lifecycle:
     - Workflow routing based on configured approval hierarchy
     - Status tracking and notification upon decision
 - **Document Management**
-    - Support for predefined file formats (e.g., PDF, JPG, PNG)
+    - Support for predefined file formats (for example, PDF, JPG, PNG)
     - Enforcement of file size limits
     - Storage of uploaded documents linked to application records
     - Manual validation of document contents by authorized reviewers
