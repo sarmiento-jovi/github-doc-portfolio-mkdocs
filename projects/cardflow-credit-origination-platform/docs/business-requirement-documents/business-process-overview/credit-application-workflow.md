@@ -10,3 +10,6 @@ The process typically follows these stages:
 4. Review - Authorized reviewers assess the submitted information and supporting documentation in accordance with the tenant organization's credit and compliance policies.
 5. Routing - The application is routed through the configured approval workflow to designated approvers based on approval thresholds and hierarchy rules.
 6. Outcome - The application is approved, rejected, or returned for additional information based on the review and approval decision. The platform maintains a complete audit trail of all actions performed during the application lifecycle.
+
+![Credit Application Workflow](../images/business-process-overview/credit-application-workflow.png)  
+*Credit Application Workflow*

@@ -2,6 +2,8 @@
 The platform supports multiple user roles aligned with the operational stages of the credit origination workflow. Each role is granted permissions appropriate to its responsibilities in the credit review and approval process.
 
 Typical roles supported by the platform include:
+
+*User Role Definitions*
 Term | Definition
 ---|---
 Applicant | External customer submitting a credit card application and required supporting documentation.
