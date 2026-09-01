@@ -1,0 +1,3 @@
+# Component Description
+
+This section describes the major architectural components of the **CardFlow Credit Origination Platform** and their responsibilities in the overall system architecture. It provides a functional overview of the platform’s core processing components and illustrates how these components interact to support workflow execution, validation, approval processing, data management, audit logging, and external integrations.
