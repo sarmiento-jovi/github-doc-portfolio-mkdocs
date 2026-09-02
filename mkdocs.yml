@@ -7,25 +7,18 @@ nav:
   - Home: index.md
 
   - Portfolio:
-      - CardFlow Credit Origination Platform:
-          - Overview: projects/cardflow-credit-origination-platform/README.md
+      - CardFlow Credit Origination Platform: projects/cardflow-credit-origination-platform/README.md
 
-      - API Documentation:
-          - Overview: projects/api-documentation/README.md
+      - API Documentation: projects/api-documentation/README.md
 
-      - Diagrams:
-          - Overview: projects/diagrams/README.md
+      - Diagrams: projects/diagrams/README.md
 
-      - Documentation Strategy:
-          - Overview: projects/documentation-strategy/README.md
+      - Documentation Strategy: projects/documentation-strategy/README.md
 
-      - AI Documentation Automation:
-          - Overview: projects/ai-documentation-automation/README.md
+      - AI Documentation Automation: projects/ai-documentation-automation/README.md
 
-  - Skills & Tools: skills-tools/index.md
+  - Skills & Tools: skills-tools/README.md
 
-  - Resume: resume/index.md
+  - Resume: resume/README.md
 
-  - About: about/index.md
-  
-  - TEST ADD: jovi-sarmiento/READ.md
+  - About: about/README.md
