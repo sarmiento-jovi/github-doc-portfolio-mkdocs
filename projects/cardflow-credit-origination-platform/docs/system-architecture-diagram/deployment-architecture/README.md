@@ -1,2 +1,0 @@
-# Deployment Architecture
-This section describes the high-level deployment structure of the **CardFlow Credit Origination Platform**. It shows how users access the platform, how application services are hosted, and how supporting components such as databases, document storage, audit logs, and external integrations are deployed within a cloud-based SaaS environment.

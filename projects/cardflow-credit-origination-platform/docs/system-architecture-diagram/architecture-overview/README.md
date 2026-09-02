@@ -1,2 +1,0 @@
-# Architecture Overview
-This section provides a high-level overview of the **CardFlow Credit Origination Platform** architecture, highlighting its solution structure, core capabilities, and design principles. The platform is designed to support configurable credit origination workflows while maintaining scalability, security, auditability, maintainability, and tenant isolation in a multi-tenant SaaS environment.

@@ -1,2 +1,0 @@
-# Data Architecture
-This section describes how the **CardFlow Credit Origination Platform** manages the key data objects required to support credit application, amendment, and reinstatement workflows. It covers the core business entities, their relationships, and the movement of data through validation, workflow processing, storage, audit logging, and reporting.

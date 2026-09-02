@@ -1,0 +1,2 @@
+# Integration Architecture
+This section describes how the **CardFlow Credit Origination Platform** integrates with external systems and third-party services to support authentication, workflow processing, notification delivery, and data exchange. The architecture ensures secure, controlled, and consistent interactions while supporting workflow execution, audit logging, and operational reliability across the platform.

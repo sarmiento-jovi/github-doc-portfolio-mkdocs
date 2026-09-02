@@ -1,4 +1,0 @@
-# High-Level Business Process Overview
-The **CardFlow Credit Origination Platform** supports a structured workflow that manages the lifecycle of credit card applications from submission to final decision. The platform provides a centralized environment where applicants, reviewers, and approvers interact through defined workflow stages governed by configurable business rules and approval hierarchies.
-
-Operational workflows in the platform follow a consistent lifecycle pattern that includes request initiation, information submission, validation, review, routing, and outcome determination. The following workflows illustrate how the platform manages different credit-related processes

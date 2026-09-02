@@ -1,2 +1,0 @@
-# Assumptions and Constraints
-This section identifies the architectural assumptions and operational constraints considered during the design of the **CardFlow Credit Origination Platform**. These assumptions and constraints help define the expected operating conditions, integration dependencies, workflow behavior, and architectural boundaries of the platform in the multi-tenant SaaS environment.
