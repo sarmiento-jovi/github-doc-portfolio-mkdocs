@@ -1,20 +1,89 @@
-# GitHub Sandbox
+# Documentation Specialist Portfolio
 
-This repository is a learning space for practicing Git, GitHub, Markdown, and Docs-as-Code workflows.
+This repository contains the source files and project materials for my Documentation Specialist Portfolio.
 
-It contains learning exercises and documentation projects used to apply these concepts in practice.
+The portfolio is designed to showcase my experience and developing capabilities across enterprise software documentation, Docs-as-Code, API documentation, visual technical communication, documentation strategy, and documentation automation.
 
-## Repository Structure
+## Portfolio Structure
 
-- `learning-notes/` — Notes and exercises created while learning Markdown, Git, and GitHub.
-- `projects/` — Documentation projects used to practice Docs-as-Code workflows.
+### Home / Landing
 
-## Projects
+Introduces the portfolio and provides quick access to the main sections and featured projects.
 
-### CardFlow Credit Origination Platform
+**Repository:** [`homepage/`](homepage/)
 
-A sample enterprise SaaS documentation project used to practice converting traditional documentation into a Docs-as-Code structure.
+---
 
-The project currently includes:
+### Resume / CV
 
-- CardFlow Credit Originiation Platform User Guide Document
+Provides an overview of my professional experience, technical documentation background, skills, and qualifications.
+
+**Repository:** [`resume/`](resume/)
+
+---
+
+### Projects
+
+Contains documentation projects and samples demonstrating different areas of technical communication.
+
+#### CardFlow Credit Origination Platform
+
+An enterprise SaaS documentation project demonstrating the creation and organization of documentation across the software development lifecycle.
+
+The project includes traditional Word/PDF documentation as well as selected documents converted to Markdown to demonstrate a Docs-as-Code workflow.
+
+**Repository:** [`projects/cardflow-credit-origination-platform/`](projects/cardflow-credit-origination-platform/)
+
+#### API Documentation
+
+Developer-focused documentation demonstrating REST API concepts, including endpoints, authentication, parameters, request and response examples, error handling, and OpenAPI/Swagger.
+
+**Repository:** [`projects/api-documentation/`](projects/api-documentation/)
+
+#### Diagrams
+
+A collection of process, workflow, architecture, and other technical diagrams demonstrating visual communication of systems and business processes.
+
+**Repository:** [`projects/diagrams/`](projects/diagrams/)
+
+#### Documentation Strategy
+
+Planned documentation strategy samples demonstrating information architecture, audience analysis, content organization, governance, content lifecycle, and documentation workflows.
+
+**Status:** Planned
+
+**Repository:** [`projects/documentation-strategy/`](projects/documentation-strategy/)
+
+#### AI-Enabled Documentation & Automation
+
+Future projects exploring practical applications of AI and automation within documentation workflows, including change identification, content review, documentation QA, and repetitive documentation tasks.
+
+**Status:** Future
+
+---
+
+### Skills & Tools
+
+Provides an overview of the documentation methods, technologies, and tools demonstrated throughout the portfolio.
+
+Topics will include:
+
+- Documentation authoring
+- Docs-as-Code
+- Markdown
+- Git and GitHub
+- MkDocs
+- API documentation
+- Visual documentation
+- Collaboration and development tools
+- Documentation automation
+
+---
+
+### About
+
+Provides additional background on my approach to documentation, enterprise and SaaS documentation experience, and continued development in modern technical communication practices.
+
+## Repository Status
+
+This portfolio is under active development. Projects and documentation samples will be added and refined as the portfolio evolves.
