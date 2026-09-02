@@ -1,0 +1,2 @@
+# Introduction
+This section introduces the purpose, scope, and architectural context of the **Software Architecture Diagram Document** for the **CardFlow Credit Origination Platform**. It provides a high-level overview of the system architecture, key architectural components, integration points, and deployment considerations that support the platform’s credit application processing workflows.
