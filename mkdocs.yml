@@ -2,3 +2,28 @@ site_name: Jovi Sarmiento | Documentation Specialist
 
 theme:
   name: material
+
+nav:
+  - Home: index.md
+
+  - Portfolio:
+      - CardFlow Credit Origination Platform:
+          - Overview: projects/cardflow-credit-origination-platform/README.md
+
+      - API Documentation:
+          - Overview: projects/api-documentation/README.md
+
+      - Diagrams:
+          - Overview: projects/diagrams/README.md
+
+      - Documentation Strategy:
+          - Overview: projects/documentation-strategy/README.md
+
+      - AI Documentation Automation:
+          - Overview: projects/ai-documentation-automation/README.md
+
+  - Skills & Tools: skills-tools/index.md
+
+  - Resume: resume/index.md
+
+  - About: about/index.md
