@@ -1,8 +1,6 @@
 # CardFlow Credit Origination Platform
 
-A complete documentation portfolio demonstrating
-enterprise software documentation using modern
-Docs-as-Code practices.
+A complete documentation portfolio demonstrating enterprise software documentation using modern Docs-as-Code practices.
 
 ## Documentation
 
