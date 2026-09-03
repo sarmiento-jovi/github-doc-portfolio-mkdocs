@@ -3,6 +3,10 @@ site_name: Jovi Sarmiento | Documentation Specialist
 theme:
   name: material
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 nav:
   - Home: index.md
 

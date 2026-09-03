@@ -11,29 +11,33 @@ This portfolio demonstrates my experience in **technical documentation, Docs-as-
 
 Explore selected documentation samples or browse the complete portfolio.
 
-### Business Requirements Document
+<div class="grid cards" markdown>
 
-Review the published Business Requirements Document for the **CardFlow Credit Origination Platform**, covering the business context, scope, stakeholders, workflows, requirements, compliance considerations, and success criteria.
+-   ### Business Requirements Document
 
-[View Business Requirements Document](projects/cardflow-credit-origination-platform/docs/business-requirement-documents/README.md)
+    Review the published Business Requirements Document for the **CardFlow Credit Origination Platform**, covering business context, scope, stakeholders, workflows, requirements, compliance considerations, and success criteria.
 
-### User Guide
+    [View Business Requirements Document →](projects/cardflow-credit-origination-platform/docs/business-requirement-documents/README.md)
 
-Explore the published **CardFlow User Guide**, featuring task-based documentation for credit application processing, review and approval workflows, reporting, troubleshooting, and other platform functions.
+-   ### User Guide
 
-[View User Guide](projects/cardflow-credit-origination-platform/docs/user-guide/README.md)
+    Explore the published **CardFlow User Guide**, featuring task-based documentation for credit application processing, review and approval workflows, reporting, troubleshooting, and other platform functions.
 
-### Downloadable Documents
+    [View User Guide →](projects/cardflow-credit-origination-platform/docs/user-guide/README.md)
 
-Access selected portfolio artifacts in their original document formats, including requirements, functional design, traceability, and other software documentation samples.
+-   ### Downloadable Documents
 
-[View Downloadable Documents](projects/cardflow-credit-origination-platform/README.md#downloads)
+    Access selected portfolio artifacts in their original document formats, including requirements, functional design, traceability, and other software documentation samples.
 
-### All Projects
+    [View Downloadable Documents →](projects/cardflow-credit-origination-platform/README.md#downloads)
 
-Browse the complete portfolio, including CardFlow documentation, API documentation, diagrams, documentation strategy, and documentation automation projects.
+-   ### All Projects
 
-[Explore All Projects](projects/)
+    Browse the complete portfolio, including CardFlow documentation, API documentation, diagrams, documentation strategy, and documentation automation projects.
+
+    [Explore All Projects →](projects/)
+
+</div>
 
 ## Portfolio
 
