@@ -35,7 +35,7 @@ Explore selected documentation samples or browse the complete portfolio.
 
     Browse the complete portfolio, including CardFlow documentation, API documentation, diagrams, documentation strategy, and documentation automation projects.
 
-    [Explore All Projects →](projects/){ .card-link }
+    [Explore All Projects →](projects/README.md){ .card-link }
 
 </div>
 

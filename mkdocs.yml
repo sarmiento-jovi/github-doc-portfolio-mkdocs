@@ -26,6 +26,7 @@ nav:
 
   - Skills & Tools: skills-tools/README.md
 
-  - Resume: resume/README.md
+  - More About Me:
+      - Resume: resume/README.md
 
-  - About: about/README.md
+      - About: about/README.md
