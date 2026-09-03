@@ -40,35 +40,27 @@ Explore selected documentation samples or browse the complete portfolio.
 </div>
 
 ---
-## Portfolio
+## Project Areas
 
-Explore selected documentation projects and samples demonstrating different areas of technical communication.
+Explore documentation projects demonstrating different areas of technical communication.
 
-### CardFlow Credit Origination Platform
+**CardFlow Credit Origination Platform**  
+End-to-end documentation for a multi-tenant SaaS platform.  
+[Explore CardFlow →](...)
 
-A fictional multi-tenant SaaS platform designed to demonstrate end-to-end documentation for credit card application and approval workflows.
+**API Documentation**  
+Developer-focused API and OpenAPI documentation.  
+[Explore API Documentation →](...)
 
-The documentation set includes business, functional, technical, and user-facing artifacts developed across the software documentation lifecycle.
+**Diagrams**  
+Workflow, architecture, data, and process visualization.  
+[Explore Diagrams →](...)
 
-[Explore CardFlow Documentation](cardflow-credit-origination-platform/)
+**Documentation Strategy**  
+Documentation planning, governance, and publishing workflows.  
+[Explore Documentation Strategy →](...)
 
-### API Documentation
-
-Developer-focused documentation demonstrating API concepts, endpoint documentation, request and response structures, error handling, and OpenAPI-based documentation.
-
-[Explore API Documentation](api-documentation/)
-
-### Diagrams
-
-Process flows, workflow diagrams, system architecture diagrams, data flows, and other visual documentation used to communicate technical and business concepts.
-
-[Explore Diagrams](diagrams/)
-
-### Documentation Strategy
-
-Samples demonstrating documentation planning, governance, content structure, publishing workflows, and documentation lifecycle considerations.
-
-[Explore Documentation Strategy](documentation-strategy/)
+[View All Projects →](projects/)
 
 ---
 
