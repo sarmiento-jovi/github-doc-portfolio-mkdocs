@@ -39,6 +39,7 @@ Explore selected documentation samples or browse the complete portfolio.
 
 </div>
 
+---
 ## Portfolio
 
 Explore selected documentation projects and samples demonstrating different areas of technical communication.
