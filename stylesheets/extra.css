@@ -1,14 +1,42 @@
-.grid.cards > ul > li {
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    background-color 0.2s ease,
-    border-color 0.2s ease;
+/****************************** UNIVERSAL ****************************************/
+.md-header {
+  background-color: #455A6A;
 }
 
-.grid.cards > ul > li:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-  background-color: #f3f4ff;
-  border-color: #4b55b7;
+/* Make the link cover the entire card */
+.grid.cards > ul > li .card-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
+
+/* Visited links */
+.md-typeset a:visited {
+  color: #6F657A;
+}
+
+
+/****************************** LANDING PAGE ****************************************/
+/* Card */
+.grid.cards > ul > li {
+  position: relative;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Card hover */
+.grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  background-color: #EEF3F6;
+  border-color: #718896;
+  box-shadow: 0 6px 16px rgba(69, 90, 106, 0.12);
+  cursor: pointer;
+}
+
+.grid.cards > ul > li:hover a {
+  color: #455A6A;
+}
+
