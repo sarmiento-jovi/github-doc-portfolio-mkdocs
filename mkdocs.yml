@@ -2,6 +2,8 @@ site_name: Jovi Sarmiento | SaaS Documentation Specialist
 
 theme:
   name: material
+  features:
+    - navigation.path
 
 markdown_extensions:
   - attr_list
@@ -16,23 +18,24 @@ plugins:
   - search
   - awesome-nav
   
-nav:
-  - Home: index.md
-
-  - Portfolio:
-      - CardFlow Credit Origination Platform: projects/cardflow-credit-origination-platform/README.md
-
-      - API Documentation: projects/api-documentation/README.md
-
-      - Diagrams: projects/diagrams/README.md
-
-      - Documentation Strategy: projects/documentation-strategy/README.md
-
-      - AI Documentation Automation: projects/ai-documentation-automation/README.md
-
-  - Skills & Tools: skills-tools/README.md
-
-  - More About Me:
-      - Resume: resume/README.md
-
-      - About: about/README.md
+#nav:
+#  - Home: index.md
+#
+#  - Portfolio:
+#      - CardFlow Credit Origination Platform: projects/cardflow-credit-origination-platform/README.md
+#
+#     - API Documentation: projects/api-documentation/README.md
+#
+#      - Diagrams: projects/diagrams/README.md
+#
+#      - Documentation Strategy: projects/documentation-strategy/README.md
+#
+#      - AI Documentation Automation: projects/ai-documentation-automation/README.md
+#
+#  - Skills & Tools: skills-tools/README.md
+#
+#  - More About Me:
+#      - Resume: resume/README.md
+#
+#      - About: about/README.md
+      
