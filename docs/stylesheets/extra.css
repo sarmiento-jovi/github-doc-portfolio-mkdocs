@@ -1,7 +1,22 @@
+/****************************** UNIVERSAL ****************************************/
 .md-header {
   background-color: #455A6A;
 }
 
+/* Make the link cover the entire card */
+.grid.cards > ul > li .card-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+/* Visited links */
+.md-typeset a:visited {
+  color: #6F657A;
+}
+
+
+/****************************** LANDING PAGE ****************************************/
 /* Card */
 .grid.cards > ul > li {
   position: relative;
@@ -25,9 +40,3 @@
   color: #455A6A;
 }
 
-/* Make the link cover the entire card */
-.grid.cards > ul > li .card-link::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-}

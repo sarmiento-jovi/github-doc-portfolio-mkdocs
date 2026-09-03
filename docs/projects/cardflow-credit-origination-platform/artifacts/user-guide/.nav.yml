@@ -1,0 +1,14 @@
+nav:
+  - Overview: README.md
+  - Introduction: introduction
+  - Getting Started: getting-started
+  - Dashboard Overview: dashboard
+  - Credit Application Processing: credit-applications
+  - Credit Amendment Requests: amendment-requests
+  - Credit Reinstatement Requests: reinstatement-requests
+  - Reviewer Functions: reviewer-functions
+  - Approver Functions: approver-functions
+  - Notifications: notifications
+  - Reports and Inquiry: reports-and-inquiry
+  - Troubleshooting: troubleshooting
+  - Frequently Asked Questions: faq.md

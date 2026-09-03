@@ -5,12 +5,12 @@ A complete documentation portfolio demonstrating enterprise software documentati
 ## Documentation
 
 - Product Overview
-- User Guide
-- Software Architecture
+- [Business Requirements Document](artifacts/business-requirement-documents/README.md)
+- [User Guide](artifacts/user-guide/README.md)
+- [System Architecture Diagram](artifacts/system-architecture-diagram/README.md)
 
 ## Downloads
 
-- Business Requirements Document
 - Software Requirements Specification
 - Functional Design Document
 - Requirements Traceability Matrix
