@@ -6,7 +6,34 @@ My work covers the full documentation lifecycle, from business and functional re
 
 This portfolio demonstrates my experience in **technical documentation, Docs-as-Code, API documentation, visual technical communication, and documentation strategy**.
 
----
+
+## Featured Work
+
+Explore selected documentation samples or browse the complete portfolio.
+
+### Business Requirements Document
+
+Review the published Business Requirements Document for the **CardFlow Credit Origination Platform**, covering the business context, scope, stakeholders, workflows, requirements, compliance considerations, and success criteria.
+
+[View Business Requirements Document](projects/cardflow-credit-origination-platform/docs/business-requirement-documents/README.md)
+
+### User Guide
+
+Explore the published **CardFlow User Guide**, featuring task-based documentation for credit application processing, review and approval workflows, reporting, troubleshooting, and other platform functions.
+
+[View User Guide](projects/cardflow-credit-origination-platform/docs/user-guide/README.md)
+
+### Downloadable Documents
+
+Access selected portfolio artifacts in their original document formats, including requirements, functional design, traceability, and other software documentation samples.
+
+[View Downloadable Documents](projects/cardflow-credit-origination-platform/README.md#downloads)
+
+### All Projects
+
+Browse the complete portfolio, including CardFlow documentation, API documentation, diagrams, documentation strategy, and documentation automation projects.
+
+[Explore All Projects](projects/)
 
 ## Portfolio
 
