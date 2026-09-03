@@ -72,16 +72,30 @@ Technical documentation, Docs-as-Code, API documentation, structured authoring, 
 
 ---
 
-## Resume
+## More About Me
 
-View my professional experience, documentation background, and technical qualifications.
+Learn more about my professional background and approach to documentation.
 
-[View Resume](resume/)
+<div class="grid" markdown>
 
----
+<div markdown>
 
-## About
+**Professional Experience**
+
+View my experience, technical qualifications, and documentation background.
+
+[View Resume →](resume/)
+
+</div>
+
+<div markdown>
+
+**About My Work**
 
 Learn more about my approach to technical documentation, continuous learning, and documentation engineering.
 
-[About Me](about/)
+[About Me →](about/)
+
+</div>
+
+</div>
