@@ -31,6 +31,10 @@
         box-shadow 0.2s ease;
 }
 
+/* Prevent fixed topic navigation from covering page content */
+.md-main {
+    padding-bottom: 7rem;
+}
 /*************************** LANDING PAGE ***************************/
 
 /* Make the link cover the entire card */
@@ -51,4 +55,67 @@
 
 .grid.cards > ul > li:hover a {
     color: #455A6A;
+}
+
+
+/*************************** DOCUMENT NAVIGATION ***************************/
+
+/* Prevent fixed navigation from covering page content */
+.md-main {
+    padding-bottom: 6rem;
+}
+
+/* Fixed Previous / Next navigation */
+.md-footer__inner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    max-width: none;      /* Override Material's md-grid width */
+    margin: 0;            /* Remove centered grid margins */
+    box-sizing: border-box;
+
+    min-height: 4rem;       /* Reduced from 4rem */
+    padding: 0.05rem 1.0rem; /* Reduced vertical padding */
+
+    background-color: #455A6A;
+    border-top: 1px solid #718896;
+    box-shadow: 0 -3px 10px rgba(69, 90, 106, 0.15);
+
+    z-index: 20;
+}
+
+/* Previous / Next links */
+.md-footer__link {
+    color: #FFFFFF;
+}
+
+.md-footer__link:hover {
+    color: #DCE6EB;
+}
+
+/* Bottom Material attribution */
+.md-footer-meta {
+    background-color: #374955;
+}
+
+/*************************** IMAGES ***************************/
+
+/* Documentation images */
+.md-typeset img {
+    border: 1px solid #D9E0E4;
+}
+
+/* Caption immediately associated with an image */
+.md-typeset p:has(img) em {
+    display: block;
+    width: 100%;
+    margin-top: 0.2rem;
+
+    font-size: 0.75rem;
+    font-style: italic;
+    color: #9AA5AC; 
+    text-align: center;
 }

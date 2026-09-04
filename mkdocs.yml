@@ -3,7 +3,8 @@ site_name: Name | Role
 theme:
   name: material
   features:
-    - navigation.path
+    - navigation.path    # Displays breadcrumb navigation
+    - navigation.footer  # Adds Previous and Next links based on navigation order
 
 markdown_extensions:
   - attr_list
