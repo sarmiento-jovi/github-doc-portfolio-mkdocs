@@ -62,7 +62,7 @@
 
 /* Prevent fixed navigation from covering page content */
 .md-main {
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 /* Fixed Previous / Next navigation */
@@ -73,12 +73,11 @@
     right: 0;
 
     width: 100%;
-    max-width: none;      /* Override Material's md-grid width */
-    margin: 0;            /* Remove centered grid margins */
+    max-width: none;
+    margin: 0;
     box-sizing: border-box;
 
-    min-height: 4rem;       /* Reduced from 4rem */
-    padding: 0.05rem 1.0rem; /* Reduced vertical padding */
+    padding: 0;
 
     background-color: #455A6A;
     border-top: 1px solid #718896;
@@ -89,9 +88,29 @@
 
 /* Previous / Next links */
 .md-footer__link {
+    min-height: 0;
+    margin: 0 !important;
+    padding: 0.15rem 1rem !important;
     color: #FFFFFF;
 }
 
+/* Small Previous / Next label */
+.md-footer__direction {
+    margin: 0;
+    font-size: 0.6rem;
+    line-height: 1;
+}
+
+/* Previous / Next topic title */
+.md-footer__title {
+    margin: 0.1rem 0 0;
+    padding: 0;
+    font-size: 0.85rem;
+    line-height: 1.05;
+    color: #FFFFFF;
+}
+
+/* Previous / Next hover */
 .md-footer__link:hover {
     color: #DCE6EB;
 }
