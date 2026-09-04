@@ -1,14 +1,84 @@
 nav:
   - User Guide Overview: README.md
-  - Introduction: introduction
-  - Getting Started: getting-started
-  - Dashboard Overview: dashboard
-  - Credit Application Processing: credit-applications
-  - Credit Amendment Requests: amendment-requests
-  - Credit Reinstatement Requests: reinstatement-requests
-  - Reviewer Functions: reviewer-functions
-  - Approver Functions: approver-functions
-  - Notifications: notifications
-  - Reports and Inquiry: reports-and-inquiry
-  - Troubleshooting: troubleshooting
+
+  - Introduction:
+      - Introduction: introduction/README.md
+      - Purpose, Product Overview, Audience, and Roles: introduction/purpose-overview-audience.md
+
+  - Getting Started:
+      - Getting Started: getting-started/README.md
+      - System Access: getting-started/system-access.md
+      - Logging In: getting-started/logging-in.md
+      - Resetting Password: getting-started/resetting-password.md
+      - Navigating the Application: getting-started/navigating-cardflow.md
+
+  - Dashboard Overview:
+      - Understanding Menus and Dashboards: dashboard/README.md
+      - Dashboard Overview: dashboard/dashboard-overview.md
+
+  - Credit Application Processing:
+      - Credit Application Processing: credit-applications/README.md
+      - Creating a New Credit Application: credit-applications/creating-application.md
+      - Completing Applicant Information: credit-applications/completing-applicant-information.md
+      - Uploading Supporting Documents: credit-applications/uploading-supporting-documents.md
+      - Saving Draft Applications: credit-applications/saving-draft.md
+      - Submitting an Application: credit-applications/submitting-application.md
+      - Tracking Application Status: credit-applications/tracking-application.md
+      - Correcting Returned Applications: credit-applications/correcting-returned-application.md
+
+  - Credit Amendment Requests:
+      - Credit Amendment Requests: amendment-requests/README.md
+      - Locating an Existing Record: amendment-requests/locating-record.md
+      - Creating an Amendment Request: amendment-requests/creating-amendment.md
+      - Updating Information: amendment-requests/updating-information.md
+      - Uploading Amendment Documents: amendment-requests/uploading-documents.md
+      - Submitting an Amendment Request: amendment-requests/submitting-amendment.md
+      - Monitoring Amendment Status: amendment-requests/monitoring-status.md
+
+  - Credit Reinstatement Requests:
+      - Credit Reinstatement Requests: reinstatement-requests/README.md
+      - Finding an Inactive Account: reinstatement-requests/finding-inactive-account.md
+      - Creating a Reinstatement Request: reinstatement-requests/creating-reinstatement.md
+      - Providing Supporting Information: reinstatement-requests/providing-supporting-information.md
+      - Submitting the Reinstatement Request: reinstatement-requests/submitting-reinstatement-request.md
+      - Tracking Reinstatement Progress: reinstatement-requests/tracking-reinstatement-progress.md
+
+  - Reviewer Functions:
+      - Reviewer Functions: reviewer-functions/README.md
+      - Accessing Assigned Requests: reviewer-functions/accessing-assigned-requests.md
+      - Reviewing Request Details: reviewer-functions/reviewing-request-details.md
+      - Reviewing Supporting Documents: reviewer-functions/reviewing-supporting-documents.md
+      - Reviewing Workflow History Comments: reviewer-functions/reviewing-workflow-history.md
+      - Returning Requests for Correction: reviewer-functions/returning-request.md
+      - Forwarding Requests for Approval: reviewer-functions/forwarding-for-approval.md
+      - Monitoring Review Activities: reviewer-functions/monitoring-review-activities.md
+
+  - Approver Functions:
+      - Approver Functions: approver-functions/README.md
+      - Viewing Pending Approvals: approver-functions/viewing-pending-approvals.md
+      - Reviewing Request Information: approver-functions/reviewing-request-information.md
+      - Approving Requests: approver-functions/approving-request.md
+      - Rejecting Requests: approver-functions/rejecting-request.md
+      - Returning Requests: approver-functions/returning-request.md
+
+  - Notifications:
+      - Notifications: notifications/README.md
+      - Viewing Notifications: notifications/viewing-notifications.md
+      - Understanding Notification Types: notifications/notification-types.md
+      - Reviewing Notification Details: notifications/reviewing-notification-details.md
+      - Managing Notification Preferences: notifications/managing-notifications.md
+      - Reviewing Recent Notification Activity: notifications/reviewing-recent-notification.md
+
+  - Reports and Inquiry:
+      - Reports and Inquiry: reports-and-inquiry/README.md
+      - Viewing Request Status: reports-and-inquiry/viewing-request-status.md
+      - Searching Applications: reports-and-inquiry/searching-applications.md
+      - Viewing Workflow History: reports-and-inquiry/viewing-workflow-history.md
+      - Viewing Audit Trail: reports-and-inquiry/viewing-audit-trail.md
+      - Exporting Reports: reports-and-inquiry/exporting-reports.md
+
+  - Troubleshooting:
+      - Troubleshooting: troubleshooting/README.md
+      - Common Validation Errors: troubleshooting/common-errors.md
+
   - Frequently Asked Questions: faq.md

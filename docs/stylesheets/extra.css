@@ -1,42 +1,54 @@
-/****************************** UNIVERSAL ****************************************/
+/*************************** UNIVERSAL ***************************/
+
+/* Header */
 .md-header {
-  background-color: #455A6A;
+    background-color: #455A6A;
 }
 
-/* Make the link cover the entire card */
-.grid.cards > ul > li .card-link::after {
-  content: "";
-  position: absolute;
-  inset: 0;
+/* Page headings */
+.md-typeset h1 {
+    color: #455A6A;
+    font-size: 2rem;
+}
+
+.md-typeset h2 {
+    color: #718896;
+    font-size: 1.5rem;
 }
 
 /* Visited links */
 .md-typeset a:visited {
-  color: #6F657A;
+    color: #6F657A;
 }
 
-
-/****************************** LANDING PAGE ****************************************/
 /* Card */
 .grid.cards > ul > li {
-  position: relative;
-  transition:
-    transform 0.2s ease,
-    background-color 0.2s ease,
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
+    position: relative;
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+/*************************** LANDING PAGE ***************************/
+
+/* Make the link cover the entire card */
+.grid.cards > ul > li .card-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
 }
 
 /* Card hover */
 .grid.cards > ul > li:hover {
-  transform: translateY(-3px);
-  background-color: #EEF3F6;
-  border-color: #718896;
-  box-shadow: 0 6px 16px rgba(69, 90, 106, 0.12);
-  cursor: pointer;
+    transform: translateY(-3px);
+    background-color: #EEF3F6;
+    border-color: #718896;
+    box-shadow: 0 6px 16px rgba(69, 90, 106, 0.12);
+    cursor: pointer;
 }
 
 .grid.cards > ul > li:hover a {
-  color: #455A6A;
+    color: #455A6A;
 }
-
