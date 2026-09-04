@@ -1,6 +1,6 @@
-# SaaS Documentation Specialist Portfolio
+# Technical Documentation Portfolio
 
-I am a **Documentation Specialist** with experience creating and maintaining technical documentation for enterprise software, SaaS platforms, and internal systems.
+As a **Documentation Specialist**, my work focuses on creating and maintaining technical documentation for enterprise software, SaaS platforms, and internal systems.
 
 My work covers the full documentation lifecycle, from business and functional requirements to user documentation, system architecture, process visualization, and structured publishing.
 
@@ -13,94 +13,89 @@ Explore selected documentation samples or browse the complete portfolio.
 
 <div class="grid cards" markdown>
 
--   ### Business Requirements Document
+-   **CardFlow Credit Origination Platform Business Requirements Document**
 
     Review the published Business Requirements Document for the **CardFlow Credit Origination Platform**, covering business context, scope, stakeholders, workflows, requirements, compliance considerations, and success criteria.
 
-    [View Business Requirements Document →](projects/cardflow-credit-origination-platform/docs/business-requirement-documents/README.md)
+    [View Business Requirements Document →](projects/cardflow-credit-origination-platform/docs/business-requirement-documents/README.md){ .card-link }
 
--   ### User Guide
+-   **CardFlow Credit Origination Platform User Guide**
 
     Explore the published **CardFlow User Guide**, featuring task-based documentation for credit application processing, review and approval workflows, reporting, troubleshooting, and other platform functions.
 
-    [View User Guide →](projects/cardflow-credit-origination-platform/docs/user-guide/README.md)
+    [View User Guide →](projects/cardflow-credit-origination-platform/docs/user-guide/README.md){ .card-link }
 
--   ### Downloadable Documents
+-   **Downloadable Documents**
 
     Access selected portfolio artifacts in their original document formats, including requirements, functional design, traceability, and other software documentation samples.
 
-    [View Downloadable Documents →](projects/cardflow-credit-origination-platform/README.md#downloads)
+    [View Downloadable Documents →](projects/cardflow-credit-origination-platform/README.md#downloads){ .card-link }
 
--   ### All Projects
+-   **All Projects**
 
     Browse the complete portfolio, including CardFlow documentation, API documentation, diagrams, documentation strategy, and documentation automation projects.
 
-    [Explore All Projects →](projects/)
+    [Explore All Projects →](projects/README.md){ .card-link }
 
 </div>
 
 ---
-## Portfolio
+## Project Areas
 
-Explore selected documentation projects and samples demonstrating different areas of technical communication.
+Explore documentation projects demonstrating different areas of technical communication.
 
-### CardFlow Credit Origination Platform
+**CardFlow Credit Origination Platform**  
+End-to-end documentation for a multi-tenant SaaS platform.  
+[Explore CardFlow →](...)
 
-A fictional multi-tenant SaaS platform designed to demonstrate end-to-end documentation for credit card application and approval workflows.
+**API Documentation**  
+Developer-focused API and OpenAPI documentation.  
+[Explore API Documentation →](...)
 
-The documentation set includes business, functional, technical, and user-facing artifacts developed across the software documentation lifecycle.
+**Diagrams**  
+Workflow, architecture, data, and process visualization.  
+[Explore Diagrams →](...)
 
-[Explore CardFlow Documentation](cardflow-credit-origination-platform/)
+**Documentation Strategy**  
+Documentation planning, governance, and publishing workflows.  
+[Explore Documentation Strategy →](...)
 
-### API Documentation
-
-Developer-focused documentation demonstrating API concepts, endpoint documentation, request and response structures, error handling, and OpenAPI-based documentation.
-
-[Explore API Documentation](api-documentation/)
-
-### Diagrams
-
-Process flows, workflow diagrams, system architecture diagrams, data flows, and other visual documentation used to communicate technical and business concepts.
-
-[Explore Diagrams](diagrams/)
-
-### Documentation Strategy
-
-Samples demonstrating documentation planning, governance, content structure, publishing workflows, and documentation lifecycle considerations.
-
-[Explore Documentation Strategy](documentation-strategy/)
+[View All Projects →](projects/)
 
 ---
 
 ## Skills and Tools
 
-Explore the tools, technologies, and documentation practices used across my work, including:
-
-- Technical and software documentation
-- Docs-as-Code
-- Markdown
-- Git and GitHub
-- MkDocs
-- MadCap Flare
-- XML / XHTML
-- HTML and CSS
-- API documentation
-- Diagramming and process visualization
+Technical documentation, Docs-as-Code, API documentation, structured authoring, visual communication, and documentation engineering.
 
 [View Skills and Tools](skills-tools/)
 
 ---
 
-## Resume
+## More About Me
 
-View my professional experience, documentation background, and technical qualifications.
+Learn more about my professional background and approach to documentation.
 
-[View Resume](resume/)
+<div class="grid" markdown>
 
----
+<div markdown>
 
-## About
+**Professional Experience**
+
+View my experience, technical qualifications, and documentation background.
+
+[View Resume →](resume/)
+
+</div>
+
+<div markdown>
+
+**About My Work**
 
 Learn more about my approach to technical documentation, continuous learning, and documentation engineering.
 
-[About Me](about/)
+[About Me →](about/)
+
+</div>
+
+</div>

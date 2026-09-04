@@ -1,0 +1,5 @@
+nav:
+  - Platform Overview: README.md
+  - Business Requirements Document: artifacts/business-requirement-documents
+  - System Architecture Diagram: artifacts/system-architecture-diagram
+  - User Guide: artifacts/user-guide

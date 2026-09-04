@@ -9,7 +9,9 @@ To reset your password:
 3. Follow the instructions provided by the system.
 4. Create a new password when prompted.
 5. Log in using the updated credentials.  
+
 ![Passoword Reset Page](../images/getting-started/password-reset-page.png)
 *Password Reset Page*  
+
 ![Password Reset Confirmation](../images/getting-started/password-reset-confirmation.png)
 *Password Reset Confirmation*

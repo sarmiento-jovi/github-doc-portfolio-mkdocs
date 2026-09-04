@@ -1,0 +1,7 @@
+nav:
+  - Home: index.md
+  - Projects: projects
+  - Skills & Tools: skills-tools/README.md
+  - More About Me:
+      - Resume: resume/README.md
+      - About: about/README.md

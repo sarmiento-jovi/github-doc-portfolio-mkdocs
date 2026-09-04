@@ -5,7 +5,7 @@ to create, review, approve, and track credit-related requests. It helps users un
 platform’s features, navigate the user interface, and perform workflow-related activities
 efficiently.
 
-# Product Overview
+## Product Overview
 The **CardFlow Credit Origination Platform** is a multi-tenant SaaS solution designed to
 automate and manage the end-to-end credit origination lifecycle. The platform supports
 credit application, amendment, and reinstatement workflows through configurable business
@@ -14,13 +14,13 @@ Users can submit requests, review supporting information, participate in approva
 monitor request status, and access workflow history through a centralized web-based
 interface.
 
-# Intended Audience
+## Intended Audience
 The guide is intended for users who interact with the platform as part of the credit
 origination process, including applicants, tenant users, reviewers, and approvers.
 The document serves as a reference for performing day-to-day operational activities,
 understanding workflow progression, and managing requests throughout their lifecycle.
 
-# User Roles
+## User Roles
 The platform supports multiple user roles, each with specific responsibilities and permissions
 in the credit origination process.
 
