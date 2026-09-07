@@ -1,0 +1,64 @@
+nav:
+  - System Architecture Diagram: README.md
+
+  - Introduction:
+      - Document Overview: introduction/README.md
+      - Architecture Purpose and Scope: introduction/architecture-purpose-and-scope.md
+      - Audience and Related Documents: introduction/audience-and-related-documents.md
+
+  - Architecture:
+      - Architecture: architecture-overview/README.md
+      - Solution Architecture: architecture-overview/solution-architecture.md
+      - Architectural Style: architecture-overview/architectural-style.md
+      - Core Architectural Capabilities: architecture-overview/core-capabilities.md
+      - Architectural Principles: architecture-overview/architectural-principles.md
+      - Multi-Tenant SaaS Architecture Context: architecture-overview/multi-tenant-saas-context.md
+
+  - Component Description:
+      - Component Description: component-description/README.md
+      - Functional Components: component-description/functional-components.md
+      - Component Interaction Overview: component-description/component-interactions.md
+
+  - Workflow Architecture:
+      - Workflow Architecture: workflow-architecture/README.md
+      - Workflow Lifecycle Architecture: workflow-architecture/workflow-lifecycle.md
+      - Credit Application Processing Architecture: workflow-architecture/credit-application-processing.md
+      - Amendment Processing Architecture: workflow-architecture/amendment-processing.md
+      - Reinstatement Processing Architecture: workflow-architecture/reinstatement-processing.md
+
+  - Data Architecture:
+      - Data Architecture: data-architecture/README.md
+      - Core Business Entities: data-architecture/core-business-entities.md
+      - Entity Relationship Diagram: data-architecture/entity-relationship-diagram.md
+      - Data Flow Architecture: data-architecture/data-flow-architecture.md
+
+  - Security Architecture:
+      - Security Architecture: security-architecture/README.md
+      - Authentication and Access Control: security-architecture/authentication-access-control.md
+      - Audit and Traceability: security-architecture/audit-traceability.md
+      - Data Protection: security-architecture/data-protection.md
+
+  - Integration Architecture:
+      - Integration Architecture: integration-architecture/README.md
+      - External System Interfaces: integration-architecture/external-system-interfaces.md
+      - API Architecture: integration-architecture/api-architecture.md
+      - Notification Architecture: integration-architecture/notification-architecture.md
+
+  - Deployment Architecture:
+      - Deployment Architecture: deployment-architecture/README.md
+      - Environment Overview: deployment-architecture/environment-overview.md
+      - Deployment Diagram: deployment-architecture/deployment-diagram.md
+      - Scalability and Availability Considerations: deployment-architecture/scalability-availability.md
+
+  - Architecture Considerations:
+      - Architecture Considerations: architecture-considerations/README.md
+      - Scalability: architecture-considerations/scalability.md
+      - Maintainability: architecture-considerations/maintainability.md
+      - Security: architecture-considerations/security.md
+      - Auditability: architecture-considerations/auditability.md
+      - Tenant Isolation: architecture-considerations/tenant-isolation.md
+
+  - Assumptions and Constraints:
+      - Assumptions and Constraints: assumptions-constraints/README.md
+      - Assumptions: assumptions-constraints/assumptions.md
+      - Constraints: assumptions-constraints/constraints.md
