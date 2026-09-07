@@ -2,7 +2,7 @@ nav:
   - User Guide Overview: README.md
 
   - Introduction:
-      - Introduction: introduction/README.md
+      - Document Overview: introduction/README.md
       - Purpose, Product Overview, Audience, and Roles: introduction/purpose-overview-audience.md
 
   - Getting Started:
