@@ -1,4 +1,9 @@
-# More About Me
+---
+hide:
+  - footer
+---
+
+# Professional Perspective
 
 I am a Documentation Specialist with experience translating complex business and technical information into documentation that is structured, understandable, and useful to its intended audience.
 

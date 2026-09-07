@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # Skills and Tools
 
 Explore the tools, technologies, and documentation practices used across my work, including:

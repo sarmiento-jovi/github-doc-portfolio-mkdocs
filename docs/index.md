@@ -1,4 +1,11 @@
-# Technical Documentation Portfolio
+---
+hide:
+  - footer  
+  - navigation
+  - toc
+---
+
+# Technical Documentation
 
 As a **Documentation Specialist**, my work focuses on creating and maintaining technical documentation for enterprise software, SaaS platforms, and internal systems.
 
@@ -17,13 +24,13 @@ Explore selected documentation samples or browse the complete portfolio.
 
     Review the published Business Requirements Document for the **CardFlow Credit Origination Platform**, covering business context, scope, stakeholders, workflows, requirements, compliance considerations, and success criteria.
 
-    [View Business Requirements Document →](projects/cardflow-credit-origination-platform/docs/business-requirement-documents/README.md){ .card-link }
+    [View Business Requirements Document →](projects/cardflow-credit-origination-platform/artifacts/business-requirement-documents/README.md){ .card-link }
 
 -   **CardFlow Credit Origination Platform User Guide**
 
     Explore the published **CardFlow User Guide**, featuring task-based documentation for credit application processing, review and approval workflows, reporting, troubleshooting, and other platform functions.
 
-    [View User Guide →](projects/cardflow-credit-origination-platform/docs/user-guide/README.md){ .card-link }
+    [View User Guide →](projects/cardflow-credit-origination-platform/artifacts/user-guide/README.md){ .card-link }
 
 -   **Downloadable Documents**
 
@@ -68,7 +75,7 @@ Documentation planning, governance, and publishing workflows.
 
 Technical documentation, Docs-as-Code, API documentation, structured authoring, visual communication, and documentation engineering.
 
-[View Skills and Tools](skills-tools/)
+[View Skills and Tools → ](skills-tools/)
 
 ---
 
@@ -94,7 +101,7 @@ View my experience, technical qualifications, and documentation background.
 
 Learn more about my approach to technical documentation, continuous learning, and documentation engineering.
 
-[About Me →](about/)
+[Professional Perspective →](about/)
 
 </div>
 
