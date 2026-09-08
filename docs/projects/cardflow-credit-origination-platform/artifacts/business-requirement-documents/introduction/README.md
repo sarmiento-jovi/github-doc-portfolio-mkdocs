@@ -1,4 +1,4 @@
-# Introduction
+# Business Requirement Document Overview
 This document outlines the business requirements for the **CardFlow Credit Origination
 Platform**, a multi-tenant SaaS solution designed to automate the credit card application and
 approval process. The document describes the objectives of the platform, the operational context

@@ -10,6 +10,8 @@ The platform supports secure authentication for both external applicants and int
 
 *Authentication and Access Control*
 
+<div class="first-column-accent" markdown>
+
 No. | Business Requirement | Definition
 ---|---|---
 BR-6.1-01 | Applicant Access | The system shall allow applicants to access the platform using registered credentials to initiate and manage credit card applications.
@@ -18,3 +20,5 @@ BR-6.1-03 | Role-Based Access Control | The system shall enforce role-based acce
 BR-6.1-04 | Session Management | The system shall maintain authenticated user sessions and automatically terminate inactive sessions after a defined period of inactivity.
 BR-6.1-05 | Access Restriction for Unauthorized Users | The system shall prevent unauthorized users from accessing application data, administrative functions, or workflow activities.
 BR-6.1-06 | Administrative User Management | The system shall allow authorized administrators to manage user accounts, assign roles, and configure user permissions within the tenant environment.
+
+</div>

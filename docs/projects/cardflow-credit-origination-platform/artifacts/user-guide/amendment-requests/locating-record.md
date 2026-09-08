@@ -3,7 +3,8 @@ Before creating an amendment request, locate the credit application or account t
 
 To locate an existing record:
 
-1.	Navigate to **Applications > All Applications**  
+1.	Navigate to **Applications > All Applications**
+  
     ![Applications Screen](../images/credit-applications/credit-application-processing-application-screen.png)
     *Processing Application Screen*
 
@@ -12,12 +13,15 @@ To locate an existing record:
     - **Applicant Name**
     - **Account Number**
     - Other available search criteria  
+    
     ![Search Filters](../images/amendment-requests/locating-an-existing-record–search-filters.png)
     *Locating an Existing Record – Search Filters*  
+    
 3. Review the search results.  
 4. Select the appropriate record to open the **Application Details** screen.  
     ![Application Details](../images/credit-applications/submitting-an-application-application-details.png)
-    *Submitting an Application – Application Details*  
+    *Submitting an Application – Application Details*
+      
 5. Verify that the record is eligible for amendment before proceeding.
 
 **Result**: The selected application or account record is displayed and ready for amendment processing.

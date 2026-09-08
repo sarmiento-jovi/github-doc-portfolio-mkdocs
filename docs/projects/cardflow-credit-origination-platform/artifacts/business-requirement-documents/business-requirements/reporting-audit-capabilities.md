@@ -7,6 +7,8 @@ This subsection defines the requirements for reporting and audit-related capabil
 
 *Reporting and Audit Capabilities*
 
+<div class="first-column-accent" markdown>
+
 No. | Business Requirement | Definition
 --- | --- | --- 
 BR-6.7-01 | Application Listing | The system shall provide a listing of credit applications accessible to authorized tenant users.
@@ -16,3 +18,5 @@ BR-6.7-04 | Report Export Capability | The system shall allow users to export ap
 BR-6.7-05 | Approval History Visibility | The system shall display the history of review and approval actions associated with each application.
 BR-6.7-06 | Audit Log Recording | The system shall record user activities and workflow actions performed within the platform.
 BR-6.7-07 | Audit Log Accessibility | The system shall allow authorized administrative users to access audit logs for monitoring and investigation purposes.
+
+</div>

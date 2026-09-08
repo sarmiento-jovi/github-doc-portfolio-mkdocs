@@ -2,6 +2,7 @@
 This section illustrates how the major functional components of the **CardFlow Credit Origination Platform** collaborate to process user requests, enforce business rules, manage workflow progression, maintain audit records, and integrate with supporting services and external systems.
 
 *Component Interaction Overview*
+
 Interaction Area | Description
 --- | ---
 **User Request** | Processing	Users interact with the platform through web-based interfaces to initiate and manage workflow requests.

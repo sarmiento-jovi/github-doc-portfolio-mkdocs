@@ -3,6 +3,7 @@
 The **CardFlow Credit Origination Platform** is composed of multiple functional components that collectively support the end-to-end credit origination lifecycle across credit application, amendment, and reinstatement workflows.
 
 *Functional Components*
+
 Functional Component | Description
 --- | ---
 **Presentation Layer** | Provides web-based interfaces for applicants, tenant users, reviewers, approvers, and administrators to interact with the platform.

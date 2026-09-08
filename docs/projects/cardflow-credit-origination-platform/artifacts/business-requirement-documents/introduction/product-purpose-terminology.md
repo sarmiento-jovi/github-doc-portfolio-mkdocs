@@ -40,6 +40,8 @@ maintaining data isolation.
 ## Definitions and Terminology
 This section defines the key terms and concepts used throughout the document.
 
+*Definitions and Terminology*
+
 Term|Definition
 ---|---
 Applicant | An external customer applying for credit.

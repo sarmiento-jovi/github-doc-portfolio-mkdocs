@@ -22,6 +22,7 @@ When an external system sends a request to create a credit application:
 *API Architecture*
 
 *API Architecture*
+
 Diagram Area | Descriptions
 --- | ---
 **External Systems / API Consumers** | Third-party systems or partner applications that need to exchange data with CardFlow.

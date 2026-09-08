@@ -5,6 +5,8 @@ The platform supports a controlled amendment process that allows authorized tena
 
 *Credit Amendment Processes*
 
+<div class="first-column-accent" markdown>
+
 No. | Business Requirement | Definition
 --- | --- | ---
 BR-6.5-01 | Amendment Request Initiation | The system shall allow authorized tenant users to initiate a credit amendment request for an existing application record.
@@ -14,3 +16,5 @@ BR-6.5-04 | Amendment Workflow Routing | The system shall route amendment reques
 BR-6.5-05 | Amendment Approval Decision | The system shall allow authorized approvers to approve or reject amendment requests.
 BR-6.5-06 | Amendment Status Tracking | The system shall maintain a status indicator reflecting the progress of the amendment request throughout the review process.
 BR-6.5-07 | Amendment History Recording | The system shall record amendment actions and decisions associated with an application to maintain a complete audit history.
+
+</div>

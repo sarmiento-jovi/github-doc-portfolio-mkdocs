@@ -5,6 +5,8 @@ The platform supports configurable approval workflows that route applications to
 
 *Risk Review and Approval Workflow*
 
+<div class="first-column-accent" markdown>
+
 No. | Business Requirement | Definition
 --- | --- | ---
 BR-6.4-01 | Application Review Access | The system shall allow authorized reviewers to access submitted credit applications for evaluation.
@@ -16,3 +18,5 @@ BR-6.4-06 | Mandatory Decision Comments | The system shall require users perform
 BR-6.4-07 | Application Status Updates | The system shall update application status automatically as it progresses through the review and approval workflow.
 BR-6.4-08 | Approval History Tracking | The system shall record all review and approval actions associated with an application to maintain a complete audit trail.
 BR-6.4-09 | Notification of Workflow Actions | The system shall notify relevant users when an application requires review, approval, or additional information.
+
+</div>

@@ -2,6 +2,7 @@
 This subsection identifies the core business entities managed by the **CardFlow Credit Origination Platform** and provides a high-level description of the primary data objects that support workflow processing, document handling, audit tracking, user management, and tenant-specific configuration.
 
 *Core Business Entities*
+
 Entity | Description
 --- | ---
 **Applicant** | Represents the customer or individual associated with a credit application, amendment, or reinstatement request.
