@@ -5,6 +5,8 @@ The platform provides mechanisms that securely store submitted documents, associ
 
 *Document Management*
 
+<div class="first-column-accent" markdown>
+
 No. | Business Requirement | Definition
 --- | --- | ---
 BR-6.3-01 | Document Attachment to Application | The system shall associate uploaded documents with the corresponding credit application record.
@@ -13,3 +15,5 @@ BR-6.3-03 | Document Type Identification | The system shall allow uploaded docum
 BR-6.3-04 | Document Integrity Preservation | The system shall store uploaded documents without altering their original content.
 BR-6.3-05 | Document Validation by Reviewers | The system shall allow authorized reviewers to validate the completeness and relevance of submitted documents as part of the credit review process.
 BR-6.3-06 | Document Retention | The system shall retain documents associated with credit applications for reference and audit purposes.
+
+</div>

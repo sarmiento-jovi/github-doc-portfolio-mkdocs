@@ -2,7 +2,7 @@ nav:
   - Business Requirements Document: README.md
 
   - Introduction:
-      - Introduction: introduction/README.md
+      - Document Overview: introduction/README.md
       - Product Purpose and Terminology: introduction/product-purpose-terminology.md
 
   - Business Context and Justification:
@@ -48,7 +48,7 @@ nav:
       - Data Retention: regulatory-compliance/data-retention.md
 
   - Success Criteria and KPIs:
-      - Success Criteria and KPIs: success-criteria-kpis/README.md
+      - Success Criteria and K`PIs: success-criteria-kpis/README.md
       - Application Processing Efficiency: success-criteria-kpis/application-processing-efficiency.md
       - Workflow Visibility and Traceability: success-criteria-kpis/workflow-visibility-traceability.md
       - Operational Efficiency: success-criteria-kpis/operational-efficiency.md

@@ -4,6 +4,7 @@ The platform supports multiple user roles aligned with the operational stages of
 Typical roles supported by the platform include:
 
 *User Role Definitions*
+
 Term | Definition
 ---|---
 Applicant | External customer submitting a credit card application and required supporting documentation.
