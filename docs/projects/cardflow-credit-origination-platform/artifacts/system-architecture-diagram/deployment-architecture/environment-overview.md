@@ -2,6 +2,7 @@
 The **CardFlow Credit Origination Platform** is deployed as a cloud-hosted, multi-tenant SaaS application accessible through supported web browsers. Users interact with the platform through web-based interfaces, while backend services process workflow actions, validation requests, approvals, notifications, reporting, and audit events.
 
 *Environment Overview*
+
 Environment Area | Description
 --- | ---
 **User Access** | Users access the platform through a browser-based interface.

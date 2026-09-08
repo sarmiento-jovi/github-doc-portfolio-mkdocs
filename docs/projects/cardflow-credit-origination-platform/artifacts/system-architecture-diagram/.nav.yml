@@ -1,8 +1,8 @@
 nav:
   - System Architecture Diagram: README.md
 
-  - Introduction:
-      - Document Overview: introduction/README.md
+  - Document Purpose, Scope, and Audience:
+      - Document Purpose, Scope, and Audience: introduction/README.md
       - Architecture Purpose and Scope: introduction/architecture-purpose-and-scope.md
       - Audience and Related Documents: introduction/audience-and-related-documents.md
 
