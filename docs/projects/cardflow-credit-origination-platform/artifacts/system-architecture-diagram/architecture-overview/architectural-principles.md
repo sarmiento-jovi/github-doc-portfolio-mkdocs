@@ -2,6 +2,7 @@
 The architectural design of the **CardFlow Credit Origination Platform** is guided by principles intended to support operational consistency, maintainability, scalability, and secure workflow processing.
 
 *Architectural Principles*
+
 Principle | Description
 --- | ---
 **Scalability** | The architecture supports growth in transaction volume, tenants, and workflow processing activities.

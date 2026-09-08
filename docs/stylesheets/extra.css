@@ -467,6 +467,33 @@ body.project-footer-end .md-footer__link--next {
     background-color: var(--portfolio-surface);
 }
 
+/************************ TABLES - WIDTH AND COLUMNS ************************/
+
+/* Make Material's table wrapper fill the content area */
+.md-typeset .md-typeset__table,
+.md-typeset .md-typeset__scrollwrap {
+    display: block;
+    width: 100%;
+}
+
+/* Force the actual table inside the wrapper to fill it */
+.md-typeset .md-typeset__table table,
+.md-typeset .md-typeset__scrollwrap table,
+.md-typeset table {
+    display: table !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: none !important;
+    table-layout: fixed !important;
+}
+
+/* Let fixed table layout divide columns evenly */
+.md-typeset table th,
+.md-typeset table td {
+    width: auto !important;
+    min-width: 0 !important;
+    overflow-wrap: break-word;
+}
 
 /************************ TABLES - FIRST COLUMN ACCENT ************************/
 
