@@ -4,7 +4,6 @@ A complete documentation portfolio demonstrating enterprise software documentati
 
 ## Documentation
 
-- Product Overview
 - [Business Requirements Document](artifacts/business-requirement-documents/README.md)
 - [User Guide](artifacts/user-guide/README.md)
 - [System Architecture Diagram](artifacts/system-architecture-diagram/README.md)

@@ -11,4 +11,4 @@ To review recent activity:
 **Result**: Users can track recent notification activity and workflow events.
 
 ![Reviewing Recent Notification Activity](../images/notifications/reviewing-recent-notification-activity.png)
-*Reviewing Recent Notification Activity
+*Reviewing Recent Notification Activity*

@@ -1,11 +1,11 @@
 nav:
   - Business Requirements Document: README.md
 
-  - Introduction:
-      - Document Overview: introduction/README.md
-      - Product Purpose and Terminology: introduction/product-purpose-terminology.md
+#  - Introduction:
+#      - Document Overview: introduction/README.md
+  - Product Purpose and Terminology: introduction/product-purpose-terminology.md
 
-  - Business Context and Justification:
+  - Business Context and Justification: 
       - Business Context and Justification: business-context/README.md
       - Current Operational Challenges: business-context/operational-challenges.md
       - Business Objectives: business-context/business-objectives.md

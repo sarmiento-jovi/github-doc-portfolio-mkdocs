@@ -5,8 +5,10 @@ To track reinstatement progress:
 
 1.	Open the reinstatement request.
 2.	Review the status displayed on the request.  
+    
     ![Tracking Reinstatement Progress](../images/reinstatement-requests/tracking-reinstatement-progress.png)
-    *Tracking Reinstatement Progress*  
+    *Tracking Reinstatement Progress*
+      
 3.	Monitor the workflow timeline.
 4.	Review comments and activities provided by reviewers and approvers.
 5.	Check notifications for status updates.  
@@ -22,5 +24,6 @@ To track reinstatement progress:
     - **Returned**
 
 **Result**: Users can monitor request progress, review workflow activities, and determine whether additional action is required.  
+
 ![Returned Reinstatement](../images/reinstatement-requests/tracking-reinstatement-progress.png)  
 *Tracking Reinstatement Progress – Returned Reinstatement*

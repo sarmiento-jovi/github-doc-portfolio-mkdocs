@@ -188,7 +188,7 @@ body {
 }
 
 
-/**************************** LEFT NAVIGATION DRAWER ****************************/
+/**************************** LEFT NAVIGATION - DRAWER ****************************/
 
 /* Drawer header */
 .md-nav--primary .md-nav__title {
@@ -204,6 +204,20 @@ body {
 /* Navigation hover */
 .md-nav__link:hover {
     color: var(--portfolio-sage);
+}
+
+/**************************** LEFT NAVIGATION - ACTIVE ITEM ****************************/
+
+.md-sidebar--primary .md-nav__link--active {
+    color: var(--portfolio-deep-sage) !important;
+    font-weight: 600;
+
+    background-color: var(--portfolio-sage-light);
+    border-left: 3px solid var(--portfolio-deep-sage);
+
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.6rem;
 }
 
 
