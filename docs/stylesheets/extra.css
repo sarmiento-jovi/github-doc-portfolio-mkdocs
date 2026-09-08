@@ -296,7 +296,18 @@ body.project-footer-end .md-footer__link--next {
 
 /* Documentation images */
 .md-typeset img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    object-fit: contain;
+
     border: 1px solid var(--portfolio-border);
+
+    cursor: zoom-in;
 }
 
 /* Caption immediately associated with an image */
@@ -309,6 +320,62 @@ body.project-footer-end .md-footer__link--next {
     font-style: italic;
     color: var(--portfolio-text-muted);
     text-align: center;
+}
+
+
+/*************************** IMAGE LIGHTBOX ***************************/
+
+.image-lightbox {
+    position: fixed;
+    inset: 0;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3rem;
+
+    background: rgba(20, 23, 21, 0.92);
+
+    z-index: 1000;
+    cursor: zoom-out;
+}
+
+.image-lightbox.is-active {
+    display: flex;
+}
+
+.image-lightbox img {
+    display: block;
+
+    max-width: 95vw;
+    max-height: 90vh;
+
+    width: auto;
+    height: auto;
+
+    object-fit: contain;
+
+    border: none;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+
+    cursor: default;
+}
+
+/* Close button */
+.image-lightbox__close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+
+    border: 0;
+    background: transparent;
+
+    color: #FFFFFF;
+    font-size: 2rem;
+    line-height: 1;
+
+    cursor: pointer;
 }
 
 

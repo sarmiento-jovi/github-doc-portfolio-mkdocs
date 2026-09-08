@@ -5,6 +5,8 @@ The platform supports a reinstatement workflow that allows authorized tenant use
 
 *Credit Reinstatement Processes*
 
+<div class="first-column-accent" markdown>
+
 No. | Business Requirement |Definition
 --- | --- | ---
 BR-6.6-01 | Reinstatement Request Initiation | The system shall allow authorized tenant users to initiate a credit reinstatement request for an existing application or credit record.
@@ -14,3 +16,5 @@ BR-6.6-04 | Reinstatement Workflow Routing | The system shall route reinstatemen
 BR-6.6-05 | Reinstatement Decision Recording | The system shall allow authorized approvers to approve or reject reinstatement requests.
 BR-6.6-06 | Reinstatement Status Tracking  | The system shall maintain a status indicator reflecting the progress of the reinstatement request throughout the evaluation process.
 BR-6.6-07 | Reinstatement Audit Logging | The system shall record all reinstatement actions and decisions to maintain an audit trail of the reinstatement process.
+
+</div>
