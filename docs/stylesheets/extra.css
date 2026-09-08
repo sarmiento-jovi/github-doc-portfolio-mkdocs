@@ -346,7 +346,20 @@ body.project-footer-end .md-footer__link--next {
 }
 
 
-/**************************** TABLES ****************************/
+/**************************** TABLE - LABELS ****************************/
+
+/* Table with optional first-column accent wrapper */
+.md-typeset p:has(+ .first-column-accent) > em:only-child::after,
+
+/* Standard Material table wrapper */
+.md-typeset p:has(+ .md-typeset__scrollwrap) > em:only-child::after,
+
+/* Fallback if table renders directly */
+.md-typeset p:has(+ table) > em:only-child::after {
+    content: " Table";
+}
+
+/**************************** TABLES - DESIGN ****************************/
 
 /*
  * DEFAULT TABLE DESIGN
