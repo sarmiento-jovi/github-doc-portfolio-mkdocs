@@ -1,0 +1,61 @@
+nav:
+  - Business Requirements Document: README.md
+
+  - Introduction:
+      - Introduction: introduction/README.md
+      - Product Purpose and Terminology: introduction/product-purpose-terminology.md
+
+  - Business Context and Justification:
+      - Business Context and Justification: business-context/README.md
+      - Current Operational Challenges: business-context/operational-challenges.md
+      - Business Objectives: business-context/business-objectives.md
+      - Expected Business Impact: business-context/expected-business-impact.md
+
+  - Scope Definition:
+      - Scope Definition: scope-definition/README.md
+      - In Scope: scope-definition/in-scope.md
+      - Out of Scope: scope-definition/out-of-scope.md
+      - Future Considerations: scope-definition/future-considerations.md
+
+  - Stakeholders and User Roles:
+      - Stakeholders and User Roles: stakeholders-and-user-roles/README.md
+      - Tenant Organizations: stakeholders-and-user-roles/tenant-organizations.md
+      - Platform Operations: stakeholders-and-user-roles/platform-operations.md
+      - User Role Definitions: stakeholders-and-user-roles/user-role-definitions.md
+
+  - High-Level Business Process Overview:
+      - High-Level Business Process Overview: business-process-overview/README.md
+      - Credit Application Workflow: business-process-overview/credit-application-workflow.md
+      - Credit Amendment / Update Workflow: business-process-overview/credit-amendment-workflow.md
+      - Credit Reinstatement Workflow: business-process-overview/credit-reinstatement-workflow.md
+
+  - Business Requirements:
+      - Business Requirements: business-requirements/README.md
+      - Authentication and Access Control: business-requirements/authentication-access-control.md
+      - Credit Application Submission: business-requirements/credit-application-submission.md
+      - Document Management: business-requirements/document-management.md
+      - Risk Review and Approval Workflow: business-requirements/risk-review-approval-workflow.md
+      - Credit Amendment Processes: business-requirements/credit-amendment-processes.md
+      - Credit Reinstatement Processes: business-requirements/credit-reinstatement-processes.md
+      - Reporting and Audit Capabilities: business-requirements/reporting-audit-capabilities.md
+      - Administrative Configuration: business-requirements/administrative-configuration.md
+
+  - Regulatory and Compliance Considerations:
+      - Regulatory and Compliance Considerations: regulatory-compliance/README.md
+      - Data Protection and Privacy: regulatory-compliance/data-protection-privacy.md
+      - Financial Regulatory Requirements: regulatory-compliance/financial-regulatory-requirements.md
+      - KYC/AML Integration Considerations: regulatory-compliance/kyc-aml-integration.md
+      - Data Retention: regulatory-compliance/data-retention.md
+
+  - Success Criteria and KPIs:
+      - Success Criteria and KPIs: success-criteria-kpis/README.md
+      - Application Processing Efficiency: success-criteria-kpis/application-processing-efficiency.md
+      - Workflow Visibility and Traceability: success-criteria-kpis/workflow-visibility-traceability.md
+      - Operational Efficiency: success-criteria-kpis/operational-efficiency.md
+      - Reporting and Monitoring Capability: success-criteria-kpis/reporting-monitoring-capability.md
+
+  - Assumptions, Risks, and Dependencies:
+      - Assumptions, Risks, and Dependencies: assumptions-risks-dependencies/README.md
+      - Assumptions: assumptions-risks-dependencies/assumptions.md
+      - Risks: assumptions-risks-dependencies/risks.md
+      - Dependencies: assumptions-risks-dependencies/dependencies.md
