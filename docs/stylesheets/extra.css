@@ -143,6 +143,17 @@ body {
     width: auto !important;
 }
 
+/* Make each card a vertical flex container */
+.md-typeset .grid.cards.featured-work-cards > ul > li {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Push the CTA to the bottom of every card */
+.md-typeset .grid.cards.featured-work-cards > ul > li p:has(.card-link) {
+    margin-top: auto;
+    padding-top: 0.75rem;
+}
 
 
 /**************************** DESKTOP HEADER NAV ****************************/
