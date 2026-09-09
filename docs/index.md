@@ -18,7 +18,7 @@ This portfolio demonstrates my experience in **technical documentation, Docs-as-
 
 Explore selected documentation samples or browse the complete portfolio.
 
-<div class="grid cards" markdown>
+<div class="grid cards featured-work-cards" markdown>
 
 -   **CardFlow Credit Origination Platform Business Requirements Document**
 
