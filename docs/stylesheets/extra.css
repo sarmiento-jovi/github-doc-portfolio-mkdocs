@@ -137,23 +137,56 @@ body {
     }
 }
 
-/* Prevent card contents from forcing the columns wider */
+
+/* Card structure + theme */
 .md-typeset .grid.cards.featured-work-cards > ul > li {
     min-width: 0 !important;
     width: auto !important;
-}
 
-/* Make each card a vertical flex container */
-.md-typeset .grid.cards.featured-work-cards > ul > li {
     display: flex;
     flex-direction: column;
+
+    /* Slightly stronger Sage-tinted surface */
+    background-color: #E9EDE9;
+    border: 1px solid #CDD5CF;
+    box-shadow: 0 2px 6px rgba(41, 45, 43, 0.06);
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
 }
 
-/* Push the CTA to the bottom of every card */
+
+/* Card title */
+.md-typeset .grid.cards.featured-work-cards > ul > li > p:first-child strong {
+    color: var(--portfolio-deep-sage);
+}
+
+
+/* CTA link */
+.md-typeset .grid.cards.featured-work-cards .card-link {
+    color: var(--portfolio-sage-dark);
+    font-weight: 500;
+}
+
+
+/* Push CTA to bottom */
 .md-typeset .grid.cards.featured-work-cards > ul > li p:has(.card-link) {
     margin-top: auto;
     padding-top: 0.75rem;
 }
+
+
+/* Card hover */
+.md-typeset .grid.cards.featured-work-cards > ul > li:hover {
+    background-color: var(--portfolio-white);
+    border-color: var(--portfolio-sage);
+    box-shadow: 0 6px 16px rgba(41, 45, 43, 0.12);
+    transform: translateY(-2px);
+}
+
 
 
 /**************************** DESKTOP HEADER NAV ****************************/
