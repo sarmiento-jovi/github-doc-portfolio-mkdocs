@@ -4,7 +4,7 @@ hide:
   - navigation
   - toc
 ---
-
+<!--
 # Technical Documentation
 
 As a **Documentation Specialist**, my work focuses on creating and maintaining technical documentation for enterprise software, SaaS platforms, and internal systems.
@@ -13,6 +13,41 @@ My work covers the full documentation lifecycle, from business and functional re
 
 This portfolio demonstrates my experience in **technical documentation, Docs-as-Code, API documentation, visual technical communication, and documentation strategy**.
 
+<div class="homepage-hero-placeholder">
+    <span>Hero area — design pending</span>
+</div>
+-->
+
+<section class="homepage-hero">
+
+  <div class="homepage-hero__inner">
+
+    <div class="homepage-hero__content">
+
+      <p class="homepage-hero__eyebrow">
+        DOCUMENTATION BUILDS BETTER PRODUCTS
+      </p>
+
+      <h1>Technical Documentation</h1>
+
+      <p class="homepage-hero__summary">
+        I'm a Documentation Specialist focused on creating clear,
+        structured, and useful documentation for enterprise software,
+        SaaS platforms, and internal systems.
+      </p>
+
+      <p class="homepage-hero__skills">
+        DOCS-AS-CODE &nbsp;•&nbsp;
+        API DOCS &nbsp;•&nbsp;
+        ARCHITECTURE &nbsp;•&nbsp;
+        STRATEGY
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
 
 ## Featured Work
 
@@ -22,25 +57,25 @@ Explore selected documentation samples or browse the complete portfolio.
 
 -   **CardFlow Credit Origination Platform Business Requirements Document**
 
-    Review the published Business Requirements Document for the **CardFlow Credit Origination Platform**, covering business context, scope, stakeholders, workflows, requirements, compliance considerations, and success criteria.
+    Explore the business requirements, scope, stakeholders, and key capabilities defined for CardFlow.
 
     [View Business Requirements Document →](projects/cardflow-credit-origination-platform/artifacts/business-requirement-documents/README.md){ .card-link }
 
 -   **CardFlow Credit Origination Platform User Guide**
 
-    Explore the published **CardFlow User Guide**, featuring task-based documentation for credit application processing, review and approval workflows, reporting, troubleshooting, and other platform functions.
+    Explore task-based guidance for using CardFlow throughout the credit origination process.
 
     [View User Guide →](projects/cardflow-credit-origination-platform/artifacts/user-guide/README.md){ .card-link }
 
 -   **Downloadable Documents**
 
-    Access selected portfolio artifacts in their original document formats, including requirements, functional design, traceability, and other software documentation samples.
+    View selected documentation samples in their original document formats.
 
     [View Downloadable Documents →](projects/cardflow-credit-origination-platform/README.md#downloads){ .card-link }
 
 -   **All Projects**
 
-    Browse the complete portfolio, including CardFlow documentation, API documentation, diagrams, documentation strategy, and documentation automation projects.
+    Explore the complete portfolio across technical documentation and documentation engineering.
 
     [Explore All Projects →](projects/README.md){ .card-link }
 
