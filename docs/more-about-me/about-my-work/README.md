@@ -3,7 +3,7 @@ hide:
   - footer
 ---
 
-# Professional Perspective
+# About My Work
 
 I am a Documentation Specialist with experience translating complex business and technical information into documentation that is structured, understandable, and useful to its intended audience.
 

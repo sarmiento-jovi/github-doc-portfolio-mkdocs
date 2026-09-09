@@ -3,7 +3,7 @@ hide:
   - footer
 ---
 
-# Resume
+# Professional Experience
 
 This section provides an overview of my professional experience, technical documentation background, and the tools and technologies I have worked with throughout my career.
 

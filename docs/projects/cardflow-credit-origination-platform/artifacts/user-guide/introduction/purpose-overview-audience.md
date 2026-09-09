@@ -1,4 +1,4 @@
-# Purpose of the Guide
+# Product Overview, Audience, and Roles
 
 The **User Guide** provides instructions for using the **CardFlow Credit Origination Platform**
 to create, review, approve, and track credit-related requests. It helps users understand the

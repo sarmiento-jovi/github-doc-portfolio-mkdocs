@@ -2,6 +2,7 @@ site_name: Name | Role
 
 theme:
   name: material
+  custom_dir: overrides  
   features:
     - navigation.path    # Displays breadcrumb navigation
     - navigation.footer  # Adds Previous and Next links based on navigation order
@@ -17,7 +18,7 @@ extra_css:
 extra_javascript:
   - javascripts/navigation-footer.js
   - javascripts/image-lightbox.js
-
+  - javascripts/artifact-navigation.js
 
 plugins:
   - search
