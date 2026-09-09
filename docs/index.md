@@ -91,7 +91,7 @@ Learn more about my professional background and approach to documentation.
 
 View my experience, technical qualifications, and documentation background.
 
-[View Resume →](resume/)
+[View Resume →](more-about-me/professional-experience/)
 
 </div>
 
@@ -101,7 +101,7 @@ View my experience, technical qualifications, and documentation background.
 
 Learn more about my approach to technical documentation, continuous learning, and documentation engineering.
 
-[Professional Perspective →](about/)
+[Professional Perspective →](more-about-me/about-my-work/)
 
 </div>
 

@@ -234,33 +234,18 @@ body {
 
 /**************************** TOP NAVIGATION ****************************/
 
-/* Top-level portfolio navigation */
-.md-tabs {
-    background-color: var(--portfolio-graphite);
+.portfolio-header-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    flex-shrink: 0;
 }
 
-/* Tab links */
-.md-tabs__link {
-    color: rgba(255, 255, 255, 0.78);
-    font-weight: 500;
-}
-
-/* Hover */
-.md-tabs__link:hover {
-    color: var(--portfolio-sage-light);
-}
-
-/* Active top-level section */
-.md-tabs__item--active .md-tabs__link {
+.portfolio-header-nav__link {
     color: #FFFFFF;
+    font-size: 0.75rem;
+    white-space: nowrap;
 }
-
-
-/* Keep navigation.tabs functionality, but hide its visual tab bar */
-.md-tabs {
-    display: none;
-}
-
 
 /**************************** LEFT NAVIGATION - DRAWER ****************************/
 
@@ -611,3 +596,4 @@ body.project-footer-end .md-footer__link--next {
 .md-typeset .first-column-accent table tbody tr:hover td:first-child {
     background-color: #CDD7D1;
 }
+
