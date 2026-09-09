@@ -113,42 +113,365 @@ body {
     color: var(--portfolio-sage-dark);
 }
 
+/********************** HOMEPAGE - HERO **********************/
 
-/********************** HOMEPAGE - FEATURED WORK CARDS **********************/
+/*
+ * The hero breaks out of MkDocs' normal content width,
+ * while the rest of the homepage keeps its existing margins.
+ */
+
+.homepage-hero {
+    width: 100vw;
+    max-width: none;
+
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+
+    min-height: 360px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 3rem 2rem;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(250, 251, 249, 0.98) 0%,
+            rgba(250, 251, 249, 0.92) 35%,
+            rgba(250, 251, 249, 0.35) 58%,
+            rgba(250, 251, 249, 0) 75%
+        ),
+        url("../assets/images/homepage/hero-desktop.png");
+
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+}
+
+
+/********************** HOMEPAGE - REMOVE TOP GAP **********************/
+
+/*
+ * Remove Material's default vertical spacing above the hero.
+ * Keep the normal horizontal content width for everything else.
+ */
+body:has(.homepage-hero) .md-main__inner {
+    margin-top: 0;
+}
+
+body:has(.homepage-hero) .md-content__inner {
+    padding-top: 0;
+}
+
+body:has(.homepage-hero) .md-content__inner::before {
+    display: none;
+}
+
+
+/********************** HOMEPAGE - HERO **********************/
+
+.homepage-hero {
+    width: 100vw;
+    max-width: none;
+
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    margin-top: 0;
+
+    min-height: 40vh;
+    max-height: 330px;
+
+    display: flex;
+    align-items: center;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(250, 251, 249, 0.98) 0%,
+            rgba(250, 251, 249, 0.92) 35%,
+            rgba(250, 251, 249, 0.35) 58%,
+            rgba(250, 251, 249, 0) 75%
+        ),
+        url("../assets/images/homepage/hero-desktop.png");
+
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+}
+
+
+/********************** HERO INNER CONTAINER **********************/
+
+/*
+ * Desktop hero composition
+ *
+ * The background remains full-width, but the text stays
+ * at a fixed position regardless of desktop viewport width.
+ */
+.homepage-hero__inner {
+    width: 100%;
+    max-width: none;
+
+    margin: 0;
+    padding: 1.5rem 2rem;
+
+    box-sizing: border-box;
+}
+
+
+/*
+ * Fixed desktop text column
+ */
+.homepage-hero__content {
+    width: 560px;
+    max-width: 560px;
+}
+
+
+/********************** HERO CONTENT **********************/
+
+.homepage-hero__content {
+    width: 100%;
+    max-width: 560px;
+}
+
+
+/* Small lead-in */
+.homepage-hero__eyebrow {
+    margin: 0 0 0.6rem;
+
+    color: var(--portfolio-sage-dark);
+
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+}
+
+
+/* Hero title */
+    margin: 0 0 0.65rem;
+
+    color: var(--portfolio-text);
+
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.05;
+}
+
+
+/* Main description */
+.homepage-hero__summary {
+    max-width: 500px;
+
+    margin: 0 0 1rem;
+
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+/* Skills row */
+.homepage-hero__skills {
+    margin: 0;
+
+    color: var(--portfolio-sage-dark);
+
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+}
+
+
+/********************** TABLET HERO **********************/
+
+@media screen and (max-width: 1024px) {
+
+    .homepage-hero {
+        min-height: 300px;
+        max-height: none;
+
+        background-image:
+            linear-gradient(
+                90deg,
+                rgba(250, 251, 249, 0.98) 0%,
+                rgba(250, 251, 249, 0.90) 46%,
+                rgba(250, 251, 249, 0.30) 72%,
+                rgba(250, 251, 249, 0) 100%
+            ),
+            url("../assets/images/homepage/hero-tablet.png");
+
+        background-position: center right;
+    }
+
+    .homepage-hero__inner {
+        padding: 2rem;
+    }
+
+    .homepage-hero__content {
+        width: 100%;
+        max-width: 460px;
+    }
+
+    .homepage-hero__eyebrow {
+        margin-bottom: 0.7rem;
+    }
+
+    .homepage-hero h1 {
+        margin-bottom: 0.75rem;
+        font-size: 2.1rem;
+    }
+
+    .homepage-hero__summary {
+        max-width: 420px;
+
+        margin-bottom: 1.1rem;
+
+        font-size: 0.9rem;
+        line-height: 1.45;
+    }
+
+    .homepage-hero__skills {
+        font-size: 0.66rem;
+        letter-spacing: 0.1em;
+    }
+}
+
+
+/********************** MOBILE HERO **********************/
+
+@media screen and (max-width: 640px) {
+
+    .homepage-hero {
+        min-height: 380px;
+        max-height: none;
+
+        align-items: flex-start;
+
+        background-image:
+            linear-gradient(
+                180deg,
+                rgba(250, 251, 249, 0.99) 0%,
+                rgba(250, 251, 249, 0.96) 35%,
+                rgba(250, 251, 249, 0.72) 55%,
+                rgba(250, 251, 249, 0.18) 78%,
+                rgba(250, 251, 249, 0) 100%
+            ),
+            url("../assets/images/homepage/hero-mobile.png");
+
+        background-position: center bottom;
+    }
+
+    .homepage-hero__inner {
+        padding: 1.5rem 1.25rem 1.75rem;
+    }
+
+    .homepage-hero__content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .homepage-hero__eyebrow {
+        margin-bottom: 0.6rem;
+
+        font-size: 0.6rem;
+        letter-spacing: 0.14em;
+    }
+
+    .homepage-hero h1 {
+        margin-bottom: 0.75rem;
+
+        font-size: 1.8rem;
+        line-height: 1.08;
+    }
+
+    .homepage-hero__summary {
+        max-width: 100%;
+
+        margin-bottom: 1rem;
+
+        font-size: 0.85rem;
+        line-height: 1.45;
+    }
+
+    .homepage-hero__skills {
+        font-size: 0.6rem;
+        line-height: 1.7;
+        letter-spacing: 0.08em;
+    }
+}
+
+
+/********************** PORTFOLIO CARDS **********************/
+
+/*
+ * Shared card component used by:
+ * - Homepage Featured Work
+ * - Projects Overview
+ *
+ * Both use the same Sage-accented visual design.
+ * Only the desktop column count differs.
+ */
+
+
+/********************** CARD GRID - MOBILE **********************/
 
 /* Mobile: 1 column */
-.md-typeset .grid.cards.featured-work-cards > ul {
+.md-typeset .grid.cards.featured-work-cards > ul,
+.md-typeset .grid.cards.project-cards > ul {
     display: grid !important;
     grid-template-columns: 1fr !important;
     gap: 0.5rem;
 }
 
+
+/********************** CARD GRID - TABLET **********************/
+
 /* Tablet: 2 columns */
 @media screen and (min-width: 641px) {
-    .md-typeset .grid.cards.featured-work-cards > ul {
+    .md-typeset .grid.cards.featured-work-cards > ul,
+    .md-typeset .grid.cards.project-cards > ul {
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
 }
 
-/* Desktop: 4 columns */
+
+/********************** CARD GRID - DESKTOP **********************/
+
 @media screen and (min-width: 1025px) {
+
+    /* Featured Work: 4 columns */
     .md-typeset .grid.cards.featured-work-cards > ul {
         grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+
+    /* Projects: 3 columns */
+    .md-typeset .grid.cards.project-cards > ul {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     }
 }
 
 
-/* Card structure + theme */
-.md-typeset .grid.cards.featured-work-cards > ul > li {
+/********************** SHARED CARD DESIGN **********************/
+
+/* Card structure + Sage accent */
+.md-typeset .grid.cards.featured-work-cards > ul > li,
+.md-typeset .grid.cards.project-cards > ul > li {
     min-width: 0 !important;
     width: auto !important;
 
     display: flex;
     flex-direction: column;
 
-    /* Slightly stronger Sage-tinted surface */
-    background-color: #E9EDE9;
-    border: 1px solid #CDD5CF;
+    background-color: var(--portfolio-white);
+
+    border: 1px solid var(--portfolio-border);
+    border-top: 4px solid var(--portfolio-sage);
+
     box-shadow: 0 2px 6px rgba(41, 45, 43, 0.06);
 
     transition:
@@ -160,33 +483,39 @@ body {
 
 
 /* Card title */
-.md-typeset .grid.cards.featured-work-cards > ul > li > p:first-child strong {
+.md-typeset .grid.cards.featured-work-cards > ul > li > p:first-child strong,
+.md-typeset .grid.cards.project-cards > ul > li > p:first-child strong {
     color: var(--portfolio-deep-sage);
 }
 
 
 /* CTA link */
-.md-typeset .grid.cards.featured-work-cards .card-link {
+.md-typeset .grid.cards.featured-work-cards .card-link,
+.md-typeset .grid.cards.project-cards .card-link {
     color: var(--portfolio-sage-dark);
     font-weight: 500;
 }
 
 
 /* Push CTA to bottom */
-.md-typeset .grid.cards.featured-work-cards > ul > li p:has(.card-link) {
+.md-typeset .grid.cards.featured-work-cards > ul > li p:has(.card-link),
+.md-typeset .grid.cards.project-cards > ul > li p:has(.card-link) {
     margin-top: auto;
     padding-top: 0.75rem;
 }
 
 
 /* Card hover */
-.md-typeset .grid.cards.featured-work-cards > ul > li:hover {
-    background-color: var(--portfolio-white);
+.md-typeset .grid.cards.featured-work-cards > ul > li:hover,
+.md-typeset .grid.cards.project-cards > ul > li:hover {
+    background-color: var(--portfolio-sage-light);
+
     border-color: var(--portfolio-sage);
+    border-top-color: var(--portfolio-sage-dark);
+
     box-shadow: 0 6px 16px rgba(41, 45, 43, 0.12);
     transform: translateY(-2px);
 }
-
 
 
 /**************************** DESKTOP HEADER NAV ****************************/
