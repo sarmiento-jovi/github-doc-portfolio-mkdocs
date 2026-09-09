@@ -46,6 +46,7 @@ Explore selected documentation samples or browse the complete portfolio.
 
 </div>
 
+<!--
 ---
 ## Project Areas
 
@@ -106,3 +107,5 @@ Learn more about my approach to technical documentation, continuous learning, an
 </div>
 
 </div>
+
+-->

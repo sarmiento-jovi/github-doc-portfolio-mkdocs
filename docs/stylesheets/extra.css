@@ -114,41 +114,72 @@ body {
 }
 
 
-/********************** HOMEPAGE - FEATURED WORK CARDS **********************/
+/********************** PORTFOLIO CARDS **********************/
+
+/*
+ * Shared card component used by:
+ * - Homepage Featured Work
+ * - Projects Overview
+ *
+ * Both use the same Sage-accented visual design.
+ * Only the desktop column count differs.
+ */
+
+
+/********************** CARD GRID - MOBILE **********************/
 
 /* Mobile: 1 column */
-.md-typeset .grid.cards.featured-work-cards > ul {
+.md-typeset .grid.cards.featured-work-cards > ul,
+.md-typeset .grid.cards.project-cards > ul {
     display: grid !important;
     grid-template-columns: 1fr !important;
     gap: 0.5rem;
 }
 
+
+/********************** CARD GRID - TABLET **********************/
+
 /* Tablet: 2 columns */
 @media screen and (min-width: 641px) {
-    .md-typeset .grid.cards.featured-work-cards > ul {
+    .md-typeset .grid.cards.featured-work-cards > ul,
+    .md-typeset .grid.cards.project-cards > ul {
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
 }
 
-/* Desktop: 4 columns */
+
+/********************** CARD GRID - DESKTOP **********************/
+
 @media screen and (min-width: 1025px) {
+
+    /* Featured Work: 4 columns */
     .md-typeset .grid.cards.featured-work-cards > ul {
         grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+
+    /* Projects: 3 columns */
+    .md-typeset .grid.cards.project-cards > ul {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     }
 }
 
 
-/* Card structure + theme */
-.md-typeset .grid.cards.featured-work-cards > ul > li {
+/********************** SHARED CARD DESIGN **********************/
+
+/* Card structure + Sage accent */
+.md-typeset .grid.cards.featured-work-cards > ul > li,
+.md-typeset .grid.cards.project-cards > ul > li {
     min-width: 0 !important;
     width: auto !important;
 
     display: flex;
     flex-direction: column;
 
-    /* Slightly stronger Sage-tinted surface */
-    background-color: #E9EDE9;
-    border: 1px solid #CDD5CF;
+    background-color: var(--portfolio-white);
+
+    border: 1px solid var(--portfolio-border);
+    border-top: 4px solid var(--portfolio-sage);
+
     box-shadow: 0 2px 6px rgba(41, 45, 43, 0.06);
 
     transition:
@@ -160,33 +191,39 @@ body {
 
 
 /* Card title */
-.md-typeset .grid.cards.featured-work-cards > ul > li > p:first-child strong {
+.md-typeset .grid.cards.featured-work-cards > ul > li > p:first-child strong,
+.md-typeset .grid.cards.project-cards > ul > li > p:first-child strong {
     color: var(--portfolio-deep-sage);
 }
 
 
 /* CTA link */
-.md-typeset .grid.cards.featured-work-cards .card-link {
+.md-typeset .grid.cards.featured-work-cards .card-link,
+.md-typeset .grid.cards.project-cards .card-link {
     color: var(--portfolio-sage-dark);
     font-weight: 500;
 }
 
 
 /* Push CTA to bottom */
-.md-typeset .grid.cards.featured-work-cards > ul > li p:has(.card-link) {
+.md-typeset .grid.cards.featured-work-cards > ul > li p:has(.card-link),
+.md-typeset .grid.cards.project-cards > ul > li p:has(.card-link) {
     margin-top: auto;
     padding-top: 0.75rem;
 }
 
 
 /* Card hover */
-.md-typeset .grid.cards.featured-work-cards > ul > li:hover {
-    background-color: var(--portfolio-white);
+.md-typeset .grid.cards.featured-work-cards > ul > li:hover,
+.md-typeset .grid.cards.project-cards > ul > li:hover {
+    background-color: var(--portfolio-surface);
+
     border-color: var(--portfolio-sage);
+    border-top-color: var(--portfolio-sage-dark);
+
     box-shadow: 0 6px 16px rgba(41, 45, 43, 0.12);
     transform: translateY(-2px);
 }
-
 
 
 /**************************** DESKTOP HEADER NAV ****************************/
