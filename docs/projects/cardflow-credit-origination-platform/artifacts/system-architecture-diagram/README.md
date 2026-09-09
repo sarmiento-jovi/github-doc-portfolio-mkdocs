@@ -1,4 +1,4 @@
-# System Architecture Diagram
+# CardFlow System Architecture Diagram
 
 The **CardFlow Credit Origination Platform System Architecture Diagram** presents the high-level architectural design of CardFlow and provides a visual and conceptual view of how the platform's components interact to support the end-to-end credit origination lifecycle.
 
