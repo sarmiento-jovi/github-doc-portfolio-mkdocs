@@ -6,6 +6,8 @@ A documentation portfolio for a multi-tenant SaaS platform designed to automate 
 
 The CardFlow documentation set represents a connected SaaS documentation ecosystem. Each artifact serves a distinct purpose and audience while contributing to a shared understanding of the product—from business requirements and system behavior to technical architecture and user guidance.
 
+The artifacts are interconnected rather than strictly sequential, with requirements, design, architecture, delivery, and user documentation evolving together throughout the product lifecycle.
+
 ## Web-Based Documentation
 Explore selected CardFlow documentation published as web-based topics, covering business, architectural, and user perspectives.
 
