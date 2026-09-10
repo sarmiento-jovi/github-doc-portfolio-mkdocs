@@ -370,6 +370,140 @@ body:has(.homepage-hero) .md-content__inner::before {
     }
 }
 
+/**************************** MAIN HEADER LOGO ****************************/
+
+/*
+ * Render the portfolio logo white against the dark header
+ * and increase its size for better visibility.
+ */
+.md-header .md-logo img,
+.md-header .md-logo svg,
+.md-header .md-logo svg image {
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+
+    max-width: none !important;
+    max-height: none !important;
+
+    object-fit: contain;
+    border: 0 !important;
+
+    filter:
+        brightness(1.20)
+        contrast(0.95)
+        saturate(0.85) !important;
+}
+
+/************************ MOBILE / TABLET DRAWER HEADER ************************/
+
+@media screen and (max-width: 76.24em) {
+
+    /********************** HEADER CONTAINER **********************/
+
+    .md-nav--primary .md-nav__title {
+        position: relative;
+
+        /*
+         * Space for:
+         * icon row + small gap + section title
+         */
+        min-height: 4rem;
+
+        padding:
+            0.7rem      /* top */
+            0.65rem     /* right */
+            0.7rem      /* bottom */
+            0.65rem;    /* left */
+
+        /*
+         * Push title below icon row.
+         */
+        padding-top: 2.35rem;
+
+        box-sizing: border-box;
+    }
+
+
+    /********************** BACK ARROW **********************/
+
+    .md-nav--primary .md-nav__title > .md-nav__button {
+        position: absolute;
+
+        top: 0.7rem;
+        left: 0.65rem;
+
+        width: 1.2rem;
+        height: 1.2rem;
+
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /********************** HOME LOGO **********************/
+
+.drawer-home-logo {
+    position: absolute;
+
+    top: 0.7rem;
+    right: 0.65rem;
+
+    width: 1.8rem;
+    height: 1.8rem;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+
+    z-index: 5;
+}
+
+
+/* Force SVG/image logo inside the drawer to a different fill*/
+.drawer-home-logo img {
+    width: 1.8rem;
+    height: 1.8rem;
+
+    object-fit: contain;
+    border: 0;
+
+    filter:
+        brightness(1.20)
+        contrast(0.95)
+        saturate(0.85);
+}
+
+
+    /********************** ICON SIZE **********************/
+
+    .md-nav--primary .md-nav__title > .md-nav__button svg,
+    .drawer-home-logo svg {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+
+    .drawer-home-logo svg,
+    .drawer-home-logo svg * {
+        fill: currentColor;
+    }
+
+
+    /********************** HOVER **********************/
+
+    .drawer-home-logo:hover {
+        opacity: 0.75;
+    }
+}
 
 /********************** PORTFOLIO CARDS **********************/
 
@@ -385,19 +519,22 @@ body:has(.homepage-hero) .md-content__inner::before {
 
 /********************** CARD GRID - MOBILE **********************/
 
-/* Mobile: 1 column */
 .md-typeset .grid.cards.featured-work-cards > ul,
 .md-typeset .grid.cards.project-cards > ul {
     display: grid !important;
     grid-template-columns: 1fr !important;
+
+    grid-auto-rows: 1fr;
+    align-items: stretch;
+
     gap: 0.5rem;
 }
 
 
 /********************** CARD GRID - TABLET **********************/
 
-/* Tablet: 2 columns */
 @media screen and (min-width: 641px) {
+
     .md-typeset .grid.cards.featured-work-cards > ul,
     .md-typeset .grid.cards.project-cards > ul {
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -409,12 +546,10 @@ body:has(.homepage-hero) .md-content__inner::before {
 
 @media screen and (min-width: 1025px) {
 
-    /* Featured Work: 4 columns */
     .md-typeset .grid.cards.featured-work-cards > ul {
         grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
     }
 
-    /* Projects: 3 columns */
     .md-typeset .grid.cards.project-cards > ul {
         grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     }
@@ -428,9 +563,12 @@ body:has(.homepage-hero) .md-content__inner::before {
 .md-typeset .grid.cards.project-cards > ul > li {
     min-width: 0 !important;
     width: auto !important;
+    height: 100%;
 
     display: flex;
     flex-direction: column;
+
+    box-sizing: border-box;
 
     background-color: var(--portfolio-white);
 
@@ -819,6 +957,10 @@ body.project-footer-end .md-footer__link--next {
 
 /**************************** TABLE - LABELS ****************************/
 
+/*
+ * Automatically append "Table" to italicized table labels.
+ */
+
 /* Table with optional first-column accent wrapper */
 .md-typeset p:has(+ .first-column-accent) > em:only-child::after,
 
@@ -828,6 +970,23 @@ body.project-footer-end .md-footer__link--next {
 /* Fallback if table renders directly */
 .md-typeset p:has(+ table) > em:only-child::after {
     content: " Table";
+}
+
+
+/*
+ * Match table labels with image caption styling.
+ */
+.md-typeset p:has(+ .first-column-accent) > em:only-child,
+.md-typeset p:has(+ .md-typeset__scrollwrap) > em:only-child,
+.md-typeset p:has(+ table) > em:only-child {
+    display: block;
+
+    color: var(--portfolio-text-muted);
+    font-size: 0.75rem;
+    font-style: italic;
+    text-align: left;
+
+    margin-bottom: -0.6rem; /* Adjust table label-to-table spacing */
 }
 
 /**************************** TABLES - DESIGN ****************************/

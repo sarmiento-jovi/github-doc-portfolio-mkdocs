@@ -3,6 +3,7 @@ site_name: Name | Role
 theme:
   name: material
   custom_dir: overrides  
+  logo: assets/images/branding/logo.svg  
   features:
     - navigation.path    # Displays breadcrumb navigation
     - navigation.footer  # Adds Previous and Next links based on navigation order
