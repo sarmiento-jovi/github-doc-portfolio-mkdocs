@@ -370,6 +370,102 @@ body:has(.homepage-hero) .md-content__inner::before {
     }
 }
 
+/************************ MOBILE / TABLET DRAWER HEADER ************************/
+
+@media screen and (max-width: 76.24em) {
+
+    /********************** HEADER CONTAINER **********************/
+
+    .md-nav--primary .md-nav__title {
+        position: relative;
+
+        /*
+         * Space for:
+         * icon row + small gap + section title
+         */
+        min-height: 4rem;
+
+        padding:
+            0.7rem      /* top */
+            0.65rem     /* right */
+            0.7rem      /* bottom */
+            0.65rem;    /* left */
+
+        /*
+         * Push title below icon row.
+         */
+        padding-top: 2.35rem;
+
+        box-sizing: border-box;
+    }
+
+
+    /********************** BACK ARROW **********************/
+
+    .md-nav--primary .md-nav__title > .md-nav__button {
+        position: absolute;
+
+        top: 0.7rem;
+        left: 0.65rem;
+
+        width: 1.2rem;
+        height: 1.2rem;
+
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /********************** HOME LOGO **********************/
+
+    .drawer-home-logo {
+        position: absolute;
+
+        top: 0.7rem;
+        right: 0.65rem;
+
+        width: 1.2rem;
+        height: 1.2rem;
+
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: #FFFFFF !important;
+        text-decoration: none !important;
+
+        z-index: 5;
+    }
+
+
+    /********************** ICON SIZE **********************/
+
+    .md-nav--primary .md-nav__title > .md-nav__button svg,
+    .drawer-home-logo svg {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+
+    .drawer-home-logo svg,
+    .drawer-home-logo svg * {
+        fill: currentColor;
+    }
+
+
+    /********************** HOVER **********************/
+
+    .drawer-home-logo:hover {
+        opacity: 0.75;
+    }
+}
+
 
 /********************** PORTFOLIO CARDS **********************/
 
