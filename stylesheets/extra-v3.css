@@ -99,19 +99,6 @@ body {
     inset: 0;
 }
 
-/* Card hover */
-.grid.cards > ul > li:hover {
-    transform: translateY(-3px);
-    background-color: var(--portfolio-surface);
-    border-color: var(--portfolio-sage);
-    box-shadow: 0 6px 16px rgba(41, 45, 43, 0.12);
-    cursor: pointer;
-}
-
-/* Link color while card is hovered */
-.grid.cards > ul > li:hover a {
-    color: var(--portfolio-sage-dark);
-}
 
 /********************** HOMEPAGE - HERO **********************/
 
@@ -377,21 +364,14 @@ body:has(.homepage-hero) .md-content__inner::before {
  * and increase its size for better visibility.
  */
 .md-header .md-logo img,
-.md-header .md-logo svg,
-.md-header .md-logo svg image {
-    width: 1.8rem !important;
-    height: 1.8rem !important;
-
-    max-width: none !important;
-    max-height: none !important;
+.md-header .md-logo svg {
+    width: 1.7rem;
+    height: 1.7rem;
 
     object-fit: contain;
-    border: 0 !important;
+    border: 0;
 
-    filter:
-        brightness(1.20)
-        contrast(0.95)
-        saturate(0.85) !important;
+    filter: brightness(0) invert(1);
 }
 
 /************************ MOBILE / TABLET DRAWER HEADER ************************/
@@ -469,18 +449,15 @@ body:has(.homepage-hero) .md-content__inner::before {
 }
 
 
-/* Force SVG/image logo inside the drawer to a different fill*/
+/* Force SVG/image logo to white inside the drawer */
 .drawer-home-logo img {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.6rem;
+    height: 1.6rem;
 
     object-fit: contain;
     border: 0;
 
-    filter:
-        brightness(1.20)
-        contrast(0.95)
-        saturate(0.85);
+    filter: brightness(0) invert(1);
 }
 
 
@@ -957,10 +934,6 @@ body.project-footer-end .md-footer__link--next {
 
 /**************************** TABLE - LABELS ****************************/
 
-/*
- * Automatically append "Table" to italicized table labels.
- */
-
 /* Table with optional first-column accent wrapper */
 .md-typeset p:has(+ .first-column-accent) > em:only-child::after,
 
@@ -970,23 +943,6 @@ body.project-footer-end .md-footer__link--next {
 /* Fallback if table renders directly */
 .md-typeset p:has(+ table) > em:only-child::after {
     content: " Table";
-}
-
-
-/*
- * Match table labels with image caption styling.
- */
-.md-typeset p:has(+ .first-column-accent) > em:only-child,
-.md-typeset p:has(+ .md-typeset__scrollwrap) > em:only-child,
-.md-typeset p:has(+ table) > em:only-child {
-    display: block;
-
-    color: var(--portfolio-text-muted);
-    font-size: 0.75rem;
-    font-style: italic;
-    text-align: left;
-
-    margin-bottom: -0.6rem; /* Adjust table label-to-table spacing */
 }
 
 /**************************** TABLES - DESIGN ****************************/
@@ -1086,4 +1042,3 @@ body.project-footer-end .md-footer__link--next {
 .md-typeset .first-column-accent table tbody tr:hover td:first-child {
     background-color: #CDD7D1;
 }
-

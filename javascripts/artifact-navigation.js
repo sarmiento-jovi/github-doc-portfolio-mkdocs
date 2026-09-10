@@ -87,6 +87,74 @@ function limitArtifactNavigationExpansion() {
 
 
 /***************************************************************
+ * ADDING HOME LOGO
+ ***************************************************************/
+
+function addDrawerHomeLogo() {
+    const mainLogo = document.querySelector(".md-header .md-logo");
+
+    if (!mainLogo) return;
+
+    const homeUrl = mainLogo.href;
+
+    document
+        .querySelectorAll(".md-nav--primary .md-nav__title")
+        .forEach((title) => {
+
+            // Nested drawer headers contain the back-arrow icon.
+            const backIcon = title.querySelector(".md-nav__icon");
+
+            if (!backIcon) return;
+
+            // Don't add twice.
+            if (title.querySelector(".drawer-home-logo")) return;
+
+            const homeLink = document.createElement("a");
+
+            homeLink.href = homeUrl;
+            homeLink.className = "drawer-home-logo";
+            homeLink.setAttribute(
+                "aria-label",
+                "Return to portfolio homepage"
+            );
+
+            // Reuse the exact logo from the main header.
+            homeLink.innerHTML = mainLogo.innerHTML;
+
+            /*
+             * The title itself is a <label>, so prevent the logo click
+             * from also triggering Material's back-navigation behavior.
+             */
+            homeLink.addEventListener("click", (event) => {
+                event.stopPropagation();
+            });
+
+            title.appendChild(homeLink);
+        });
+}
+
+
+/*
+ * Run once after page load.
+ */
+addDrawerHomeLogo();
+
+
+/*
+ * Material can rebuild parts of the navigation when moving
+ * between pages, so re-check whenever the DOM changes.
+ */
+const drawerObserver = new MutationObserver(() => {
+    addDrawerHomeLogo();
+});
+
+drawerObserver.observe(document.body, {
+    childList: true,
+    subtree: true
+});
+
+
+/***************************************************************
  * INITIALIZE
  ***************************************************************/
 
