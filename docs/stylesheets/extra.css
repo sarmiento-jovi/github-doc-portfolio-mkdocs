@@ -957,6 +957,10 @@ body.project-footer-end .md-footer__link--next {
 
 /**************************** TABLE - LABELS ****************************/
 
+/*
+ * Automatically append "Table" to italicized table labels.
+ */
+
 /* Table with optional first-column accent wrapper */
 .md-typeset p:has(+ .first-column-accent) > em:only-child::after,
 
@@ -966,6 +970,23 @@ body.project-footer-end .md-footer__link--next {
 /* Fallback if table renders directly */
 .md-typeset p:has(+ table) > em:only-child::after {
     content: " Table";
+}
+
+
+/*
+ * Match table labels with image caption styling.
+ */
+.md-typeset p:has(+ .first-column-accent) > em:only-child,
+.md-typeset p:has(+ .md-typeset__scrollwrap) > em:only-child,
+.md-typeset p:has(+ table) > em:only-child {
+    display: block;
+
+    color: var(--portfolio-text-muted);
+    font-size: 0.75rem;
+    font-style: italic;
+    text-align: left;
+
+    margin-bottom: -0.6rem; /* Adjust table label-to-table spacing */
 }
 
 /**************************** TABLES - DESIGN ****************************/
