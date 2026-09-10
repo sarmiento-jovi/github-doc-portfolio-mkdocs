@@ -370,6 +370,30 @@ body:has(.homepage-hero) .md-content__inner::before {
     }
 }
 
+/**************************** MAIN HEADER LOGO ****************************/
+
+/*
+ * Render the portfolio logo white against the dark header
+ * and increase its size for better visibility.
+ */
+.md-header .md-logo img,
+.md-header .md-logo svg,
+.md-header .md-logo svg image {
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+
+    max-width: none !important;
+    max-height: none !important;
+
+    object-fit: contain;
+    border: 0 !important;
+
+    filter:
+        brightness(1.20)
+        contrast(0.95)
+        saturate(0.85) !important;
+}
+
 /************************ MOBILE / TABLET DRAWER HEADER ************************/
 
 @media screen and (max-width: 76.24em) {
@@ -422,27 +446,42 @@ body:has(.homepage-hero) .md-content__inner::before {
 
     /********************** HOME LOGO **********************/
 
-    .drawer-home-logo {
-        position: absolute;
+.drawer-home-logo {
+    position: absolute;
 
-        top: 0.7rem;
-        right: 0.65rem;
+    top: 0.7rem;
+    right: 0.65rem;
 
-        width: 1.2rem;
-        height: 1.2rem;
+    width: 1.8rem;
+    height: 1.8rem;
 
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        color: #FFFFFF !important;
-        text-decoration: none !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
 
-        z-index: 5;
-    }
+    z-index: 5;
+}
+
+
+/* Force SVG/image logo inside the drawer to a different fill*/
+.drawer-home-logo img {
+    width: 1.8rem;
+    height: 1.8rem;
+
+    object-fit: contain;
+    border: 0;
+
+    filter:
+        brightness(1.20)
+        contrast(0.95)
+        saturate(0.85);
+}
 
 
     /********************** ICON SIZE **********************/
