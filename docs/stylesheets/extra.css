@@ -467,6 +467,68 @@ body:has(.homepage-hero) .md-content__inner::before {
 }
 
 
+/************************ CONDITIONAL PAGE TOC ************************/
+
+/*
+ * DESKTOP
+ *
+ * When no Page TOC is available:
+ * - Hide the unused secondary sidebar.
+ * - Reclaim the available space.
+ * - Keep the article at a readable width.
+ */
+
+@media screen and (min-width: 1280px) {
+
+    /* Hide empty Page TOC sidebar */
+    .md-sidebar--secondary:not(:has(.md-nav__list .md-nav__item)) {
+        display: none;
+    }
+
+    /* Reclaim the unused TOC space */
+    .md-main__inner:not(:has(
+        .md-sidebar--secondary .md-nav__list .md-nav__item
+    )) .md-content {
+        max-width: none;
+    }
+
+    /* Keep article width readable */
+    .md-main__inner:not(:has(
+        .md-sidebar--secondary .md-nav__list .md-nav__item
+    )) .md-content__inner {
+        width: 100%;
+        max-width: 55rem;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/*
+ * TABLET
+ *
+ * Do not use the desktop TOC expansion.
+ * Constrain and center the document instead so the page
+ * does not become excessively wide or left-heavy.
+ */
+
+@media screen and (min-width: 641px) and (max-width: 1279px) {
+
+    body.project-footer-enabled .md-content {
+        width: 100%;
+        max-width: none;
+    }
+
+    body.project-footer-enabled .md-content__inner {
+        width: 100%;
+        max-width: 48rem;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /********************** PORTFOLIO CARDS **********************/
 
 /*
