@@ -113,6 +113,17 @@ body {
     color: var(--portfolio-sage-dark);
 }
 
+/* Site name homepage link */
+.portfolio-site-name {
+    color: inherit;
+    text-decoration: none;
+}
+
+.portfolio-site-name:hover {
+    color: var(--portfolio-sage-light);
+    text-decoration: none;
+}
+
 /********************** HOMEPAGE - HERO **********************/
 
 /*
