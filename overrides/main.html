@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{# Keep browser branding separate from the visible header site name. #}
+{% block htmltitle %}
+  {% set brand = config.extra.browser_title | default(config.site_name, true) %}
+  {% if page.meta and page.meta.title %}
+    <title>{{ page.meta.title | striptags | e }} - {{ brand | e }}</title>
+  {% elif page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags | e }} - {{ brand | e }}</title>
+  {% else %}
+    <title>{{ brand | e }}</title>
+  {% endif %}
+{% endblock %}
+
+{% block footer %}
+  {% if page.meta and page.meta.hide_document_navigation %}
+    {% with features = features | reject("equalto", "navigation.footer") | list %}
+      {% include "partials/footer.html" %}
+    {% endwith %}
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}

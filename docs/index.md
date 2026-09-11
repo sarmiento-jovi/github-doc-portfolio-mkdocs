@@ -67,11 +67,11 @@ Explore selected documentation samples or browse the complete portfolio.
 
     [View User Guide →](projects/cardflow-credit-origination-platform/artifacts/user-guide/README.md){ .card-link }
 
--   **Downloadable Documents**
+-   **Downloadable Documentation**
 
-    View selected documentation samples in their original document formats.
+    Browse and download PDF versions of selected documentation samples, API references, and diagrams.
 
-    [View Downloadable Documents →](projects/cardflow-credit-origination-platform/README.md#downloads){ .card-link }
+    [Browse Documents →](downloadable-documentation/README.md){ .card-link }
 
 -   **All Projects**
 
