@@ -3,6 +3,7 @@ site_name: Name | Role
 theme:
   name: material
   custom_dir: overrides  
+  favicon: assets/images/branding/favicon.svg
   logo: assets/images/branding/logo.svg  
   features:
     - navigation.path    # Displays breadcrumb navigation
@@ -15,8 +16,9 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/downloadable-documentation.css
   - stylesheets/saas-ecosystem.css  
-  
+
 extra_javascript:
   - javascripts/navigation-footer.js
   - javascripts/image-lightbox.js
@@ -25,7 +27,7 @@ extra_javascript:
 plugins:
   - search
   - awesome-nav
-  
+
 #nav:
 #  - Home: index.md
 #
@@ -46,4 +48,6 @@ plugins:
 #      - Resume: resume/README.md
 #
 #      - About: about/README.md
-      
+
+extra:
+  browser_title: Jovi Sarmiento | Documentation Specialist

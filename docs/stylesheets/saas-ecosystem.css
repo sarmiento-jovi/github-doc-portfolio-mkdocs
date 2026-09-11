@@ -198,14 +198,14 @@
 }
 
 
-/********************** STAGE NAME **********************/
+/********************** DOCUMENT TITLE **********************/
 
-.saas-ecosystem-segment__content strong {
+.saas-ecosystem-segment__title {
     display: block;
 
-    margin-bottom: 0.4rem;
+    margin: 8px 0 0;
 
-    color: var(--portfolio-deep-sage);
+    color: var(--portfolio-text);
 
     font-size: 0.82rem;
     font-weight: 700;
@@ -213,33 +213,18 @@
 }
 
 
-/********************** DOCUMENT NAME **********************/
+/********************** GUIDING QUESTION **********************/
 
-.saas-ecosystem-segment__content span {
+.saas-ecosystem-segment__question {
     display: block;
 
     max-width: 140px;
 
-    color: var(--portfolio-text);
+    color: var(--portfolio-text-muted);
 
     font-size: 0.66rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.3;
-}
-
-
-/********************** DOCUMENT ABBREVIATION **********************/
-
-.saas-ecosystem-segment__content small {
-    display: block;
-
-    margin-top: 0.3rem;
-
-    color: var(--portfolio-sage-dark);
-
-    font-size: 0.62rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
 }
 
 
@@ -447,12 +432,12 @@
     }
 
 
-    .saas-ecosystem-segment__content strong {
+    .saas-ecosystem-segment__title {
         font-size: 0.76rem;
     }
 
 
-    .saas-ecosystem-segment__content span {
+    .saas-ecosystem-segment__question {
         max-width: 120px;
 
         font-size: 0.62rem;
@@ -535,8 +520,15 @@
     }
 
 
+    .saas-ecosystem-segment::before,
     .saas-ecosystem-segment::after {
         display: none;
+    }
+
+
+    .saas-ecosystem-segment,
+    .saas-ecosystem-segment:hover {
+        filter: none;
     }
 
 
@@ -549,26 +541,21 @@
 
         transform: none;
 
-        align-items: flex-start;
+        align-items: center;
 
-        text-align: left;
+        text-align: center;
     }
 
 
-    .saas-ecosystem-segment__content strong {
+    .saas-ecosystem-segment__title {
         font-size: 0.8rem;
     }
 
 
-    .saas-ecosystem-segment__content span {
+    .saas-ecosystem-segment__question {
         max-width: none;
 
         font-size: 0.68rem;
-    }
-
-
-    .saas-ecosystem-segment__content small {
-        font-size: 0.6rem;
     }
 
 
@@ -586,7 +573,31 @@
     /********************** MOBILE RTM **********************/
 
     .saas-ecosystem-rtm {
-        width: 100%;
-    }
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  box-sizing: border-box;
+
+  --rtm-surface: #e3eae5;
+  --rtm-accent: #71877a;
+  --rtm-title: #34463d;
+  --rtm-question: #56675e;
+
+  background-color: var(--rtm-surface);
+  border-left-color: var(--rtm-accent);
+}
+
+.saas-ecosystem-rtm .saas-ecosystem-rtm__question {
+  color: var(--rtm-question);
+}
+
+.saas-ecosystem-rtm strong {
+  color: var(--rtm-title);
+}
+
+.saas-ecosystem-rtm:hover {
+  background-color: #d9e3dc;
+  border-color: var(--rtm-accent);
+}
 
 }
