@@ -19,9 +19,8 @@ The artifacts are interconnected rather than strictly sequential, with requireme
       style="--angle: 0deg;"
     >
       <span class="saas-ecosystem-segment__content">
-        <strong>Business Need</strong>
-        <span>Business Requirements Document</span>
-        <small>BRD</small>
+        <span class="saas-ecosystem-segment__question">Why does the business need this solution?</span>
+        <strong class="saas-ecosystem-segment__title">Business Requirements Document</strong>
       </span>
     </a>
 
@@ -33,9 +32,8 @@ The artifacts are interconnected rather than strictly sequential, with requireme
       style="--angle: 60deg;"
     >
       <span class="saas-ecosystem-segment__content">
-        <strong>Requirements</strong>
-        <span>Software Requirements Specification</span>
-        <small>SRS</small>
+        <span class="saas-ecosystem-segment__question">What must the system do?</span>
+        <strong class="saas-ecosystem-segment__title">Software Requirements Specification</strong>
       </span>
     </a>
 
@@ -47,9 +45,8 @@ The artifacts are interconnected rather than strictly sequential, with requireme
       style="--angle: 120deg;"
     >
       <span class="saas-ecosystem-segment__content">
-        <strong>Functional Design</strong>
-        <span>Functional Design Document</span>
-        <small>FDD</small>
+        <span class="saas-ecosystem-segment__question">How should the system behave?</span>
+        <strong class="saas-ecosystem-segment__title">Functional Design Document</strong>
       </span>
     </a>
 
@@ -61,9 +58,8 @@ The artifacts are interconnected rather than strictly sequential, with requireme
       style="--angle: 180deg;"
     >
       <span class="saas-ecosystem-segment__content">
-        <strong>Technical Design</strong>
-        <span>System Architecture Diagram</span>
-        <small>SAD</small>
+        <span class="saas-ecosystem-segment__question">How is the system structured?</span>
+        <strong class="saas-ecosystem-segment__title">System Architecture Diagram</strong>
       </span>
     </a>
 
@@ -75,9 +71,8 @@ The artifacts are interconnected rather than strictly sequential, with requireme
       style="--angle: 240deg;"
     >
       <span class="saas-ecosystem-segment__content">
-        <strong>User Enablement</strong>
-        <span>User Guide</span>
-        <small>UG</small>
+        <span class="saas-ecosystem-segment__question">How does the user complete their tasks?</span>
+        <strong class="saas-ecosystem-segment__title">User Guide</strong>
       </span>
     </a>
 
@@ -89,9 +84,8 @@ The artifacts are interconnected rather than strictly sequential, with requireme
       style="--angle: 300deg;"
     >
       <span class="saas-ecosystem-segment__content">
-        <strong>Ongoing Delivery</strong>
-        <span>User Stories &amp; Acceptance Criteria</span>
-        <small>US &amp; AC</small>
+        <span class="saas-ecosystem-segment__question">What needs to be delivered, and what defines done?</span>
+        <strong class="saas-ecosystem-segment__title">User Stories &amp; </br> Acceptance Criteria</strong>
       </span>
     </a>
 
@@ -111,11 +105,11 @@ The artifacts are interconnected rather than strictly sequential, with requireme
     class="saas-ecosystem-rtm"
     href="#"
   >
-    <strong>Requirements Traceability Matrix (RTM)</strong>
-
     <span>
-      Maintains traceability across requirements, design, and delivery.
+      How is traceability maintained across requirements, design, and delivery?
     </span>
+
+    <strong>Requirements Traceability Matrix (RTM)</strong>
   </a>
 
 </div>
