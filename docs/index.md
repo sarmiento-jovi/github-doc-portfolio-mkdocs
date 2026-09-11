@@ -55,17 +55,17 @@ Explore selected documentation samples or browse the complete portfolio.
 
 <div class="grid cards featured-work-cards" markdown>
 
--   **CardFlow Credit Origination Platform Business Requirements Document**
+-   **CardFlow Credit Origination Platform**
 
     Explore the business requirements, scope, stakeholders, and key capabilities defined for CardFlow.
 
-    [View Business Requirements Document →](projects/cardflow-credit-origination-platform/artifacts/business-requirement-documents/README.md){ .card-link }
+    [Explore CardFlow →](projects/cardflow-credit-origination-platform/README.md){ .card-link }
 
--   **CardFlow Credit Origination Platform User Guide**
+-   **API Documentation**
 
-    Explore task-based guidance for using CardFlow throughout the credit origination process.
+    Explore developer-focused API documentation samples covering core concepts, authentication, endpoints, requests, and responses.
 
-    [View User Guide →](projects/cardflow-credit-origination-platform/artifacts/user-guide/README.md){ .card-link }
+    [Explore API Documentation →](projects/api-documentation/README.md){ .card-link }
 
 -   **Downloadable Documentation**
 
