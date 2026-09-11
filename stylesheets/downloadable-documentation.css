@@ -1,0 +1,91 @@
+/* Scoped document index. */
+.md-typeset .downloads-page section + section {
+    margin-top: 2.5rem;
+}
+
+.md-typeset .downloads-page .downloads-list {
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.md-typeset .downloads-page .downloads-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 0;
+    padding: 0.75rem 0;
+}
+
+.downloads-page .downloads-row + .downloads-row {
+    border-top: 1px solid var(--portfolio-border);
+}
+
+.downloads-page .downloads-row__title {
+    min-width: 0;
+    color: var(--portfolio-text);
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.downloads-page .downloads-row__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    max-width: 100%;
+}
+
+.downloads-page .downloads-row__format,
+.downloads-page .downloads-row__status {
+    color: var(--portfolio-sage-dark);
+    font-size: 0.65rem;
+}
+
+.md-typeset .downloads-page .downloads-row__action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    box-sizing: border-box;
+    padding: 0.35rem 0.55rem;
+    border: 1px solid var(--portfolio-sage);
+    color: var(--portfolio-sage-dark);
+    font-size: 0.7rem;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.downloads-page .downloads-row__action[aria-disabled="true"] {
+    border-color: var(--portfolio-border);
+    cursor: default;
+}
+
+.md-typeset .downloads-page a.downloads-row__action:hover {
+    background-color: var(--portfolio-sage-light);
+}
+
+.downloads-page a.downloads-row__action:focus-visible {
+    outline: 3px solid var(--portfolio-sage-dark);
+    outline-offset: 3px;
+}
+
+.md-typeset .downloads-page .downloads-empty {
+    color: var(--portfolio-sage-dark);
+}
+
+@media screen and (max-width: 640px) {
+    .md-typeset .downloads-page .downloads-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.5rem;
+    }
+
+    .downloads-page .downloads-row__actions {
+        justify-content: flex-start;
+    }
+}
