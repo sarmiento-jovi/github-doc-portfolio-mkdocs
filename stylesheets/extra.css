@@ -768,7 +768,7 @@ body.project-footer-enabled .md-main {
 }
 
 /* Hide document navigation outside Projects */
-.md-footer__inner {
+body:not(.project-footer-enabled) .md-footer__inner {
     display: none;
 }
 
@@ -842,6 +842,38 @@ body.project-footer-end .md-footer__link--next {
 /* Bottom Material attribution */
 .md-footer-meta {
     background-color: var(--portfolio-graphite);
+}
+
+/*************************** TABLE OF CONTENTS ***************************/
+
+/* Page TOC title */
+.md-sidebar--secondary .md-nav__title {
+    background-color: var(--portfolio-deep-sage);
+    color: var(--portfolio-white);
+    font-weight: 600;
+}
+
+/* Page TOC active section */
+.md-sidebar--secondary .md-nav__link--active {
+    background-color: var(--portfolio-sage-light);
+    border-left: 3px solid var(--portfolio-sage-dark);
+    color: var(--portfolio-deep-sage);
+    font-weight: 600;
+
+    margin-left: -0.75rem;
+    padding: 0.35rem 0.75rem;
+}
+
+/* Page TOC links */
+.md-sidebar--secondary .md-nav__link {
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+}
+
+/* Page TOC hover */
+.md-sidebar--secondary .md-nav__link:hover {
+    color: var(--portfolio-sage-dark);
 }
 
 
@@ -1102,11 +1134,6 @@ body.project-footer-end .md-footer__link--next {
    SKILLS & TOOLS - CAPABILITY LAYOUT
    ========================================================= */
 
-/* Give the three columns readable space within Material's sidebars. */
-body:has(.skills-capabilities) .md-main__inner {
-    max-width: 80rem;
-}
-
 .skills-capabilities {
     container-type: inline-size;
     margin-top: 2rem;
@@ -1202,7 +1229,7 @@ body:has(.skills-capabilities) .md-main__inner {
 }
 
 /* Stack a row whenever Material's actual content area is too narrow. */
-@container (max-width: 42rem) {
+@container (max-width: 32rem) {
     .skills-capabilities__head {
         display: none;
     }
