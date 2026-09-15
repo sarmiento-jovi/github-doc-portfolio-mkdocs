@@ -1,8 +1,8 @@
 nav:
   - Home: index.md
   - Projects: projects
-  - Downloadable Documentation: downloadable-documentation/README.md
   - Skills & Tools: skills-tools/README.md
+  - Downloads: downloadable-documentation/README.md
   - More About Me:
       - Professional Experience: more-about-me/professional-experience/README.md
       - About My Work: more-about-me/about-my-work/README.md

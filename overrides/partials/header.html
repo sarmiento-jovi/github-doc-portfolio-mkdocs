@@ -44,6 +44,13 @@
 {# Desktop portfolio navigation #}
 <div class="portfolio-header-nav">
 
+  <a
+    href="{{ nav.homepage.url | url }}"
+    class="portfolio-header-nav__link{% if page.is_homepage %} portfolio-header-nav__link--active{% endif %}"
+  >
+    {{ nav.homepage.title }}
+  </a>
+
   {% for nav_item in nav %}
 
     {% if nav_item.url %}

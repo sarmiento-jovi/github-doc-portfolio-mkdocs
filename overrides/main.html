@@ -11,13 +11,3 @@
     <title>{{ brand | e }}</title>
   {% endif %}
 {% endblock %}
-
-{% block footer %}
-  {% if page.meta and page.meta.hide_document_navigation %}
-    {% with features = features | reject("equalto", "navigation.footer") | list %}
-      {% include "partials/footer.html" %}
-    {% endwith %}
-  {% else %}
-    {{ super() }}
-  {% endif %}
-{% endblock %}

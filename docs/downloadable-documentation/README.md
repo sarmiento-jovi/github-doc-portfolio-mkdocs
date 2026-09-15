@@ -1,16 +1,11 @@
----
-hide_document_navigation: true
----
-
-# Downloadable Documentation
+# Downloadable Documents
 
 Browse and download PDF versions of selected documentation samples, API references, and diagrams.
 
+## CardFlow Documentation {#cardflow-documentation}
+
 <div class="downloads-page">
-
 <section aria-labelledby="cardflow-documentation">
-
-<h2 id="cardflow-documentation">CardFlow Documentation</h2>
 
 <p>Core business, requirements, design, architecture, and user documentation for the CardFlow platform.</p>
 
@@ -212,10 +207,12 @@ Browse and download PDF versions of selected documentation samples, API referenc
 </ul>
 
 </section>
+</div>
 
+## API Documentation {#api-documentation}
+
+<div class="downloads-page">
 <section aria-labelledby="api-documentation">
-
-<h2 id="api-documentation">API Documentation</h2>
 
 <p>API reference and integration documentation samples.</p>
 
@@ -224,12 +221,12 @@ Browse and download PDF versions of selected documentation samples, API referenc
 </p>
 
 </section>
+</div>
 
+## Diagrams & Visual Documentation {#diagrams-visual-documentation}
+
+<div class="downloads-page">
 <section aria-labelledby="diagrams-visual-documentation">
-
-<h2 id="diagrams-visual-documentation">
-  Diagrams &amp; Visual Documentation
-</h2>
 
 <p>Architecture, workflow, and other visual documentation samples.</p>
 
