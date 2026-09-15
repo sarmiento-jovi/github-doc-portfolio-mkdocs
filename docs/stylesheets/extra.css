@@ -844,6 +844,38 @@ body.project-footer-end .md-footer__link--next {
     background-color: var(--portfolio-graphite);
 }
 
+/*************************** TABLE OF CONTENTS ***************************/
+
+/* Page TOC title */
+.md-sidebar--secondary .md-nav__title {
+    background-color: var(--portfolio-deep-sage);
+    color: var(--portfolio-white);
+    font-weight: 600;
+}
+
+/* Page TOC active section */
+.md-sidebar--secondary .md-nav__link--active {
+    background-color: var(--portfolio-sage-light);
+    border-left: 3px solid var(--portfolio-sage-dark);
+    color: var(--portfolio-deep-sage);
+    font-weight: 600;
+
+    margin-left: -0.75rem;
+    padding: 0.35rem 0.75rem;
+}
+
+/* Page TOC links */
+.md-sidebar--secondary .md-nav__link {
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+}
+
+/* Page TOC hover */
+.md-sidebar--secondary .md-nav__link:hover {
+    color: var(--portfolio-sage-dark);
+}
+
 
 /*************************** IMAGES ***************************/
 
