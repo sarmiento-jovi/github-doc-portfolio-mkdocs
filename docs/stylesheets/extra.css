@@ -1102,11 +1102,6 @@ body.project-footer-end .md-footer__link--next {
    SKILLS & TOOLS - CAPABILITY LAYOUT
    ========================================================= */
 
-/* Give the three columns readable space within Material's sidebars. */
-body:has(.skills-capabilities) .md-main__inner {
-    max-width: 80rem;
-}
-
 .skills-capabilities {
     container-type: inline-size;
     margin-top: 2rem;
@@ -1202,7 +1197,7 @@ body:has(.skills-capabilities) .md-main__inner {
 }
 
 /* Stack a row whenever Material's actual content area is too narrow. */
-@container (max-width: 42rem) {
+@container (max-width: 32rem) {
     .skills-capabilities__head {
         display: none;
     }
