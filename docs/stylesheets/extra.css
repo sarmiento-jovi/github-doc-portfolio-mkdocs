@@ -768,7 +768,7 @@ body.project-footer-enabled .md-main {
 }
 
 /* Hide document navigation outside Projects */
-.md-footer__inner {
+body:not(.project-footer-enabled) .md-footer__inner {
     display: none;
 }
 
