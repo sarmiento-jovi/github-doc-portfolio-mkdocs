@@ -93,9 +93,60 @@ function updateSkillsPageToc() {
     fillToc(mobileNav);
 }
 
-updateSkillsPageToc();
+/* Track only Material's Page TOC lists, including the drawer copy. */
+function updatePageTocActive() {
+    const lists = Array.from(document.querySelectorAll(
+        ".md-nav--secondary .md-nav__list[data-md-component='toc']"
+    ));
+    if (!lists.length) return;
+
+    const links = lists.flatMap((list) => Array.from(
+        list.querySelectorAll("a.md-nav__link[href^='#']")
+    ));
+    const targets = Array.from(new Set(links.map((link) => link.hash.slice(1))))
+        .map((id) => ({ id, heading: document.getElementById(id) }))
+        .filter(({ heading }) => heading);
+    if (!targets.length) return;
+
+    const maxScroll = Math.max(
+        document.documentElement.scrollHeight,
+        document.body.scrollHeight
+    ) - window.innerHeight;
+    let activeId = targets[0].id;
+
+    if (maxScroll > 0 && window.scrollY >= maxScroll - 2) {
+        /* The last heading may never reach the reading line on short pages. */
+        activeId = targets[targets.length - 1].id;
+    } else {
+        const readingLine = window.innerHeight * 0.75;
+        targets.forEach(({ id, heading }) => {
+            if (heading.getBoundingClientRect().top <= readingLine) {
+                activeId = id;
+            }
+        });
+    }
+
+    links.forEach((link) => {
+        const isActive = link.hash.slice(1) === activeId;
+        link.classList.toggle("md-nav__link--active", isActive);
+        if (isActive) {
+            link.setAttribute("aria-current", "location");
+        } else {
+            link.removeAttribute("aria-current");
+        }
+    });
+}
+
+function initializePageToc() {
+    updateSkillsPageToc();
+    updatePageTocActive();
+}
+
+window.addEventListener("scroll", updatePageTocActive, { passive: true });
+window.addEventListener("resize", updatePageTocActive);
+initializePageToc();
 
 /* Material can replace the page and navigation when instant navigation is enabled. */
 if (typeof document$ !== "undefined") {
-    document$.subscribe(updateSkillsPageToc);
+    document$.subscribe(initializePageToc);
 }
