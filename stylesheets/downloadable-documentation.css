@@ -1,5 +1,5 @@
 /* Scoped document index. */
-.md-typeset .downloads-page section + section {
+.md-typeset .downloads-page + h2 {
     margin-top: 2.5rem;
 }
 
