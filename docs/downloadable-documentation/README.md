@@ -1,4 +1,4 @@
-# Downloadable Documentation
+# Downloadable Documents
 
 Browse and download PDF versions of selected documentation samples, API references, and diagrams.
 
