@@ -185,8 +185,10 @@ body:has(.homepage-hero) .md-content__inner::before {
     width: 100%;
     max-width: none;
 
-    margin: 0;
+    margin: 0 auto;
     padding: 1.5rem 2rem;
+    /* Ease inward on wide desktops, capped at half the former 1920px shift. */
+    padding-left: calc(min(2rem, 44px) + clamp(0px, (100vw - 1280px) / 8, 80px));
 
     box-sizing: border-box;
 }
@@ -195,22 +197,21 @@ body:has(.homepage-hero) .md-content__inner::before {
 /********************** HERO CONTENT **********************/
 
 .homepage-hero__content {
-    width: 560px;
-    max-width: 560px;
+    width: 52vw;
+    max-width: 720px;
+    min-width: min(560px, 100%);
 }
 
 
-/* Small lead-in */
+/* Eyebrow: small, bold, tracked */
 .homepage-hero__eyebrow {
     margin: 0 0 0.6rem;
-
     color: var(--portfolio-sage-dark);
-
-    font-size: 0.65rem;
-    font-weight: 600;
-    letter-spacing: 0.18em;
+    font-size: clamp(0.6rem, 0.9vw, 0.7rem);
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.12em;
 }
-
 
 /* Hero title */
 .homepage-hero h1 {
@@ -218,32 +219,33 @@ body:has(.homepage-hero) .md-content__inner::before {
 
     color: var(--portfolio-text);
 
-    font-size: 2.2rem;
+    font-size: clamp(1.65rem, 3vw, 2.2rem);
     font-weight: 300;
-    line-height: 1.05;
+    line-height: 1.12;
+    text-wrap: balance;
 }
 
 
 /* Main description */
 .homepage-hero__summary {
-    max-width: 500px;
+    max-width: 60ch;
 
     margin: 0 0 1rem;
 
     font-size: 0.9rem;
-    line-height: 1.45;
+    line-height: 1.55;
 }
 
 
-/* Skills row */
+/* Skills: quieter supporting text */
 .homepage-hero__skills {
     margin: 0;
-
     color: var(--portfolio-sage-dark);
-
-    font-size: 0.65rem;
-    font-weight: 600;
-    letter-spacing: 0.11em;
+    font-size: clamp(0.65rem, 0.95vw, 0.75rem);
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-wrap: balance;
 }
 
 
@@ -268,12 +270,13 @@ body:has(.homepage-hero) .md-content__inner::before {
     }
 
     .homepage-hero__inner {
-        padding: 2rem;
+        padding: 1.5rem 2rem;
     }
 
     .homepage-hero__content {
-        width: 100%;
-        max-width: 460px;
+        width: clamp(440px, 58vw, 560px);
+        max-width: 100%;
+        min-width: 0;
     }
 
     .homepage-hero__eyebrow {
@@ -282,21 +285,20 @@ body:has(.homepage-hero) .md-content__inner::before {
 
     .homepage-hero h1 {
         margin-bottom: 0.75rem;
-        font-size: 2.1rem;
     }
 
     .homepage-hero__summary {
-        max-width: 420px;
+        max-width: 100%;
 
         margin-bottom: 1.1rem;
 
         font-size: 0.9rem;
-        line-height: 1.45;
+        line-height: 1.55;
     }
 
     .homepage-hero__skills {
-        font-size: 0.66rem;
-        letter-spacing: 0.1em;
+        font-size: 0.65rem;
+        letter-spacing: normal;
     }
 }
 
@@ -347,37 +349,37 @@ body:has(.homepage-hero) .md-content__inner::before {
     }
 
     .homepage-hero__eyebrow {
-        max-width: 240px;
+        max-width: 100%;
         margin-bottom: 0.7rem;
 
-        font-size: 0.6rem;
+        font-size: 0.65rem;
         line-height: 1.4;
-        letter-spacing: 0.14em;
+        letter-spacing: 0.1em;
     }
 
     .homepage-hero h1 {
-        max-width: 290px;
+        max-width: 100%;
         margin-bottom: 0.8rem;
 
-        font-size: 1.85rem;
-        line-height: 1.08;
+        font-size: clamp(1.55rem, 6.5vw, 1.65rem);
+        line-height: 1.15;
     }
 
     .homepage-hero__summary {
-        max-width: 300px;
+        max-width: 100%;
 
         margin-bottom: 1.1rem;
 
         font-size: 0.84rem;
-        line-height: 1.45;
+        line-height: 1.55;
     }
 
     .homepage-hero__skills {
-        max-width: 310px;
+        max-width: 100%;
 
-        font-size: 0.59rem;
+        font-size: 0.65rem;
         line-height: 1.65;
-        letter-spacing: 0.08em;
+        letter-spacing: normal;
     }
 }
 
@@ -856,12 +858,11 @@ body.project-footer-end .md-footer__link--next {
 /* Page TOC active section */
 .md-sidebar--secondary .md-nav__link--active {
     background-color: var(--portfolio-sage-light);
-    border-left: 3px solid var(--portfolio-sage-dark);
-    color: var(--portfolio-deep-sage);
+    border-left: 3px solid var(--portfolio-deep-sage);
+    color: var(--portfolio-deep-sage) !important;
     font-weight: 600;
 
-    margin-left: -0.75rem;
-    padding: 0.35rem 0.75rem;
+    padding: 0.25rem 0.75rem 0.25rem 0.6rem;
 }
 
 /* Page TOC links */
@@ -1232,8 +1233,12 @@ body.project-footer-end .md-footer__link--next {
 @container (max-width: 32rem) {
     .skills-capabilities__head {
         display: none;
+        
     }
 
+    .skills-capabilities__row > .skills-capabilities__cell:nth-child(2) p {
+        font-style: italic;
+    }
     .skills-capabilities__row {
         grid-template-columns: minmax(0, 1fr);
         row-gap: 1rem;
