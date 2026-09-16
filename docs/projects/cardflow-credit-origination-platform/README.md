@@ -28,12 +28,14 @@ The artifacts are interconnected rather than strictly sequential, with requireme
     <!-- 02 - Requirements -->
     <a
       class="saas-ecosystem-segment"
-      href="#"
+      href="../../assets/downloads/cardflow/02-ccop-system-requirements-specification-document.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
       style="--angle: 60deg;"
     >
       <span class="saas-ecosystem-segment__content">
         <span class="saas-ecosystem-segment__question">What must the system do?</span>
-        <strong class="saas-ecosystem-segment__title">Software Requirements Specification</strong>
+        <strong class="saas-ecosystem-segment__title">System Requirements Specification</strong>
       </span>
     </a>
 
@@ -41,7 +43,9 @@ The artifacts are interconnected rather than strictly sequential, with requireme
     <!-- 03 - Functional Design -->
     <a
       class="saas-ecosystem-segment"
-      href="#"
+      href="../../assets/downloads/cardflow/03-ccop-functional-design-document.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
       style="--angle: 120deg;"
     >
       <span class="saas-ecosystem-segment__content">
@@ -80,7 +84,9 @@ The artifacts are interconnected rather than strictly sequential, with requireme
     <!-- 06 - Ongoing Delivery -->
     <a
       class="saas-ecosystem-segment"
-      href="#"
+      href="../../assets/downloads/cardflow/04-ccop-user-stories-and-acceptance-criteria.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
       style="--angle: 300deg;"
     >
       <span class="saas-ecosystem-segment__content">
@@ -103,7 +109,9 @@ The artifacts are interconnected rather than strictly sequential, with requireme
   <!-- Requirements Traceability Matrix -->
   <a
     class="saas-ecosystem-rtm"
-    href="#"
+    href="../../assets/downloads/cardflow/05-ccop-requirements-traceability-matrix.xlsx"
+    target="_blank"
+    rel="noopener noreferrer"
   >
     <span>
       How is traceability maintained across requirements, design, and delivery?
@@ -124,10 +132,10 @@ Explore selected CardFlow documentation published as web-based topics, covering 
 ## Downloadable Documentation
 Access selected CardFlow documentation as complete, traditionally authored deliverables available for download.
 
-- Software Requirements Specification
-- Functional Design Document
-- Requirements Traceability Matrix
-- User Stories & Acceptance Criteria
+- [System  Requirements Specification](../../assets/downloads/cardflow/02-ccop-system-requirements-specification-document.pdf){ target="_blank" rel="noopener noreferrer" }
+- [Functional Design Document](../../assets/downloads/cardflow/03-ccop-functional-design-document.pdf){ target="_blank" rel="noopener noreferrer" }
+- [Requirements Traceability Matrix](../../assets/downloads/cardflow/05-ccop-requirements-traceability-matrix.xlsx){ target="_blank" rel="noopener noreferrer" }
+- [User Stories & Acceptance Criteria](../../assets/downloads/cardflow/04-ccop-user-stories-and-acceptance-criteria.pdf){ target="_blank" rel="noopener noreferrer" }
 
 ## Coming Soon
 Preview additional portfolio work planned to extend the CardFlow documentation set and demonstrate further documentation capabilities.

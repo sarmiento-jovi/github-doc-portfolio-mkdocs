@@ -27,4 +27,4 @@ My work includes experience in:
 
 View my complete resume for details about my professional experience, technical skills, tools, and qualifications.
 
-[View Resume →](...)
+[View Resume →](../../assets/downloads/resume/resume-jovi-sarmiento.pdf){ target="_blank" rel="noopener noreferrer" }

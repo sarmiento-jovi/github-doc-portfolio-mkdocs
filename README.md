@@ -10,7 +10,7 @@ The portfolio is designed to showcase my experience and developing capabilities 
 
 Introduces the portfolio and provides quick access to the main sections and featured projects.
 
-**Repository:** [`homepage/`](homepage/)
+**Repository:** [`homepage/`](docs/index.md)
 
 ---
 
@@ -18,7 +18,7 @@ Introduces the portfolio and provides quick access to the main sections and feat
 
 Provides an overview of my professional experience, technical documentation background, skills, and qualifications.
 
-**Repository:** [`resume/`](resume/)
+**Repository:** [`resume/`](docs/more-about-me/professional-experience/)
 
 ---
 
@@ -32,19 +32,19 @@ An enterprise SaaS documentation project demonstrating the creation and organiza
 
 The project includes traditional Word/PDF documentation as well as selected documents converted to Markdown to demonstrate a Docs-as-Code workflow.
 
-**Repository:** [`projects/cardflow-credit-origination-platform/`](projects/cardflow-credit-origination-platform/)
+**Repository:** [`docs/projects/cardflow-credit-origination-platform/`](docs/projects/cardflow-credit-origination-platform/)
 
 #### API Documentation
 
 Developer-focused documentation demonstrating REST API concepts, including endpoints, authentication, parameters, request and response examples, error handling, and OpenAPI/Swagger.
 
-**Repository:** [`projects/api-documentation/`](projects/api-documentation/)
+**Repository:** [`docs/projects/api-documentation/`](docs/projects/api-documentation/)
 
-#### Diagrams
+#### Visual Documentation
 
 A collection of process, workflow, architecture, and other technical diagrams demonstrating visual communication of systems and business processes.
 
-**Repository:** [`projects/diagrams/`](projects/diagrams/)
+**Repository:** [`docs/projects/visual-documentation/`](docs/projects/visual-documentation/)
 
 #### Documentation Strategy
 
@@ -52,7 +52,7 @@ Planned documentation strategy samples demonstrating information architecture, a
 
 **Status:** Planned
 
-**Repository:** [`projects/documentation-strategy/`](projects/documentation-strategy/)
+**Repository:** [`docs/projects/documentation-strategy/`](docs/projects/documentation-strategy/)
 
 #### AI-Enabled Documentation & Automation
 

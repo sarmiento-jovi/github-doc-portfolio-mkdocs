@@ -25,22 +25,23 @@ This portfolio demonstrates my experience in **technical documentation, Docs-as-
     <div class="homepage-hero__content">
 
       <p class="homepage-hero__eyebrow">
-        DOCUMENTATION BUILDS BETTER PRODUCTS
+        STRUCTURED DOCUMENTATION &nbsp;•&nbsp; ACCESSIBLE KNOWLEDGE
       </p>
 
-      <h1>Technical Documentation</h1>
+      <h1>Jovi Sarmiento   Documentation Specialist</h1>
 
       <p class="homepage-hero__summary">
-        I'm a Documentation Specialist focused on creating clear,
+        I turn complex technical information into documentation people can find, understand, and use—from requirements and system design to user guidance and developer documentation. 
+        <!-- I'm a Documentation Specialist focused on creating clear,
         structured, and useful documentation for enterprise software,
-        SaaS platforms, and internal systems.
+        SaaS platforms, and internal systems. -->
       </p>
 
       <p class="homepage-hero__skills">
-        DOCS-AS-CODE &nbsp;•&nbsp;
-        API DOCS &nbsp;•&nbsp;
-        ARCHITECTURE &nbsp;•&nbsp;
-        STRATEGY
+          SaaS Documentation &nbsp;·&nbsp;
+          Docs-as-Code &nbsp;·&nbsp;
+          API Docs &nbsp;·&nbsp;
+          Information Architecture
       </p>
 
     </div>
@@ -95,9 +96,9 @@ End-to-end documentation for a multi-tenant SaaS platform.
 Developer-focused API and OpenAPI documentation.  
 [Explore API Documentation →](...)
 
-**Diagrams**  
+**Visual Documentation**
 Workflow, architecture, data, and process visualization.  
-[Explore Diagrams →](...)
+[Explore Visual Documentation →](projects/visual-documentation/README.md)
 
 **Documentation Strategy**  
 Documentation planning, governance, and publishing workflows.  
@@ -111,7 +112,7 @@ Documentation planning, governance, and publishing workflows.
 
 Technical documentation, Docs-as-Code, API documentation, structured authoring, visual communication, and documentation engineering.
 
-[View Skills and Tools → ](skills-tools/)
+[View Skills and Tools → ](more-about-me/skills-tools/README.md)
 
 ---
 

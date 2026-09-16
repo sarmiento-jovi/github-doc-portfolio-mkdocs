@@ -6,7 +6,7 @@ different project
 → hide Next
 
 Last API page
-Next → Diagrams
+Next → Visual Documentation
 different project
 → hide Next
 

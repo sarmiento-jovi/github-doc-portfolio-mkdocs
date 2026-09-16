@@ -13,12 +13,12 @@ Learn more about my professional background, approach to documentation, and the 
 
     Explore my professional experience, technical qualifications, and documentation background.
 
-    [View Resume →](resume/){ .card-link }
+    [View Professional Experience →](professional-experience/README.md){ .card-link }
 
 -   **About My Work**
 
     Learn more about how I approach documentation, continuous learning, and the interests that extend beyond my professional work.
 
-    [Professional Perspective →](about/){ .card-link }
+    [Professional Perspective →](about-my-work/README.md){ .card-link }
 
 </div>

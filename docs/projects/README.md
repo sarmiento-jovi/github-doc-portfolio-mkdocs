@@ -25,11 +25,11 @@ Each project area focuses on a different aspect of documentation work, from end-
 
     [Explore API Documentation →](api-documentation/){ .card-link }
 
--   **Diagrams**
+-   **Visual Documentation**
 
     Technical visualization samples covering system architecture, workflows, data relationships, and business processes.
 
-    [Explore Diagrams →](diagrams/){ .card-link }
+    [Explore Visual Documentation →](visual-documentation/README.md){ .card-link }
 
 -   **Documentation Strategy**
 
