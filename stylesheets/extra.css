@@ -383,6 +383,43 @@ body:has(.homepage-hero) .md-content__inner::before {
     }
 }
 
+/* Native Material tabs, styled only for the Diagram Samples showcase. */
+.diagram-samples .diagram-samples__placeholder {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    min-height: 10rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px dashed var(--portfolio-sage);
+    background: var(--portfolio-surface);
+    color: var(--portfolio-sage-dark);
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.diagram-samples .tabbed-labels > label {
+    border: 1px solid var(--portfolio-border);
+    border-bottom: 3px solid transparent;
+    background: var(--portfolio-surface);
+    padding: 0.65em 0.8em;
+}
+
+.diagram-samples .tabbed-set > input:nth-child(1):checked ~ .tabbed-labels > label:nth-child(1),
+.diagram-samples .tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > label:nth-child(2),
+.diagram-samples .tabbed-set > input:nth-child(3):checked ~ .tabbed-labels > label:nth-child(3),
+.diagram-samples .tabbed-set > input:nth-child(4):checked ~ .tabbed-labels > label:nth-child(4) {
+    background: var(--portfolio-sage-light);
+    border-bottom-color: var(--portfolio-deep-sage);
+    color: var(--portfolio-deep-sage);
+}
+
+.diagram-samples .tabbed-set:has(> input:focus-visible) > .tabbed-labels {
+    outline: 2px solid var(--portfolio-sage-dark);
+    outline-offset: 2px;
+}
+
 /**************************** MAIN HEADER LOGO ****************************/
 
 /*
