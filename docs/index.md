@@ -96,9 +96,9 @@ End-to-end documentation for a multi-tenant SaaS platform.
 Developer-focused API and OpenAPI documentation.  
 [Explore API Documentation →](...)
 
-**Diagrams**  
+**Visual Documentation**
 Workflow, architecture, data, and process visualization.  
-[Explore Diagrams →](...)
+[Explore Visual Documentation →](projects/visual-documentation/README.md)
 
 **Documentation Strategy**  
 Documentation planning, governance, and publishing workflows.  

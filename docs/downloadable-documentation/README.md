@@ -223,10 +223,10 @@ Browse and download PDF versions of selected documentation samples, API referenc
 </section>
 </div>
 
-## Diagrams & Visual Documentation {#diagrams-visual-documentation}
+## Visual Documentation {#visual-documentation}
 
 <div class="downloads-page">
-<section aria-labelledby="diagrams-visual-documentation">
+<section aria-labelledby="visual-documentation">
 
 <p>Architecture, workflow, and other visual documentation samples.</p>
 

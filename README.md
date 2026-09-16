@@ -40,11 +40,11 @@ Developer-focused documentation demonstrating REST API concepts, including endpo
 
 **Repository:** [`projects/api-documentation/`](projects/api-documentation/)
 
-#### Diagrams
+#### Visual Documentation
 
 A collection of process, workflow, architecture, and other technical diagrams demonstrating visual communication of systems and business processes.
 
-**Repository:** [`projects/diagrams/`](projects/diagrams/)
+**Repository:** [`docs/projects/visual-documentation/`](docs/projects/visual-documentation/)
 
 #### Documentation Strategy
 
