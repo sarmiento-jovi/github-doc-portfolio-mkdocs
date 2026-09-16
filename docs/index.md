@@ -112,7 +112,7 @@ Documentation planning, governance, and publishing workflows.
 
 Technical documentation, Docs-as-Code, API documentation, structured authoring, visual communication, and documentation engineering.
 
-[View Skills and Tools → ](skills-tools/)
+[View Skills and Tools → ](more-about-me/skills-tools/README.md)
 
 ---
 
