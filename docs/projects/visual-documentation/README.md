@@ -29,7 +29,7 @@ Selected diagram samples will be presented with supporting context explaining th
 
     <h3>Source &amp; Context</h3>
 
-    What public project/process did you study? Link to the authoritative material.
+    <p>This visualization is based on GitHub's documented pull request workflow. Pull requests provide a collaborative process for proposing, reviewing, discussing, validating, and merging changes before they become part of the target branch.</p>
 
     <h3>My Visualization</h3>
 
@@ -37,19 +37,45 @@ Selected diagram samples will be presented with supporting context explaining th
     
     <h3>Communication Problem</h3>
 
-    What does a particular reader need to understand?
+    <p>The documented workflow involves activities performed by both the change author and the reviewer, together with the repository-level actions and checks.</p> 
+    <p>The visualization is intended to make the sequence of activities, responsibilities, review outcomes, and feedback loop easier to understand.</p>
 
     <h3>Audience</h3>
 
-    Developer? Administrator? Business stakeholder? New team member?
+    <p>New team members who understand the basic Git concepts but are unfamiliar with colloborative pull request workflows in GitHub.</p>
 
     <h3>Design Decisions</h3>
 
-    What did you include, group, simplify, emphasize, or deliberately omit?
+    <p>A cross-functional flowchart was selected to distinguish activities performed by the contributor, GitHub, and reviewer. </p>
+    <p>The visualization emphasizes the primary review-and-revision cycle while omitting advanced scenarios such as: 
+        <ul>
+          <li>Stacked pull requests</li>
+          <li>Merge conflicts</li>
+          <li>Auto-merge</li>
+          <li>Branch protection configuration</li>
+          <li>Repository-specific rules</li>
+        </ul>
+      </p>
 
     <h3>Source Material</h3>
 
-    Links to the original public documentation/repository.
+    <p>The following are the links to the original public documentation/repository:
+      <ul>
+          <ul>
+            <li>
+              <a href="https://docs.github.com/en/pull-requests/get-started/about-pull-requests">
+                GitHub - About pull requests
+              </a>
+            </li>
+            <li>
+              <a href="https://docs.github.com/en/pull-requests/concepts/giving-reviews">
+                GitHub - Giving reviews
+              </a>
+            </li>
+          </ul>
+      </ul>
+    </p>
+
 
 === "System Architecture"
 
