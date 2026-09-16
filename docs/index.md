@@ -28,7 +28,7 @@ This portfolio demonstrates my experience in **technical documentation, Docs-as-
         STRUCTURED DOCUMENTATION &nbsp;•&nbsp; ACCESSIBLE KNOWLEDGE
       </p>
 
-      <h1>Documentation Specialist</h1>
+      <h1>Jovi Sarmiento   Documentation Specialist</h1>
 
       <p class="homepage-hero__summary">
         I create clear, connected documentation for enterprise software and SaaS products—from requirements and system design to user guidance and technical documentation.

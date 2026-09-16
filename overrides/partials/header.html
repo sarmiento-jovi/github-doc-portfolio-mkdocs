@@ -21,12 +21,16 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <a
-  href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
-  class="md-ellipsis portfolio-site-name"
-  aria-label="Return to portfolio homepage"
->
-  {{ config.site_name }}
-</a>
+            href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+            class="md-ellipsis portfolio-site-name"
+            aria-label="Return to portfolio homepage"
+          >
+            {% if page and page.is_homepage %}
+              Technical Documentation Portfolio
+            {% else %}
+              {{ config.site_name }}
+            {% endif %}
+          </a>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
