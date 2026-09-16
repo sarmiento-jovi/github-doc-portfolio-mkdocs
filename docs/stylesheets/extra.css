@@ -1232,8 +1232,12 @@ body.project-footer-end .md-footer__link--next {
 @container (max-width: 32rem) {
     .skills-capabilities__head {
         display: none;
+        
     }
 
+    .skills-capabilities__row > .skills-capabilities__cell:nth-child(2) p {
+        font-style: italic;
+    }
     .skills-capabilities__row {
         grid-template-columns: minmax(0, 1fr);
         row-gap: 1rem;
