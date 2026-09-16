@@ -200,17 +200,15 @@ body:has(.homepage-hero) .md-content__inner::before {
 }
 
 
-/* Small lead-in */
+/* Eyebrow: small, bold, tracked */
 .homepage-hero__eyebrow {
     margin: 0 0 0.6rem;
-
     color: var(--portfolio-sage-dark);
-
-    font-size: 0.65rem;
-    font-weight: 600;
-    letter-spacing: 0.18em;
+    font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.12em;
 }
-
 
 /* Hero title */
 .homepage-hero h1 {
@@ -235,15 +233,14 @@ body:has(.homepage-hero) .md-content__inner::before {
 }
 
 
-/* Skills row */
+/* Skills: quieter supporting text */
 .homepage-hero__skills {
     margin: 0;
-
     color: var(--portfolio-sage-dark);
-
-    font-size: 0.65rem;
-    font-weight: 600;
-    letter-spacing: 0.11em;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: normal;
 }
 
 
@@ -350,9 +347,9 @@ body:has(.homepage-hero) .md-content__inner::before {
         max-width: 240px;
         margin-bottom: 0.7rem;
 
-        font-size: 0.6rem;
+        font-size: 0.65rem;
         line-height: 1.4;
-        letter-spacing: 0.14em;
+        letter-spacing: 0.1em;
     }
 
     .homepage-hero h1 {

@@ -25,22 +25,23 @@ This portfolio demonstrates my experience in **technical documentation, Docs-as-
     <div class="homepage-hero__content">
 
       <p class="homepage-hero__eyebrow">
-        DOCUMENTATION BUILDS BETTER PRODUCTS
+        STRUCTURED DOCUMENTATION &nbsp;•&nbsp; ACCESSIBLE KNOWLEDGE
       </p>
 
-      <h1>Technical Documentation</h1>
+      <h1>Documentation Specialist</h1>
 
       <p class="homepage-hero__summary">
-        I'm a Documentation Specialist focused on creating clear,
+        I create clear, connected documentation for enterprise software and SaaS products—from requirements and system design to user guidance and technical documentation.
+        <!-- I'm a Documentation Specialist focused on creating clear,
         structured, and useful documentation for enterprise software,
-        SaaS platforms, and internal systems.
+        SaaS platforms, and internal systems. -->
       </p>
 
       <p class="homepage-hero__skills">
-        DOCS-AS-CODE &nbsp;•&nbsp;
-        API DOCS &nbsp;•&nbsp;
-        ARCHITECTURE &nbsp;•&nbsp;
-        STRATEGY
+          SaaS Documentation &nbsp;·&nbsp;
+          Docs-as-Code &nbsp;·&nbsp;
+          API Docs &nbsp;·&nbsp;
+          Information Architecture
       </p>
 
     </div>
