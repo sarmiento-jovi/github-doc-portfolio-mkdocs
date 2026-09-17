@@ -34,9 +34,10 @@ Selected diagram samples will be presented with supporting context explaining th
 
     <p>This visualization is based on <strong>GitHub's documented pull request workflow</strong>. Pull requests provide a collaborative process for proposing, reviewing, discussing, validating, and merging changes before they become part of the target branch.</p>
 
-    <h3>My Visualization</h3>
+    <h3>Visualization</h3>
 
     <img class="diagram-samples__image" src="../../assets/images/visual-documentation/business-process-workflow.png" alt="Cross-functional pull request workflow from branch creation through review, revisions, approval, and merge">
+    *GitHub's Documented Pull Request Workflow*
     
     <h3>Communication Problem</h3>
 
@@ -172,7 +173,7 @@ Selected diagram samples will be presented with supporting context explaining th
 
     <h3>Source &amp; Context</h3>
 
-    This visualization is based on <strong>GitHub's documented GitHub Actions and GitHub Pages workflow model</strong>. GitHub Actions can automate build and deployment processes in response to repository events, while GitHub Pages can publish static site output produced by a workflow.
+    This visualization is based on GitHub's documented GitHub Actions and GitHub Pages workflow model. GitHub Actions can automate build and deployment processes in response to repository events, while GitHub Pages can publish static site output produced by a workflow.
 
     <h3>Visualization</h3>
 
