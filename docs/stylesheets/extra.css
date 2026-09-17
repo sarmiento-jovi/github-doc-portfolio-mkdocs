@@ -438,6 +438,21 @@ body:has(.homepage-hero) .md-content__inner::before {
     outline-offset: 2px;
 }
 
+@media screen and (max-width: 640px) {
+    .md-typeset .diagram-samples .tabbed-labels {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .diagram-samples .tabbed-labels > label {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+}
+
 /**************************** MAIN HEADER LOGO ****************************/
 
 /*
