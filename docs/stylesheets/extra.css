@@ -408,6 +408,13 @@ body:has(.homepage-hero) .md-content__inner::before {
     overflow-wrap: anywhere;
 }
 
+.diagram-samples .diagram-samples__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-inline: auto;
+}
+
 .md-typeset .diagram-samples .tabbed-labels {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
