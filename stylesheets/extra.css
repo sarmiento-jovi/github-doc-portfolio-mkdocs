@@ -384,6 +384,15 @@ body:has(.homepage-hero) .md-content__inner::before {
 }
 
 /* Native Material tabs, styled only for the Diagram Samples showcase. */
+.md-typeset .diagram-samples .tabbed-set {
+    max-width: 100%;
+    min-width: 0;
+    border: 1px solid var(--portfolio-border);
+    border-radius: 0.55rem;
+    background: var(--portfolio-surface);
+    overflow: hidden;
+}
+
 .diagram-samples .diagram-samples__placeholder {
     display: grid;
     place-items: center;
@@ -399,13 +408,24 @@ body:has(.homepage-hero) .md-content__inner::before {
     overflow-wrap: anywhere;
 }
 
+.diagram-samples .diagram-samples__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-inline: auto;
+}
+
 .md-typeset .diagram-samples .tabbed-labels {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 8rem), 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.2rem;
+    padding: 0.45rem 0.45rem 0;
+    background: transparent;
+    box-shadow: none;
     overflow: visible;
 }
 
-/* Each selected tab has its own border, including when tabs wrap. */
+/* The active tab uses its own edge instead of Material's sliding underline. */
 .md-typeset .diagram-samples .tabbed-labels::before,
 .diagram-samples .tabbed-control {
     display: none;
@@ -419,23 +439,69 @@ body:has(.homepage-hero) .md-content__inner::before {
     white-space: normal;
     text-align: center;
     border: 1px solid var(--portfolio-border);
-    border-bottom: 3px solid transparent;
-    background: var(--portfolio-surface);
-    padding: 0.65em 0.8em;
+    border-top: 2px solid transparent;
+    border-radius: 0.45rem 0.45rem 0 0;
+    background: var(--portfolio-white);
+    box-shadow: 0 -2px 5px rgba(41, 45, 43, 0.08);
+    color: var(--portfolio-deep-sage);
+    padding: 0.7em 0.85em;
+}
+
+.diagram-samples .tabbed-labels > label:hover {
+    background: var(--portfolio-white);
+    border-top-color: var(--portfolio-sage);
+    box-shadow: 0 -3px 8px rgba(41, 45, 43, 0.12);
 }
 
 .diagram-samples .tabbed-set > input:nth-child(1):checked ~ .tabbed-labels > label:nth-child(1),
 .diagram-samples .tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > label:nth-child(2),
 .diagram-samples .tabbed-set > input:nth-child(3):checked ~ .tabbed-labels > label:nth-child(3),
 .diagram-samples .tabbed-set > input:nth-child(4):checked ~ .tabbed-labels > label:nth-child(4) {
-    background: var(--portfolio-sage-light);
-    border-bottom-color: var(--portfolio-deep-sage);
+    background: var(--portfolio-surface);
+    border-color: var(--portfolio-border);
+    border-top-color: var(--portfolio-sage-dark);
+    border-bottom-color: var(--portfolio-surface);
     color: var(--portfolio-deep-sage);
+    font-weight: 700;
+    box-shadow: none;
+    position: relative;
+    z-index: 1;
+}
+
+.md-typeset .diagram-samples .tabbed-content {
+    min-width: 0;
+    max-width: 100%;
+    padding: clamp(0.85rem, 3vw, 1.5rem);
+    background: var(--portfolio-surface);
+}
+
+.md-typeset .diagram-samples .tabbed-block {
+    min-width: 0;
 }
 
 .diagram-samples .tabbed-set:has(> input:focus-visible) > .tabbed-labels {
     outline: 2px solid var(--portfolio-sage-dark);
     outline-offset: 2px;
+}
+
+@media screen and (max-width: 640px) {
+    .md-typeset .diagram-samples .tabbed-labels {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-width: none;
+    }
+
+    .md-typeset .diagram-samples .tabbed-labels::-webkit-scrollbar {
+        display: none;
+    }
+
+    .diagram-samples .tabbed-labels > label {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
 }
 
 /**************************** MAIN HEADER LOGO ****************************/
