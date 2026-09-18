@@ -21,7 +21,7 @@ Each project area focuses on a different aspect of documentation work, from end-
 
 -   **SaaS Documentation**
 
-    Explore the CardFlow case study and its business requirements, system architecture, user documentation, and Docs-as-Code publishing.
+    Explore how business, technical, and user information is structured and connected across the SaaS documentation lifecycle—from requirements and system design to user guidance, traceability, and supporting documentation.
 
     [Explore SaaS Documentation →](saas-documentation/){ .card-link }
 

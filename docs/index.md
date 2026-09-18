@@ -58,7 +58,7 @@ Explore selected documentation samples or browse the complete portfolio.
 
 -   **CardFlow Credit Origination Platform**
 
-    Explore the business requirements, scope, stakeholders, and key capabilities defined for CardFlow.
+    Explore a complete SaaS documentation case study covering requirements, functional design, system architecture, user guidance, traceability, and supporting documentation.
 
     [Explore CardFlow →](projects/saas-documentation/cardflow-credit-origination-platform/README.md){ .card-link }
 
