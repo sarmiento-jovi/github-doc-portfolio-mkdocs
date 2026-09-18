@@ -1,6 +1,6 @@
 # Visual Documentation
 
-Instead of treating diagrams as standalone illustrations, the samples demonstrate how visual communication can be used alongside technical documentation to simplify complex information, clarify relationships, and support reader understanding.
+These samples demonstrate how complex technical information can be analyzed, structured, and translated into purposeful visualizations that clarify processes, system relationships, data structures, and technical workflows.
 
 ## What This Section Demonstrates
 
