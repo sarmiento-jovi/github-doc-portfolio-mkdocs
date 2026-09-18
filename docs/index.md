@@ -52,7 +52,7 @@ This portfolio demonstrates my experience in **technical documentation, Docs-as-
 
 ## Featured Work
 
-Explore selected documentation samples or browse the complete portfolio.
+Explore selected documentation work below, or browse the complete portfolio in [All Projects](projects/README.md).
 
 <div class="grid cards featured-work-cards" markdown>
 
