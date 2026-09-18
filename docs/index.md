@@ -94,10 +94,6 @@ Developer-focused API and OpenAPI documentation.
 Workflow, architecture, data, and process visualization.  
 [Explore Visual Documentation →](projects/visual-documentation/README.md)
 
-**Documentation Strategy**  
-Documentation planning, governance, and publishing workflows.  
-[Explore Documentation Strategy →](...)
-
 [View All Projects →](projects/)
 
 ---

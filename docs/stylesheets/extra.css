@@ -656,7 +656,7 @@ body:has(.homepage-hero) .md-content__inner::before {
 .md-typeset .grid.cards.featured-work-cards > ul,
 .md-typeset .grid.cards.project-cards > ul {
     display: grid !important;
-    grid-template-columns: 1fr !important;
+    grid-template-columns: minmax(0, 1fr) !important;
 
     grid-auto-rows: 1fr;
     align-items: stretch;
@@ -685,7 +685,7 @@ body:has(.homepage-hero) .md-content__inner::before {
     }
 
     .md-typeset .grid.cards.project-cards > ul {
-        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
     }
 }
 

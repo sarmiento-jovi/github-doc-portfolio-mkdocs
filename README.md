@@ -50,14 +50,6 @@ A collection of process, workflow, architecture, and other technical diagrams de
 
 **Repository:** [`docs/projects/visual-documentation/`](docs/projects/visual-documentation/)
 
-#### Documentation Strategy
-
-Planned documentation strategy samples demonstrating information architecture, audience analysis, content organization, governance, content lifecycle, and documentation workflows.
-
-**Status:** Planned
-
-**Repository:** [`docs/projects/documentation-strategy/`](docs/projects/documentation-strategy/)
-
 #### AI-Enabled Documentation & Automation
 
 Future projects exploring practical applications of AI and automation within documentation workflows, including change identification, content review, documentation QA, and repetitive documentation tasks.
