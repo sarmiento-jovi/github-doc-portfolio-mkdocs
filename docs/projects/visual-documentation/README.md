@@ -1,8 +1,6 @@
 # Visual Documentation
 
-This section presents diagrams created to communicate business processes, system behavior, architecture, data relationships, and other technical concepts visually.
-
-Rather than treating diagrams as standalone illustrations, the samples demonstrate how visual communication can be used alongside technical documentation to simplify complex information, clarify relationships, and support reader understanding.
+Instead of treating diagrams as standalone illustrations, the samples demonstrate how visual communication can be used alongside technical documentation to simplify complex information, clarify relationships, and support reader understanding.
 
 ## What This Section Demonstrates
 
@@ -17,9 +15,26 @@ The diagram samples demonstrate experience in:
 - Information hierarchy and visual organization
 - Diagram design for technical documentation
 
-## Diagram Samples
+## Visualization Samples
 
-Selected diagram samples will be presented with supporting context explaining the purpose of the diagram, the information it communicates, and the design decisions used to represent the underlying process or system.
+Each visualization is presented as a short case study to show not only the finished diagram, but also the reasoning behind it.
+
+The sections provide context for the source material, define the communication problem and intended audience, explain the visualization and design decisions, and identify the references used to support the interpretation.
+
+<!-- Selected diagram samples are presented with supporting context explaining the purpose of the diagram, the information it communicates, and the design decisions used to represent the underlying process or system. -->
+
+*Case Study Fields*
+
+| Section                   | What it conveys                                                                    |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+| **Source & Context**      | What information or system was studied and where the visualization originated      |
+| **Communication Problem** | What aspect of the information is difficult to understand or needs clarification   |
+| **Audience**              | Who the visualization is intended to help                                          |
+| **Design Decisions**      | Why a particular diagram type, scope, structure, and level of detail were selected |
+| **My Visualization**      | The resulting visual solution                                                      |
+| **Source Material**       | The authoritative references used to understand and verify the subject             |
+
+
 
 > **Note:** The diagrams presented in this portfolio are my own interpretations, created for documentation and demonstration purposes based on publicly available technical information. They are not official diagrams produced, endorsed, or approved by GitHub, Microsoft, OpenTelemetry, or their respective organizations.
 
@@ -105,13 +120,13 @@ Selected diagram samples will be presented with supporting context explaining th
 
     <p>A <strong>component architecture diagram</strong> was selected to show the major system components, their functional groupings, and how they interact. Related microservices are grouped into functional areas to simplify the architecture while preserving the relationships needed for a high-level understanding.</p>
     <p>
-      The following are omitted where they are not required for a high-level architectural understanding:
+      To maintain a high-level architectural view, the visualization intentionally omits:
       <ul>
-        <li>Programming languages</li>
         <li>Detailed instrumentation configuration</li>
         <li>Feature-flag scenarios</li>
         <li>Testing components</li>
         <li>Lower-level service interactions</li>
+        <li>Other implementation details not required to understand the primary architecture</li>
       </ul>
     </p>
 
