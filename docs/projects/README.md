@@ -13,6 +13,12 @@ Each project area focuses on a different aspect of documentation work, from end-
 
 <div class="grid cards project-cards" markdown>
 
+-   **Documentation Strategy**
+
+    Documentation planning, governance, content lifecycle, and structured publishing practices.
+
+    [Explore Documentation Strategy →](documentation-strategy/){ .card-link }
+
 -   **CardFlow Credit Origination Platform**
 
     End-to-end documentation for a multi-tenant SaaS platform, demonstrating business requirements, system architecture, user documentation, and Docs-as-Code publishing.
@@ -30,12 +36,6 @@ Each project area focuses on a different aspect of documentation work, from end-
     Technical visualization samples covering system architecture, workflows, data relationships, and business processes.
 
     [Explore Visual Documentation →](visual-documentation/README.md){ .card-link }
-
--   **Documentation Strategy**
-
-    Documentation planning, governance, content lifecycle, and structured publishing practices.
-
-    [Explore Documentation Strategy →](documentation-strategy/){ .card-link }
 
 -   **AI Documentation & Automation**
 
