@@ -45,11 +45,11 @@ The projects also demonstrate practices that extend beyond producing individual 
 
 Across the portfolio, these include:
 
-- **Documentation planning and lifecycle management** — considering documentation from initial planning through publication, maintenance, and eventual updates.
-- **Information architecture and content organization** — structuring information so readers can navigate and understand relationships between content.
-- **Documentation standards and consistency** — applying repeatable structures, conventions, and guidelines across related documentation.
-- **Review and change management** — supporting controlled updates, versioning, traceability, and review throughout the documentation lifecycle.
-- **Documentation governance and quality** — considering ownership, accuracy, consistency, maintainability, and the processes used to manage documentation over time.
-- **Publishing and Docs-as-Code workflows** — using structured authoring and version-controlled publishing practices to support maintainable documentation delivery.
+- **Documentation planning and lifecycle management** — Considering documentation from initial planning through publication, maintenance, and eventual updates.
+- **Information architecture and content organization** — Structuring information so readers can navigate and understand relationships between content.
+- **Documentation standards and consistency** — Applying repeatable structures, conventions, and guidelines across related documentation.
+- **Review and change management** — Supporting controlled updates, versioning, traceability, and review throughout the documentation lifecycle.
+- **Documentation governance and quality** — Considering ownership, accuracy, consistency, maintainability, and the processes used to manage documentation over time.
+- **Publishing and Docs-as-Code workflows** — Using structured authoring and version-controlled publishing practices to support maintainable documentation delivery.
 
 These practices are demonstrated through the individual project areas and their supporting artifacts rather than treated as a separate documentation deliverable.
