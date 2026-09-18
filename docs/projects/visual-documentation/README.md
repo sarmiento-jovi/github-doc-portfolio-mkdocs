@@ -15,7 +15,7 @@ The diagram samples demonstrate experience in:
 - Information hierarchy and visual organization
 - Diagram design for technical documentation
 
-## Visualization Samples
+## Diagram Samples
 
 Each visualization is presented as a short case study to show not only the finished diagram, but also the reasoning behind it.
 
@@ -31,7 +31,7 @@ The sections provide context for the source material, define the communication p
 | **Communication Problem** | What aspect of the information is difficult to understand or needs clarification   |
 | **Audience**              | Who the visualization is intended to help                                          |
 | **Design Decisions**      | Why a particular diagram type, scope, structure, and level of detail were selected |
-| **My Visualization**      | The resulting visual solution                                                      |
+| **Visualization**      | The resulting visual solution                                                      |
 | **Source Material**       | The authoritative references used to understand and verify the subject             |
 
 
