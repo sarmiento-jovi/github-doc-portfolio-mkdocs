@@ -68,17 +68,11 @@ Explore selected documentation samples or browse the complete portfolio.
 
     [Explore API Documentation →](projects/api-documentation/README.md){ .card-link }
 
--   **Downloadable Documentation**
+-   **Visual Documentation**
 
-    Browse and download PDF versions of selected documentation samples, API references, and diagrams.
+    Explore visual documentation samples that transform business processes, system architecture, data relationships, and technical processes into clear, structured diagrams.
 
-    [Browse Documents →](downloadable-documentation/README.md){ .card-link }
-
--   **All Projects**
-
-    Explore the complete portfolio across technical documentation and documentation engineering.
-
-    [Explore All Projects →](projects/README.md){ .card-link }
+    [Explore Visual Documentation →](projects/visual-documentation/README.md){ .card-link }
 
 </div>
 

@@ -681,7 +681,7 @@ body:has(.homepage-hero) .md-content__inner::before {
 @media screen and (min-width: 1025px) {
 
     .md-typeset .grid.cards.featured-work-cards > ul {
-        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     }
 
     .md-typeset .grid.cards.project-cards > ul {
