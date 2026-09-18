@@ -17,14 +17,15 @@ function limitArtifactNavigationExpansion() {
     const currentPath = window.location.pathname;
 
     const currentMatch = currentPath.match(
-        /\/projects\/([^/]+)\/artifacts\/([^/]+)\/?/
+        /\/projects\/([^/]+)\/([^/]+)\/artifacts\/([^/]+)\/?/
     );
 
     // Only run while viewing an artifact.
     if (!currentMatch) return;
 
-    const currentProject = currentMatch[1];
-    const activeArtifact = currentMatch[2];
+    const currentCategory = currentMatch[1];
+    const currentProject = currentMatch[2];
+    const activeArtifact = currentMatch[3];
 
     const nestedItems = document.querySelectorAll(
         ".md-nav__item--nested"
@@ -59,14 +60,15 @@ function limitArtifactNavigationExpansion() {
             ).pathname;
 
             const artifactMatch = linkPath.match(
-                /^\/projects\/([^/]+)\/artifacts\/([^/]+)\/?$/
+                /^\/projects\/([^/]+)\/([^/]+)\/artifacts\/([^/]+)\/?$/
             );
 
             if (
                 artifactMatch &&
-                artifactMatch[1] === currentProject
+                artifactMatch[1] === currentCategory &&
+                artifactMatch[2] === currentProject
             ) {
-                artifactName = artifactMatch[2];
+                artifactName = artifactMatch[3];
                 break;
             }
         }

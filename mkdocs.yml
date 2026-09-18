@@ -36,7 +36,7 @@ plugins:
 #  - Home: index.md
 #
 #  - Portfolio:
-#      - CardFlow Credit Origination Platform: projects/cardflow-credit-origination-platform/README.md
+#      - SaaS Documentation: projects/saas-documentation/README.md
 #
 #     - API Documentation: projects/api-documentation/README.md
 #

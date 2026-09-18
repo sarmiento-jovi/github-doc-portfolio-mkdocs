@@ -60,7 +60,7 @@ Explore selected documentation samples or browse the complete portfolio.
 
     Explore the business requirements, scope, stakeholders, and key capabilities defined for CardFlow.
 
-    [Explore CardFlow →](projects/cardflow-credit-origination-platform/README.md){ .card-link }
+    [Explore CardFlow →](projects/saas-documentation/cardflow-credit-origination-platform/README.md){ .card-link }
 
 -   **API Documentation**
 

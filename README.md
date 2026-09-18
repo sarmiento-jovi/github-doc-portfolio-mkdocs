@@ -26,13 +26,17 @@ Provides an overview of my professional experience, technical documentation back
 
 Contains documentation projects and samples demonstrating different areas of technical communication.
 
-#### CardFlow Credit Origination Platform
+#### SaaS Documentation
+
+This project area contains the CardFlow Credit Origination Platform case study.
+
+##### CardFlow Credit Origination Platform
 
 An enterprise SaaS documentation project demonstrating the creation and organization of documentation across the software development lifecycle.
 
 The project includes traditional Word/PDF documentation as well as selected documents converted to Markdown to demonstrate a Docs-as-Code workflow.
 
-**Repository:** [`docs/projects/cardflow-credit-origination-platform/`](docs/projects/cardflow-credit-origination-platform/)
+**Repository:** [`docs/projects/saas-documentation/cardflow-credit-origination-platform/`](docs/projects/saas-documentation/cardflow-credit-origination-platform/)
 
 #### API Documentation
 

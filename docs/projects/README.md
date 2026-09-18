@@ -19,11 +19,11 @@ Each project area focuses on a different aspect of documentation work, from end-
 
     [Explore Documentation Strategy →](documentation-strategy/){ .card-link }
 
--   **CardFlow Credit Origination Platform**
+-   **SaaS Documentation**
 
-    End-to-end documentation for a multi-tenant SaaS platform, demonstrating business requirements, system architecture, user documentation, and Docs-as-Code publishing.
+    Explore the CardFlow case study and its business requirements, system architecture, user documentation, and Docs-as-Code publishing.
 
-    [Explore CardFlow Documentation →](cardflow-credit-origination-platform/){ .card-link }
+    [Explore SaaS Documentation →](saas-documentation/){ .card-link }
 
 -   **API Documentation**
 
