@@ -1091,6 +1091,7 @@ body.project-footer-end .md-footer__link--next {
 /* Default branded table */
 .md-typeset table:not([class]) {
     width: 100%;
+    font-size: inherit;
     border-collapse: collapse;
     border: 1px solid var(--portfolio-border);
     background-color: var(--portfolio-white);
