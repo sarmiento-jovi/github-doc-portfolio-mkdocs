@@ -28,7 +28,7 @@ Selected diagram samples will be presented with supporting context explaining th
 
 <!-- HTML headings keep repeated template subtopics out of the page TOC. -->
 
-=== "Business Process / Workflow"
+=== "Process Workflow"
 
     <h3>Source &amp; Context</h3>
 
@@ -36,7 +36,7 @@ Selected diagram samples will be presented with supporting context explaining th
 
     <h3>Visualization</h3>
 
-    <img class="diagram-samples__image" src="../../assets/images/visual-documentation/business-process-workflow.png" alt="Cross-functional pull request workflow from branch creation through review, revisions, approval, and merge">
+    <img class="diagram-samples__image" src="../../assets/images/visual-documentation/process-workflow.png" alt="Cross-functional pull request workflow from branch creation through review, revisions, approval, and merge">
     *GitHub's Documented Pull Request Workflow*
     
     <h3>Communication Problem</h3>
@@ -85,12 +85,13 @@ Selected diagram samples will be presented with supporting context explaining th
 
     <h3>Source &amp; Context</h3>
 
-    <p>This visualization is based on the <strong>OpenTelemetry Demo</strong>, a distributed microservice application designed to demonstrate OpenTelemetry instrumentation and observability in a production-like environment.</p>
+    <p>This visualization is based on the <strong>OpenTelemetry Demonstration</strong>, a distributed microservice application designed to demonstrate OpenTelemetry instrumentation and observability in a production-like environment.</p>
     <p>The application contains services implemented in multiple programming languages that communicate using gRPC and HTTP.</p>
 
     <h3>My Visualization</h3>
 
-    <span class="diagram-samples__placeholder" role="img" aria-label="System Architecture diagram placeholder">System Architecture</span>
+     <img class="diagram-samples__image" src="../../assets/images/visual-documentation/system-architecture.png" alt="OpenTelemetry instrumentation and observability demonstration">
+    *OpenTelemetry Demonstration*
     
     <h3>Communication Problem</h3>
 
