@@ -49,10 +49,10 @@ function updateProjectFooter() {
      * /projects/api-documentation/
      *      → API Documentation project
      *
-     * /projects/cardflow-credit-origination-platform/artifacts/user-guide/
+     * /projects/saas-documentation/cardflow-credit-origination-platform/artifacts/user-guide/
      *      → User Guide artifact
      *
-     * /projects/cardflow-credit-origination-platform/artifacts/user-guide/getting-started/
+     * /projects/saas-documentation/cardflow-credit-origination-platform/artifacts/user-guide/getting-started/
      *      → topic within User Guide
      */
     const currentScope = getNavigationScope(segments);
@@ -143,7 +143,8 @@ function getProjectSegments(path) {
 /*
  * Identify the navigation scope for a page.
  *
- * Each project is its own scope.
+ * Each project is its own scope. SaaS Documentation and its CardFlow
+ * case study have separate scopes.
  *
  * If the project contains document artifacts under
  * /artifacts/<artifact-name>/, each artifact becomes
@@ -159,6 +160,16 @@ function getNavigationScope(segments) {
     }
 
     const project = segments[0];
+
+    if (project === "saas-documentation" && segments[1]) {
+        const caseStudy = segments[1];
+
+        if (segments[2] === "artifacts" && segments[3]) {
+            return `project:${project}:case-study:${caseStudy}:artifact:${segments[3]}`;
+        }
+
+        return `project:${project}:case-study:${caseStudy}`;
+    }
 
     /*
      * Document artifact
@@ -211,12 +222,13 @@ function isNavigationScopeStart(segments) {
      * Document artifact landing page
      *
      * Example:
-     * /projects/cardflow-credit-origination-platform/
+     * /projects/saas-documentation/cardflow-credit-origination-platform/
      * artifacts/system-architecture-diagram/
      */
     if (
-        segments.length === 3 &&
-        segments[1] === "artifacts"
+        (segments.length === 3 && segments[1] === "artifacts") ||
+        (segments.length === 4 && segments[0] === "saas-documentation" && segments[2] === "artifacts") ||
+        (segments.length === 2 && segments[0] === "saas-documentation")
     ) {
         return true;
     }
