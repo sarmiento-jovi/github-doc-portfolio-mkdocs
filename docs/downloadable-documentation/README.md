@@ -300,7 +300,7 @@ Browse and download PDF versions of selected documentation samples, API referenc
 
   <li class="downloads-row">
     <span class="downloads-row__title">
-      Data / Entity Model
+      Entity-Relationship Diagram
     </span>
 
     <div class="downloads-row__actions">

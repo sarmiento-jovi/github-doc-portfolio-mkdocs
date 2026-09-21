@@ -148,7 +148,7 @@ The sections provide context for the source material, define the communication p
     </p>
 
 
-=== "Data / Entity Model"
+=== "Entity-Relationship"
 
     <h3>Source &amp; Context</h3>
 
