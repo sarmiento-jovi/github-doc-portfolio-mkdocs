@@ -7,7 +7,11 @@ Browse and download PDF versions of selected documentation samples, API referenc
 <div class="downloads-page">
 <section aria-labelledby="cardflow-documentation">
 
-<p>Core business, requirements, design, architecture, and user documentation for the CardFlow platform.</p>
+<p>Downloadable documentation artifacts from the CardFlow Credit Origination Platform, a fictional multi-tenant SaaS case study covering business requirements, system requirements, functional design, system architecture, user guidance, user stories and acceptance criteria, and requirements traceability.</p>
+
+<blockquote>
+  <p><strong>Note:</strong> Want to explore the CardFlow case study? Visit <a href="../projects/saas-documentation/cardflow-credit-origination-platform/">CardFlow Credit Origination Platform</a> to learn more about the platform, its documentation ecosystem, and the web-based documentation available in this portfolio.</p>
+</blockquote>
 
 <ul class="downloads-list" role="list">
 
@@ -228,11 +232,102 @@ Browse and download PDF versions of selected documentation samples, API referenc
 <div class="downloads-page">
 <section aria-labelledby="visual-documentation">
 
-<p>Architecture, workflow, and other visual documentation samples.</p>
+<p>Downloadable visual documentation samples demonstrating how complex technical information can be structured and communicated through purpose-built diagrams. This collection includes examples covering business processes, system architecture, data relationships, and other technical concepts.</p>
 
-<p class="downloads-empty">
-  Documentation samples will be added here.
-</p>
+<blockquote>
+  <p><strong>Note:</strong>Visit <a href="../projects/visual-documentation/">Visual Documentation</a> to explore the source context, communication problem, intended audience, design decisions, and visualization approach behind each sample.</p>
+</blockquote>
+
+<ul class="downloads-list" role="list">
+
+  <li class="downloads-row">
+    <span class="downloads-row__title">
+      Business Process / Workflow
+    </span>
+
+    <div class="downloads-row__actions">
+      <span class="downloads-row__format">PNG</span>
+
+      <a
+        class="downloads-row__action"
+        href="../assets/downloads/diagrams/process-workflow.png"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View the Business Process / Workflow PNG"
+      >
+        View PNG
+      </a>
+
+      <a
+        class="downloads-row__action"
+        href="../assets/downloads/diagrams/process-workflow.png"
+        download
+        aria-label="Download the Business Process / Workflow PNG"
+      >
+        Download
+      </a>
+    </div>
+  </li>
+
+  <li class="downloads-row">
+    <span class="downloads-row__title">
+      System Architecture
+    </span>
+
+    <div class="downloads-row__actions">
+      <span class="downloads-row__format">PNG</span>
+
+      <a
+        class="downloads-row__action"
+        href="../assets/downloads/diagrams/system-architecture.png"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View the System Architecture PDF"
+      >
+        View PNG
+      </a>
+
+      <a
+        class="downloads-row__action"
+        href="../assets/downloads/diagrams/system-architecture.png"
+        download
+        aria-label="Download the System Architecture PNG"
+      >
+        Download
+      </a>
+    </div>
+  </li>
+
+  <li class="downloads-row">
+    <span class="downloads-row__title">
+      Data / Entity Model
+    </span>
+
+    <div class="downloads-row__actions">
+      <span class="downloads-row__format">PNG</span>
+
+      <a
+        class="downloads-row__action"
+        href="../assets/downloads/diagrams/entity-relationship-diagram.png"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View the Data / Entity Model PNG"
+      >
+        View PNG
+      </a>
+
+      <a
+        class="downloads-row__action"
+        href="../assets/downloads/diagrams/entity-relationship-diagram.png"
+        download
+        aria-label="Download the Data / Entity Model PNG"
+      >
+        Download
+      </a>
+    </div>
+  </li>
+
+</ul>
 
 </section>
 
