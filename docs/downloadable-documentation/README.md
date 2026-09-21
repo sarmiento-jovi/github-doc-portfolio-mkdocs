@@ -7,7 +7,7 @@ Browse and download PDF versions of selected documentation samples, API referenc
 <div class="downloads-page">
 <section aria-labelledby="cardflow-documentation">
 
-<p>Downloadable documentation artifacts from the CardFlow Credit Origination Platform, a fictional multi-tenant SaaS case study covering business requirements, system requirements, functional design, system architecture, user guidance, user stories and acceptance criteria, and requirements traceability.</p>
+<p>Downloadable documentation artifacts from the <strong>CardFlow Credit Origination Platform</strong>, a fictional multi-tenant SaaS case study covering business requirements, system requirements, functional design, system architecture, user guidance, user stories and acceptance criteria, and requirements traceability.</p>
 
 <blockquote>
   <p><strong>Note:</strong>Visit <a href="../projects/saas-documentation/cardflow-credit-origination-platform/">CardFlow Credit Origination Platform</a> to learn more about the platform, its documentation ecosystem, and the web-based documentation available in this portfolio.</p>
