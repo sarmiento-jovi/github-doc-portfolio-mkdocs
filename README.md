@@ -26,13 +26,17 @@ Provides an overview of my professional experience, technical documentation back
 
 Contains documentation projects and samples demonstrating different areas of technical communication.
 
-#### CardFlow Credit Origination Platform
+#### SaaS Documentation
+
+This project area contains the CardFlow Credit Origination Platform case study.
+
+##### CardFlow Credit Origination Platform
 
 An enterprise SaaS documentation project demonstrating the creation and organization of documentation across the software development lifecycle.
 
 The project includes traditional Word/PDF documentation as well as selected documents converted to Markdown to demonstrate a Docs-as-Code workflow.
 
-**Repository:** [`docs/projects/cardflow-credit-origination-platform/`](docs/projects/cardflow-credit-origination-platform/)
+**Repository:** [`docs/projects/saas-documentation/cardflow-credit-origination-platform/`](docs/projects/saas-documentation/cardflow-credit-origination-platform/)
 
 #### API Documentation
 
@@ -45,14 +49,6 @@ Developer-focused documentation demonstrating REST API concepts, including endpo
 A collection of process, workflow, architecture, and other technical diagrams demonstrating visual communication of systems and business processes.
 
 **Repository:** [`docs/projects/visual-documentation/`](docs/projects/visual-documentation/)
-
-#### Documentation Strategy
-
-Planned documentation strategy samples demonstrating information architecture, audience analysis, content organization, governance, content lifecycle, and documentation workflows.
-
-**Status:** Planned
-
-**Repository:** [`docs/projects/documentation-strategy/`](docs/projects/documentation-strategy/)
 
 #### AI-Enabled Documentation & Automation
 

@@ -52,15 +52,15 @@ This portfolio demonstrates my experience in **technical documentation, Docs-as-
 
 ## Featured Work
 
-Explore selected documentation samples or browse the complete portfolio.
+Explore selected documentation work below, or browse the complete portfolio in [All Projects](projects/README.md).
 
 <div class="grid cards featured-work-cards" markdown>
 
 -   **CardFlow Credit Origination Platform**
 
-    Explore the business requirements, scope, stakeholders, and key capabilities defined for CardFlow.
+    Explore a complete SaaS documentation case study covering requirements, functional design, system architecture, user guidance, traceability, and supporting documentation.
 
-    [Explore CardFlow →](projects/cardflow-credit-origination-platform/README.md){ .card-link }
+    [Explore CardFlow →](projects/saas-documentation/cardflow-credit-origination-platform/README.md){ .card-link }
 
 -   **API Documentation**
 
@@ -68,17 +68,11 @@ Explore selected documentation samples or browse the complete portfolio.
 
     [Explore API Documentation →](projects/api-documentation/README.md){ .card-link }
 
--   **Downloadable Documentation**
+-   **Visual Documentation**
 
-    Browse and download PDF versions of selected documentation samples, API references, and diagrams.
+    Explore visual documentation samples that transform business processes, system architecture, data relationships, and technical processes into clear, structured diagrams.
 
-    [Browse Documents →](downloadable-documentation/README.md){ .card-link }
-
--   **All Projects**
-
-    Explore the complete portfolio across technical documentation and documentation engineering.
-
-    [Explore All Projects →](projects/README.md){ .card-link }
+    [Explore Visual Documentation →](projects/visual-documentation/README.md){ .card-link }
 
 </div>
 
@@ -99,10 +93,6 @@ Developer-focused API and OpenAPI documentation.
 **Visual Documentation**
 Workflow, architecture, data, and process visualization.  
 [Explore Visual Documentation →](projects/visual-documentation/README.md)
-
-**Documentation Strategy**  
-Documentation planning, governance, and publishing workflows.  
-[Explore Documentation Strategy →](...)
 
 [View All Projects →](projects/)
 

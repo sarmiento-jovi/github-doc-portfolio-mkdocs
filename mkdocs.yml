@@ -36,13 +36,12 @@ plugins:
 #  - Home: index.md
 #
 #  - Portfolio:
-#      - CardFlow Credit Origination Platform: projects/cardflow-credit-origination-platform/README.md
+#      - SaaS Documentation: projects/saas-documentation/README.md
 #
 #     - API Documentation: projects/api-documentation/README.md
 #
 #      - Visual Documentation: projects/visual-documentation/README.md
 #
-#      - Documentation Strategy: projects/documentation-strategy/README.md
 #
 #      - AI Documentation Automation: projects/ai-documentation-automation/README.md
 #

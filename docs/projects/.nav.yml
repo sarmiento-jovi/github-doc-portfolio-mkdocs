@@ -1,7 +1,6 @@
 nav:
   - Projects Overview: README.md
-  - Documentation Strategy: documentation-strategy/README.md
-  - CardFlow Credit Origination Platform: cardflow-credit-origination-platform
+  - SaaS Documentation: saas-documentation
   - API Documentation: api-documentation/README.md
   - Visual Documentation: visual-documentation/README.md
-  - AI Documentation Automation: ai-documentation-automation/README.md
+  - AI Documentation & Automation: ai-documentation-automation/README.md

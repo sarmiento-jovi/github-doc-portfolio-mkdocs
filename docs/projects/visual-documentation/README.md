@@ -1,6 +1,6 @@
 # Visual Documentation
 
-Instead of treating diagrams as standalone illustrations, the samples demonstrate how visual communication can be used alongside technical documentation to simplify complex information, clarify relationships, and support reader understanding.
+These samples demonstrate how complex technical information can be analyzed, structured, and translated into purposeful visualizations that clarify processes, system relationships, data structures, and technical workflows.
 
 ## What This Section Demonstrates
 
@@ -103,7 +103,7 @@ The sections provide context for the source material, define the communication p
     <p>This visualization is based on the <strong>OpenTelemetry Demonstration</strong>, a distributed microservice application designed to demonstrate OpenTelemetry instrumentation and observability in a production-like environment.</p>
     <p>The application contains services implemented in multiple programming languages that communicate using gRPC and HTTP.</p>
 
-    <h3>My Visualization</h3>
+    <h3>Visualization</h3>
 
      <img class="diagram-samples__image" src="../../assets/images/visual-documentation/system-architecture.png" alt="OpenTelemetry instrumentation and observability demonstration">
     *OpenTelemetry Demonstration*
@@ -154,9 +154,10 @@ The sections provide context for the source material, define the communication p
 
       This visualization is based on <strong>Microsoft's Northwind</strong> sample database. The exercise focuses on the portion of the schema supporting customers, orders, order details, products, and product classification rather than documenting the complete database.
 
-     <h3>My Visualization</h3>
+     <h3>Visualization</h3>
 
-    <span class="diagram-samples__placeholder" role="img" aria-label="Data / Entity Model diagram placeholder">Data / Entity Model</span>
+     <img class="diagram-samples__image" src="../../assets/images/visual-documentation/entity-relationship-diagram.png" alt="Northwind Core Order Data Model">
+    *Northwind Core Order Data Model*
   
     <h3>Communication Problem</h3>
 
