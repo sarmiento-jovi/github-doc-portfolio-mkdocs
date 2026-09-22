@@ -1,12 +1,10 @@
 # AI Documentation Automation
 
-This section explores practical applications of AI and automation within technical documentation workflows.
+This project area explores practical applications of AI and automation within technical documentation workflows. The projects focus on how repetitive or analysis-intensive documentation activities can be supported through automation while retaining human review, editorial judgment, and responsibility for the final documentation.
 
-The projects focus on how repetitive or analysis-intensive documentation activities can be supported through automation while retaining human review, editorial judgment, and responsibility for the final documentation.
+## What This Project Area Demonstrates
 
-## What This Section Explores
-
-The projects in this section are intended to explore areas such as:
+The projects in this section explore areas such as:
 
 - Documentation change identification
 - Release note generation

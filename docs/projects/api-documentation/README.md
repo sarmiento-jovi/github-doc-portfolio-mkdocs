@@ -1,12 +1,10 @@
 # API Documentation
 
-This section presents developer-focused documentation demonstrating my understanding of API concepts and the technical communication practices used to make APIs easier to understand and integrate.
+This project area presents developer-focused documentation demonstrating my understanding of API concepts and the technical communication practices used to make APIs easier to understand and integrate. The samples in this section focus on communicating API behavior clearly through structured reference information, practical examples, and supporting guidance for developers.
 
-The samples in this section focus on communicating API behavior clearly through structured reference information, practical examples, and supporting guidance for developers.
+## What This Project Area Demonstrates
 
-## What This Section Demonstrates
-
-The API documentation samples are intended to demonstrate experience with:
+The API documentation samples demonstrate experience with:
 
 - REST API documentation
 - Endpoint and operation descriptions

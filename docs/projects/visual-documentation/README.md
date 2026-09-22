@@ -2,7 +2,7 @@
 
 These samples demonstrate how complex technical information can be analyzed, structured, and translated into purposeful visualizations that clarify processes, system relationships, data structures, and technical workflows.
 
-## What This Section Demonstrates
+## What This Project Area Demonstrates
 
 The diagram samples demonstrate experience in:
 
@@ -21,7 +21,18 @@ Each visualization is presented as a short case study to show not only the finis
 
 The sections provide context for the source material, define the communication problem and intended audience, explain the visualization and design decisions, and identify the references used to support the interpretation.
 
+> **Note:** The diagrams presented in this portfolio are my own interpretations, created for documentation and demonstration purposes based on publicly available technical information. They are not official diagrams produced, endorsed, or approved by GitHub, Microsoft, OpenTelemetry, or their respective organizations.
+
 <!-- Selected diagram samples are presented with supporting context explaining the purpose of the diagram, the information it communicates, and the design decisions used to represent the underlying process or system. -->
+
+<!--
+These are four different information problems, each requiring a different visualization strategy.
+
+Diagram 1: activities move between participants
+Diagram 2: components interact in a system
+Diagram 3: entities relate in a data model
+Diagram 4: documentation transforms and moves through a pipeline
+-->
 
 *Case Study Fields*
 
@@ -33,11 +44,6 @@ The sections provide context for the source material, define the communication p
 | **Design Decisions**      | Why a particular diagram type, scope, structure, and level of detail were selected |
 | **Visualization**      | The resulting visual solution                                                      |
 | **Source Material**       | The authoritative references used to understand and verify the subject             |
-
-
-
-> **Note:** The diagrams presented in this portfolio are my own interpretations, created for documentation and demonstration purposes based on publicly available technical information. They are not official diagrams produced, endorsed, or approved by GitHub, Microsoft, OpenTelemetry, or their respective organizations.
-
 
 <div class="diagram-samples" markdown="1">
 
@@ -65,8 +71,7 @@ The sections provide context for the source material, define the communication p
 
     <h3>Design Decisions</h3>
 
-    <p>A <strong>cross-functional flowchart</strong> was selected to distinguish activities performed by the contributor, GitHub, and reviewer. </p>
-    <p>The visualization emphasizes the primary review-and-revision cycle while omitting advanced scenarios such as: 
+    <p>A <strong>Cross-Functional Flowchart</strong> is selected to show how activities move between the contributor, GitHub, and reviewer throughout the pull request process. The visualization shows who does what, and emphasizes <strong>activities, responsibilities, handoffs, and the primary review-and-revision cycle</strong>. 
         <ul>
           <li>Stacked pull requests</li>
           <li>Merge conflicts</li>
@@ -74,13 +79,11 @@ The sections provide context for the source material, define the communication p
           <li>Branch protection configuration</li>
           <li>Repository-specific rules</li>
         </ul>
-      </p>
+    </p>
 
     <h3>Source Material</h3>
-
     <p>The following are the links to the original public documentation/repository:
       <ul>
-          <ul>
             <li>
               <a href="https://docs.github.com/en/pull-requests/get-started/about-pull-requests">
                 GitHub - About pull requests
@@ -92,7 +95,6 @@ The sections provide context for the source material, define the communication p
               </a>
             </li>
           </ul>
-      </ul>
     </p>
 
 
@@ -118,9 +120,10 @@ The sections provide context for the source material, define the communication p
 
     <h3>Design Decisions</h3>
 
-    <p>A <strong>component architecture diagram</strong> was selected to show the major system components, their functional groupings, and how they interact. Related microservices are grouped into functional areas to simplify the architecture while preserving the relationships needed for a high-level understanding.</p>
+    <p>A <strong>Component Architecture Diagram</strong> is selected to show the major system components their functional groupings, and how do they interact.</p>
+    <p>The visualization emphasizes system <strong>structure, component boundaries, and the relationships between major services</strong>. Related microservices are grouped into functional areas to support a high-level understanding of the architecture.</p> 
     <p>
-      To maintain a high-level architectural view, the visualization intentionally omits:
+      To maintain focus on the primary architecture, the visualization intentionally omits:
       <ul>
         <li>Detailed instrumentation configuration</li>
         <li>Feature-flag scenarios</li>
@@ -129,9 +132,7 @@ The sections provide context for the source material, define the communication p
         <li>Other implementation details not required to understand the primary architecture</li>
       </ul>
     </p>
-
     <h3>Source Material</h3>
-
     <p>The following are the links to the original public documentation/repository.
     <ul>
       <li>
@@ -148,7 +149,7 @@ The sections provide context for the source material, define the communication p
     </p>
 
 
-=== "Data / Entity Model"
+=== "Entity-Relationship"
 
     <h3>Source &amp; Context</h3>
 
@@ -169,8 +170,15 @@ The sections provide context for the source material, define the communication p
 
     <h3>Design Decisions</h3>
 
-    <p>The <strong>Entity Relationship Diagram (ERD)</strong> focuses on entities directly relevant to the order-processing domain. Primary keys, foreign keys, representative attributes, and cardinality are shown to explain the relationships.</p>
-     <p>Entities and attributes that do not materially contribute to understanding the selected domain are deliberately omitted.</p>
+    <p>An <strong>Entity Relationship Diagram (ERD)</strong> is selected to show the entities relevant to the Northwind order-processing domain and how they relate to one another. The visualization emphasizes <strong>data structure and relationships through primary keys, foreign keys, representative attributes, and cardinality</strong>.</p>
+     <p>
+     To maintain focus on the selected domain, the visualization intentionally omits:
+      <ul>
+        <li>Entities outside the core order-processing scope</li>
+        <li>Attributes that do not materially contribute to understanding the selected relationships</li>
+        <li>Other database implementation details not required for a high-level understanding of the data model</li>
+      </ul>
+     </p>
 
     <h3>Source Material</h3>
 
@@ -190,11 +198,13 @@ The sections provide context for the source material, define the communication p
 
     <h3>Source &amp; Context</h3>
 
-    This visualization is based on GitHub's documented GitHub Actions and GitHub Pages workflow model. GitHub Actions can automate build and deployment processes in response to repository events, while GitHub Pages can publish static site output produced by a workflow.
+    This visualization is based on GitHub's documented <strong>GitHub Actions and GitHub Pages workflow model</strong>. GitHub Actions can automate build and deployment processes in response to repository events, while GitHub Pages can publish static site output produced by a workflow.
 
     <h3>Visualization</h3>
 
-    <span class="diagram-samples__placeholder" role="img" aria-label="Technical Process diagram placeholder">Technical Process</span>
+    <img class="diagram-samples__image" src="../../assets/images/visual-documentation/technical-process.png" alt="GitHub Actions and GitHub Pages Workflow Model">
+    *GitHub Actions and GitHub Pages Workflow Model*
+  
     
     <h3>Communication Problem</h3>
 
@@ -206,16 +216,16 @@ The sections provide context for the source material, define the communication p
 
     <h3>Design Decisions</h3>
 
-    <p>This <strong>documentation build and deployment workflow diagram</strong> illustrates the end-to-end process from source content through workflow triggering, build processing, artifact generation, and deployment. The diagram emphasizes how documentation is transformed and published rather than the underlying implementation details.</p>
-
-     <p>
-       The following are omitted to keep the visualization focused on the end-to-end process:
-       <ul>
-       <li>Detailed YAML syntax</li>
-       <li>Runner configuration, permissions, and deployment environments</li>
-       <li>Failure handling and platform-specific configuration</li>
-       </ul>
-     </p> 
+    <p>A <strong>Technical Process Flow</strong> was selected to show how documentation source is transformed and moved through an automated build and deployment pipeline. The visualization emphasizes the <strong>progression of documentation and generated artifacts</strong> through systems, processing stages, and changes in state, while the connections describe the <strong>actions and transformations</strong> that move the documentation toward the published site.</p>
+    <p>To maintain focus on the primary build and deployment process, the visualization intentionally omits:
+    <ul>
+      <li>Detailed GitHub Actions workflow configuration</li>
+      <li>Individual build commands and dependencies</li>
+      <li>Authentication and permission configuration</li>
+      <li>Error handling and failed deployment scenarios</li>
+      <li>Other implementation details not required to understand the primary documentation pipeline</li>
+    </ul>
+    </p>
 
     <h3>Source Material</h3>
 

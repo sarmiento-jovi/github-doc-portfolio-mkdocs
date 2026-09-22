@@ -59,10 +59,20 @@ body {
 
 /**************************** CONTENT LINKS ****************************/
 
-/* Links within page content */
+/* Ordinary links within page content; interactive components keep their own typography. */
+.md-content .md-typeset a:not(
+    .grid.cards a,
+    .downloads-list a,
+    .saas-ecosystem-wheel a,
+    .tabbed-labels a,
+    .md-button
+) {
+    font-weight: 700;
+}
+
+/* Link colors within page content */
 .md-content .md-typeset a {
     color: var(--portfolio-sage-dark);
-    font-weight: 500;
 }
 
 /* Hover */

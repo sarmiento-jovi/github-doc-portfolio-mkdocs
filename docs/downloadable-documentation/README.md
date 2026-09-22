@@ -1,6 +1,8 @@
 # Downloadable Documents
 
-Browse and download PDF versions of selected documentation samples, API references, and diagrams.
+Browse and download selected documentation samples, API references, and visual documentation artifacts from the projects presented in this portfolio.
+
+These downloadable files provide access to complete or standalone versions of selected deliverables, including requirements and design documentation, user guidance, API documentation, traceability artifacts, and technical diagrams.
 
 ## CardFlow Documentation {#cardflow-documentation}
 
@@ -10,7 +12,7 @@ Browse and download PDF versions of selected documentation samples, API referenc
 <p>Downloadable documentation artifacts from the <strong>CardFlow Credit Origination Platform</strong>, a fictional multi-tenant SaaS case study covering business requirements, system requirements, functional design, system architecture, user guidance, user stories and acceptance criteria, and requirements traceability.</p>
 
 <blockquote>
-  <p><strong>Note:</strong>Visit <a href="../projects/saas-documentation/cardflow-credit-origination-platform/">CardFlow Credit Origination Platform</a> to learn more about the platform, its documentation ecosystem, and the web-based documentation available in this portfolio.</p>
+  <p><strong>Note:</strong> Visit <a href="../projects/saas-documentation/cardflow-credit-origination-platform/">CardFlow Credit Origination Platform</a> to learn more about the platform, its documentation ecosystem, and the web-based documentation available in this portfolio.</p>
 </blockquote>
 
 <ul class="downloads-list" role="list">
@@ -300,7 +302,7 @@ Browse and download PDF versions of selected documentation samples, API referenc
 
   <li class="downloads-row">
     <span class="downloads-row__title">
-      Data / Entity Model
+      Entity-Relationship Diagram
     </span>
 
     <div class="downloads-row__actions">
