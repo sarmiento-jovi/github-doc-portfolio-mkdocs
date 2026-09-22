@@ -7,7 +7,9 @@ hide:
 
 # Projects
 
-This portfolio presents documentation projects and samples demonstrating how I analyze, structure, communicate, and manage technical information across different documentation contexts. The project areas range from end-to-end Software as a **Software Application as a Service (SaaS) and API documentation** to **technical visualization and AI-enabled documentation workflows**. Together, they demonstrate both the creation of individual documentation artifacts and the broader practices required to keep documentation structured, maintainable, consistent, and useful throughout its lifecycle.
+Explore documentation projects and samples demonstrating how I analyze, structure, communicate, and manage technical information across different documentation contexts.
+
+The project areas range from end-to-end **Software as a Service (SaaS) documentation** and **API documentation** to **technical visualization** and **AI-enabled documentation workflows**. Together, they demonstrate both the creation of individual documentation artifacts and the broader practices required to keep documentation structured, maintainable, consistent, and useful throughout its lifecycle.
 
 <div class="grid cards project-cards" markdown>
 

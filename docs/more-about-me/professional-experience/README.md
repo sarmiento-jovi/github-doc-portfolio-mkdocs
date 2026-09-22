@@ -5,9 +5,7 @@ hide:
 
 # Professional Experience
 
-This section provides an overview of my professional experience, technical documentation background, and the tools and technologies I have worked with throughout my career.
-
-My experience spans enterprise software documentation, SaaS platforms, requirements and functional documentation, user assistance, structured authoring, visual technical communication, and documentation publishing.
+Review my professional experience across enterprise software documentation, SaaS platforms, requirements and functional documentation, structured authoring, and documentation publishing.
 
 ## Professional Profile
 

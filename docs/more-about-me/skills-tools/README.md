@@ -5,7 +5,7 @@ hide:
 
 # **Skills & Tools**
 
-An overview of my documentation capabilities, the tools and technologies I work with, and the documentation I deliver.
+Explore my documentation capabilities, the tools and technologies I work with, and the documentation I deliver.
 
 <section class="skills-capabilities" aria-label="Documentation capabilities">
 

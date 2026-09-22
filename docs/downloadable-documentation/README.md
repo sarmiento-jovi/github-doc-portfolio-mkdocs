@@ -1,6 +1,8 @@
 # Downloadable Documents
 
-Browse and download PDF versions of selected documentation samples, API references, and diagrams.
+Browse and download selected documentation samples, API references, and visual documentation artifacts from the projects presented in this portfolio.
+
+These downloadable files provide access to complete or standalone versions of selected deliverables, including requirements and design documentation, user guidance, API documentation, traceability artifacts, and technical diagrams.
 
 ## CardFlow Documentation {#cardflow-documentation}
 
