@@ -4,7 +4,7 @@ This project area explores practical applications of AI and automation within te
 
 ## What This Project Area Demonstrates
 
-The projects in this section are intended to explore areas such as:
+The projects in this section explore areas such as:
 
 - Documentation change identification
 - Release note generation

@@ -4,7 +4,7 @@ This project area presents developer-focused documentation demonstrating my unde
 
 ## What This Project Area Demonstrates
 
-The API documentation samples are intended to demonstrate experience with:
+The API documentation samples demonstrate experience with:
 
 - REST API documentation
 - Endpoint and operation descriptions
