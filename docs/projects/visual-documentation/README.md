@@ -21,6 +21,8 @@ Each visualization is presented as a short case study to show not only the finis
 
 The sections provide context for the source material, define the communication problem and intended audience, explain the visualization and design decisions, and identify the references used to support the interpretation.
 
+> **Note:** The diagrams presented in this portfolio are my own interpretations, created for documentation and demonstration purposes based on publicly available technical information. They are not official diagrams produced, endorsed, or approved by GitHub, Microsoft, OpenTelemetry, or their respective organizations.
+
 <!-- Selected diagram samples are presented with supporting context explaining the purpose of the diagram, the information it communicates, and the design decisions used to represent the underlying process or system. -->
 
 <!--
@@ -42,11 +44,6 @@ Diagram 4: documentation transforms and moves through a pipeline
 | **Design Decisions**      | Why a particular diagram type, scope, structure, and level of detail were selected |
 | **Visualization**      | The resulting visual solution                                                      |
 | **Source Material**       | The authoritative references used to understand and verify the subject             |
-
-
-
-> **Note:** The diagrams presented in this portfolio are my own interpretations, created for documentation and demonstration purposes based on publicly available technical information. They are not official diagrams produced, endorsed, or approved by GitHub, Microsoft, OpenTelemetry, or their respective organizations.
-
 
 <div class="diagram-samples" markdown="1">
 
