@@ -2,7 +2,7 @@
 
 These samples demonstrate how complex technical information can be analyzed, structured, and translated into purposeful visualizations that clarify processes, system relationships, data structures, and technical workflows.
 
-## What This Section Demonstrates
+## What This Project Area Demonstrates
 
 The diagram samples demonstrate experience in:
 
