@@ -129,9 +129,7 @@ The sections provide context for the source material, define the communication p
         <li>Other implementation details not required to understand the primary architecture</li>
       </ul>
     </p>
-
     <h3>Source Material</h3>
-
     <p>The following are the links to the original public documentation/repository.
     <ul>
       <li>
