@@ -15,7 +15,7 @@ The project areas range from end-to-end **Software as a Service (SaaS) documenta
 
 -   **SaaS Documentation**
 
-    Explore how business, technical, and user information is structured and connected across the SaaS documentation lifecycle—from requirements and system design to user guidance, traceability, and supporting documentation.
+    End-to-end SaaS documentation covering business requirements, system design, user guidance, traceability, and other supporting documentation.
 
     [Explore SaaS Documentation →](saas-documentation/){ .card-link }
 

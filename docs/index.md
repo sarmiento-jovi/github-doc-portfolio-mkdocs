@@ -58,19 +58,19 @@ Explore selected documentation work below, or browse the complete portfolio in [
 
 -   **CardFlow Credit Origination Platform**
 
-    Explore a complete SaaS documentation case study covering requirements, functional design, system architecture, user guidance, traceability, and supporting documentation.
+    Explore an end-to-end SaaS documentation case study spanning requirements, system design, and user guidance.
 
     [Explore CardFlow →](projects/saas-documentation/cardflow-credit-origination-platform/README.md){ .card-link }
 
 -   **API Documentation**
 
-    Explore developer-focused API documentation samples covering core concepts, authentication, endpoints, requests, and responses.
+    See developer-focused API documentation covering core concepts, endpoints, authentication, requests, and responses.
 
     [Explore API Documentation →](projects/api-documentation/README.md){ .card-link }
 
 -   **Visual Documentation**
 
-    Explore visual documentation samples that transform business processes, system architecture, data relationships, and technical processes into clear, structured diagrams.
+    View technical visualizations covering business processes, system architecture, data relationships, and technical workflows.
 
     [Explore Visual Documentation →](projects/visual-documentation/README.md){ .card-link }
 

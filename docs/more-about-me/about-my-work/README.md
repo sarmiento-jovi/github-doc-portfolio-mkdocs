@@ -5,9 +5,7 @@ hide:
 
 # About My Work
 
-Learn how I approach technical documentation and the principles that guide how I structure, connect, and communicate technical information.
-
-I am a **Documentation Specialist**focused on translating complex business and technical information into documentation that is structured, understandable, and useful to its intended audience.
+I am a **Documentation Specialist** focused on translating complex business and technical information into documentation that is structured, understandable, and useful to its intended audience. I approach documentation by first understanding the information, its relationships, its purpose, and the people who need to use it.
 
 ## How I Approach Documentation
 
