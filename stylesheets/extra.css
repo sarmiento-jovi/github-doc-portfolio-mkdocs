@@ -1215,6 +1215,15 @@ body.project-footer-end .md-footer__link--next {
     width: 100%;
 }
 
+/* Reset Material's horizontal gutters when using full-width wrappers. */
+.md-typeset .md-typeset__scrollwrap {
+    margin-inline: 0;
+}
+
+.md-typeset .md-typeset__table {
+    padding-inline: 0;
+}
+
 /* Force the actual table inside the wrapper to fill it */
 .md-typeset .md-typeset__table table,
 .md-typeset .md-typeset__scrollwrap table,
