@@ -40,7 +40,7 @@ This portfolio demonstrates my experience in **technical documentation, Docs-as-
       <p class="homepage-hero__skills">
           SaaS Documentation &nbsp;·&nbsp;
           Docs-as-Code &nbsp;·&nbsp;
-          API Docs &nbsp;·&nbsp;
+          <!-- API Docs &nbsp;·&nbsp; -->
           Information Architecture
       </p>
 
