@@ -57,6 +57,32 @@ body {
 }
 
 
+/**************************** PROJECT STATUS ****************************/
+
+.md-typeset .project-status {
+    background-color: #FAF6EC;
+    border: 1px solid #D8C69F;
+    border-radius: 0.45rem;
+    color: var(--portfolio-text);
+    margin: 0 0 1.25em;
+    padding: 1em;
+}
+
+.md-typeset .project-status__heading {
+    color: #725B32;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    margin: 0 0 0.4em;
+    text-transform: uppercase;
+}
+
+.md-typeset .project-status__text {
+    margin: 0;
+}
+
+
 /**************************** CONTENT LINKS ****************************/
 
 /* Ordinary links within page content; interactive components keep their own typography. */
