@@ -62,11 +62,11 @@ Explore selected documentation work below, or browse the complete portfolio in [
 
     [Explore CardFlow →](projects/saas-documentation/cardflow-credit-origination-platform/README.md){ .card-link }
 
--   **API Documentation**
+-   **Downloads**
 
-    See developer-focused API documentation covering core concepts, endpoints, authentication, requests, and responses.
+    Access downloadable documentation samples, traceability artifacts, and technical diagrams from across the portfolio.
 
-    [Explore API Documentation →](projects/api-documentation/README.md){ .card-link }
+    [See Downloads →](downloadable-documentation/README.md){ .card-link }
 
 -   **Visual Documentation**
 
