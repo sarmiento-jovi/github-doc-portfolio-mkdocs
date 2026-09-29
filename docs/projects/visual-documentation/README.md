@@ -55,11 +55,6 @@ Diagram 4: documentation transforms and moves through a pipeline
 
     <p>This visualization is based on <strong>GitHub's documented pull request workflow</strong>. Pull requests provide a collaborative process for proposing, reviewing, discussing, validating, and merging changes before they become part of the target branch.</p>
 
-    <h3>Visualization</h3>
-
-    <img class="diagram-samples__image" src="../../assets/images/visual-documentation/process-workflow.png" alt="Cross-functional pull request workflow from branch creation through review, revisions, approval, and merge">
-    *GitHub's Documented Pull Request Workflow*
-    
     <h3>Communication Problem</h3>
 
     <p>The documented workflow involves activities performed by both the change author and the reviewer, together with the repository-level actions and checks.</p> 
@@ -67,7 +62,7 @@ Diagram 4: documentation transforms and moves through a pipeline
 
     <h3>Audience</h3>
 
-    <p>New team members who understand the basic Git concepts but are unfamiliar with colloborative pull request workflows in GitHub.</p>
+    <p>New team members who understand the basic Git concepts but are unfamiliar with collaborative pull request workflows in GitHub.</p>
 
     <h3>Design Decisions</h3>
 
@@ -80,6 +75,11 @@ Diagram 4: documentation transforms and moves through a pipeline
           <li>Repository-specific rules</li>
         </ul>
     </p>
+
+    <h3>Visualization</h3>
+
+    <img class="diagram-samples__image" src="../../assets/images/visual-documentation/process-workflow.png" alt="Cross-functional pull request workflow from branch creation through review, revisions, approval, and merge">
+    *GitHub's Documented Pull Request Workflow*
 
     <h3>Source Material</h3>
     <p>The following are the links to the original public documentation/repository:
@@ -104,11 +104,7 @@ Diagram 4: documentation transforms and moves through a pipeline
 
     <p>This visualization is based on the <strong>OpenTelemetry Demonstration</strong>, a distributed microservice application designed to demonstrate OpenTelemetry instrumentation and observability in a production-like environment.</p>
     <p>The application contains services implemented in multiple programming languages that communicate using gRPC and HTTP.</p>
-
-    <h3>Visualization</h3>
-
-     <img class="diagram-samples__image" src="../../assets/images/visual-documentation/system-architecture.png" alt="OpenTelemetry instrumentation and observability demonstration">
-    *OpenTelemetry Demonstration*
+ 
     
     <h3>Communication Problem</h3>
 
@@ -132,6 +128,12 @@ Diagram 4: documentation transforms and moves through a pipeline
         <li>Other implementation details not required to understand the primary architecture</li>
       </ul>
     </p>
+
+    <h3>Visualization</h3>
+
+     <img class="diagram-samples__image" src="../../assets/images/visual-documentation/system-architecture.png" alt="OpenTelemetry instrumentation and observability demonstration">
+    *OpenTelemetry Demonstration*
+
     <h3>Source Material</h3>
     <p>The following are the links to the original public documentation/repository.
     <ul>
@@ -153,12 +155,7 @@ Diagram 4: documentation transforms and moves through a pipeline
 
     <h3>Source &amp; Context</h3>
 
-      This visualization is based on <strong>Microsoft's Northwind</strong> sample database. The exercise focuses on the portion of the schema supporting customers, orders, order details, products, and product classification rather than documenting the complete database.
-
-     <h3>Visualization</h3>
-
-     <img class="diagram-samples__image" src="../../assets/images/visual-documentation/entity-relationship-diagram.png" alt="Northwind Core Order Data Model">
-    *Northwind Core Order Data Model*
+      This visualization is based on <strong>Microsoft's Northwind</strong> sample database. The exercise focuses on the portion of the schema supporting customers, orders, order details, products, and product classification rather than documenting the complete database.     
   
     <h3>Communication Problem</h3>
 
@@ -180,6 +177,11 @@ Diagram 4: documentation transforms and moves through a pipeline
       </ul>
      </p>
 
+     <h3>Visualization</h3>
+
+     <img class="diagram-samples__image" src="../../assets/images/visual-documentation/entity-relationship-diagram.png" alt="Northwind Core Order Data Model">
+    *Northwind Core Order Data Model*
+
     <h3>Source Material</h3>
 
     <p>The following are the links to the original public documentation/repository.
@@ -198,14 +200,8 @@ Diagram 4: documentation transforms and moves through a pipeline
 
     <h3>Source &amp; Context</h3>
 
-    This visualization is based on GitHub's documented <strong>GitHub Actions and GitHub Pages workflow model</strong>. GitHub Actions can automate build and deployment processes in response to repository events, while GitHub Pages can publish static site output produced by a workflow.
-
-    <h3>Visualization</h3>
-
-    <img class="diagram-samples__image" src="../../assets/images/visual-documentation/technical-process.png" alt="GitHub Actions and GitHub Pages Workflow Model">
-    *GitHub Actions and GitHub Pages Workflow Model*
-  
-    
+    This visualization is based on GitHub's documented <strong>GitHub Actions and GitHub Pages workflow model</strong>. GitHub Actions can automate build and deployment processes in response to repository events, while GitHub Pages can publish static site output produced by a workflow. 
+      
     <h3>Communication Problem</h3>
 
     Documentation authors working with Docs-as-Code may understand that a repository change eventually appears on a published website without clearly understanding the automated stages between source content and deployment. The visualization explains that technical processing pipeline at a conceptual level.
@@ -226,6 +222,11 @@ Diagram 4: documentation transforms and moves through a pipeline
       <li>Other implementation details not required to understand the primary documentation pipeline</li>
     </ul>
     </p>
+
+    <h3>Visualization</h3>
+
+    <img class="diagram-samples__image" src="../../assets/images/visual-documentation/technical-process.png" alt="GitHub Actions and GitHub Pages Workflow Model">
+    *GitHub Actions and GitHub Pages Workflow Model*
 
     <h3>Source Material</h3>
 

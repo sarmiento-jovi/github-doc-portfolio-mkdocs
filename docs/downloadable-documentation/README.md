@@ -242,7 +242,7 @@ Browse and download selected deliverables from across the portfolio, including d
 
   <li class="downloads-row">
     <span class="downloads-row__title">
-      Business Process / Workflow
+      GitHub's Documented Pull Request Workflow 
     </span>
 
     <div class="downloads-row__actions">
@@ -250,19 +250,19 @@ Browse and download selected deliverables from across the portfolio, including d
 
       <a
         class="downloads-row__action"
-        href="../assets/downloads/diagrams/process-workflow.png"
+        href="../assets/downloads/visual-documentation/vd-github-documented-pull-request-workflow.pdf"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="View the Business Process / Workflow PNG"
       >
-        View PNG
+        View PDF
       </a>
 
       <a
         class="downloads-row__action"
-        href="../assets/downloads/diagrams/process-workflow.png"
+        href="../assets/downloads/visual-documentation/vd-github-documented-pull-request-workflow.pdf"
         download
-        aria-label="Download the Business Process / Workflow PNG"
+        aria-label="Download the GitHub's Documented Pull Request Workflow"
       >
         Download
       </a>
@@ -271,7 +271,7 @@ Browse and download selected deliverables from across the portfolio, including d
 
   <li class="downloads-row">
     <span class="downloads-row__title">
-      System Architecture
+      OpenTelemetry Demo System Architecture 
     </span>
 
     <div class="downloads-row__actions">
@@ -279,19 +279,19 @@ Browse and download selected deliverables from across the portfolio, including d
 
       <a
         class="downloads-row__action"
-        href="../assets/downloads/diagrams/system-architecture.png"
+        href="../assets/downloads/visual-documentation/vd-opentelemetry-demonstration.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="View the System Architecture PDF"
+        aria-label="View the OpenTelemetry Demo System Architecture"
       >
-        View PNG
+        View PDF
       </a>
 
       <a
         class="downloads-row__action"
-        href="../assets/downloads/diagrams/system-architecture.png"
+        href="../assets/downloads/visual-documentation/vd-opentelemetry-demonstration.pdf"
         download
-        aria-label="Download the System Architecture PNG"
+        aria-label="Download the OpenTelemetry Demo System Architecture"
       >
         Download
       </a>
@@ -300,7 +300,7 @@ Browse and download selected deliverables from across the portfolio, including d
 
   <li class="downloads-row">
     <span class="downloads-row__title">
-      Entity-Relationship Diagram
+      Northwind Core Order Data Model 
     </span>
 
     <div class="downloads-row__actions">
@@ -308,19 +308,48 @@ Browse and download selected deliverables from across the portfolio, including d
 
       <a
         class="downloads-row__action"
-        href="../assets/downloads/diagrams/entity-relationship-diagram.png"
+        href="../assets/downloads/visual-documentation/vd-microsoft-northwind-core-data-model.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="View the Data / Entity Model PNG"
+        aria-label="View the Northwind Core Order Data Model"
       >
-        View PNG
+        View PDF
       </a>
 
       <a
         class="downloads-row__action"
-        href="../assets/downloads/diagrams/entity-relationship-diagram.png"
+        href="../assets/downloads/visual-documentation/vd-microsoft-northwind-core-data-model.pdf"
         download
-        aria-label="Download the Data / Entity Model PNG"
+        aria-label="Download the Northwind Core Order Data Model Architecture"
+      >
+        Download
+      </a>
+    </div>
+  </li>
+
+  <li class="downloads-row">
+    <span class="downloads-row__title">
+      GitHub Actions and GitHub Pages Workflow Model 
+    </span>
+
+    <div class="downloads-row__actions">
+      <!-- <span class="downloads-row__format">PNG</span> -->
+
+      <a
+        class="downloads-row__action"
+        href="../assets/downloads/visual-documentation/vd-github-actions-and-github-pages-workflow-model.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View the GitHub Actions and GitHub Pages Workflow Model"
+      >
+        View PDF
+      </a>
+
+      <a
+        class="downloads-row__action"
+        href="../assets/downloads/visual-documentation/vd-github-actions-and-github-pages-workflow-model.pdf"
+        download
+        aria-label="Download the GitHub Actions and GitHub Pages Workflow Model"
       >
         Download
       </a>
