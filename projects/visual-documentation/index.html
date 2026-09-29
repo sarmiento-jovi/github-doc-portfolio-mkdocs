@@ -6747,14 +6747,11 @@ Diagram 4: documentation transforms and moves through a pipeline
 <div class="tabbed-block">
 <p><h3>Source &amp; Context</h3></p>
 <p><p>This visualization is based on <strong>GitHub's documented pull request workflow</strong>. Pull requests provide a collaborative process for proposing, reviewing, discussing, validating, and merging changes before they become part of the target branch.</p></p>
-<p><h3>Visualization</h3></p>
-<p><img class="diagram-samples__image" src="../../assets/images/visual-documentation/process-workflow.png" alt="Cross-functional pull request workflow from branch creation through review, revisions, approval, and merge">
-<em>GitHub's Documented Pull Request Workflow</em></p>
 <p><h3>Communication Problem</h3></p>
 <p><p>The documented workflow involves activities performed by both the change author and the reviewer, together with the repository-level actions and checks.</p> 
 <p>The visualization is intended to make the sequence of activities, responsibilities, review outcomes, and feedback loop easier to understand.</p></p>
 <p><h3>Audience</h3></p>
-<p><p>New team members who understand the basic Git concepts but are unfamiliar with colloborative pull request workflows in GitHub.</p></p>
+<p><p>New team members who understand the basic Git concepts but are unfamiliar with collaborative pull request workflows in GitHub.</p></p>
 <p><h3>Design Decisions</h3></p>
 <p><p>A <strong>Cross-Functional Flowchart</strong> is selected to show how activities move between the contributor, GitHub, and reviewer throughout the pull request process. The visualization shows who does what, and emphasizes <strong>activities, responsibilities, handoffs, and the primary review-and-revision cycle</strong>. 
     <ul>
@@ -6765,6 +6762,9 @@ Diagram 4: documentation transforms and moves through a pipeline
       <li>Repository-specific rules</li>
     </ul>
 </p></p>
+<p><h3>Visualization</h3></p>
+<p><img class="diagram-samples__image" src="../../assets/images/visual-documentation/process-workflow.png" alt="Cross-functional pull request workflow from branch creation through review, revisions, approval, and merge">
+<em>GitHub's Documented Pull Request Workflow</em></p>
 <p><h3>Source Material</h3>
 <p>The following are the links to the original public documentation/repository:
   <ul>
@@ -6785,9 +6785,6 @@ Diagram 4: documentation transforms and moves through a pipeline
 <p><h3>Source &amp; Context</h3></p>
 <p><p>This visualization is based on the <strong>OpenTelemetry Demonstration</strong>, a distributed microservice application designed to demonstrate OpenTelemetry instrumentation and observability in a production-like environment.</p>
 <p>The application contains services implemented in multiple programming languages that communicate using gRPC and HTTP.</p></p>
-<p><h3>Visualization</h3></p>
-<p><img class="diagram-samples__image" src="../../assets/images/visual-documentation/system-architecture.png" alt="OpenTelemetry instrumentation and observability demonstration">
-<em>OpenTelemetry Demonstration</em></p>
 <p><h3>Communication Problem</h3></p>
 <p>The complete demo contains numerous application and observability components, making the architecture potentially difficult for a newcomer to interpret. The visualization provides a simplified overview of the major functional groups, key service relationships, and the connection between application services and observability infrastructure.</p>
 <p><h3>Audience</h3></p>
@@ -6804,8 +6801,11 @@ Diagram 4: documentation transforms and moves through a pipeline
     <li>Lower-level service interactions</li>
     <li>Other implementation details not required to understand the primary architecture</li>
   </ul>
-</p>
-<h3>Source Material</h3>
+</p></p>
+<p><h3>Visualization</h3></p>
+<p><img class="diagram-samples__image" src="../../assets/images/visual-documentation/system-architecture.png" alt="OpenTelemetry instrumentation and observability demonstration">
+<em>OpenTelemetry Demonstration</em></p>
+<p><h3>Source Material</h3>
 <p>The following are the links to the original public documentation/repository.
 <ul>
   <li>
@@ -6822,10 +6822,7 @@ Diagram 4: documentation transforms and moves through a pipeline
 </div>
 <div class="tabbed-block">
 <p><h3>Source &amp; Context</h3></p>
-<p>This visualization is based on <strong>Microsoft's Northwind</strong> sample database. The exercise focuses on the portion of the schema supporting customers, orders, order details, products, and product classification rather than documenting the complete database.</p>
-<p><h3>Visualization</h3></p>
-<p><img class="diagram-samples__image" src="../../assets/images/visual-documentation/entity-relationship-diagram.png" alt="Northwind Core Order Data Model">
-<em>Northwind Core Order Data Model</em></p>
+<p>This visualization is based on <strong>Microsoft's Northwind</strong> sample database. The exercise focuses on the portion of the schema supporting customers, orders, order details, products, and product classification rather than documenting the complete database.     </p>
 <p><h3>Communication Problem</h3></p>
 <p>A complete database schema can contain more information than a reader needs when trying to understand a specific business domain. This visualization isolates the core entities involved in order processing and shows how customer orders connect to individual products and supporting product information.</p>
 <p><h3>Audience</h3></p>
@@ -6840,6 +6837,9 @@ Diagram 4: documentation transforms and moves through a pipeline
     <li>Other database implementation details not required for a high-level understanding of the data model</li>
   </ul>
  </p></p>
+<p><h3>Visualization</h3></p>
+<p><img class="diagram-samples__image" src="../../assets/images/visual-documentation/entity-relationship-diagram.png" alt="Northwind Core Order Data Model">
+<em>Northwind Core Order Data Model</em></p>
 <p><h3>Source Material</h3></p>
 <p><p>The following are the links to the original public documentation/repository.
 <ul>
@@ -6854,10 +6854,7 @@ Diagram 4: documentation transforms and moves through a pipeline
 </div>
 <div class="tabbed-block">
 <p><h3>Source &amp; Context</h3></p>
-<p>This visualization is based on GitHub's documented <strong>GitHub Actions and GitHub Pages workflow model</strong>. GitHub Actions can automate build and deployment processes in response to repository events, while GitHub Pages can publish static site output produced by a workflow.</p>
-<p><h3>Visualization</h3></p>
-<p><img class="diagram-samples__image" src="../../assets/images/visual-documentation/technical-process.png" alt="GitHub Actions and GitHub Pages Workflow Model">
-<em>GitHub Actions and GitHub Pages Workflow Model</em></p>
+<p>This visualization is based on GitHub's documented <strong>GitHub Actions and GitHub Pages workflow model</strong>. GitHub Actions can automate build and deployment processes in response to repository events, while GitHub Pages can publish static site output produced by a workflow. </p>
 <p><h3>Communication Problem</h3></p>
 <p>Documentation authors working with Docs-as-Code may understand that a repository change eventually appears on a published website without clearly understanding the automated stages between source content and deployment. The visualization explains that technical processing pipeline at a conceptual level.</p>
 <p><h3>Audience</h3></p>
@@ -6873,6 +6870,9 @@ Diagram 4: documentation transforms and moves through a pipeline
   <li>Other implementation details not required to understand the primary documentation pipeline</li>
 </ul>
 </p></p>
+<p><h3>Visualization</h3></p>
+<p><img class="diagram-samples__image" src="../../assets/images/visual-documentation/technical-process.png" alt="GitHub Actions and GitHub Pages Workflow Model">
+<em>GitHub Actions and GitHub Pages Workflow Model</em></p>
 <p><h3>Source Material</h3></p>
 <p><p>
   The folliwng links to the original public documentation/repository.
