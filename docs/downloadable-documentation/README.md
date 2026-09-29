@@ -1,6 +1,6 @@
 # Downloadable Documents
 
-Browse and download selected deliverables from across the portfolio, including documentation samples, API references, traceability artifacts, and technical diagrams.
+Browse and download selected deliverables from across the portfolio, including documentation samples, traceability artifacts, and technical diagrams.
 
 ## CardFlow Documentation {#cardflow-documentation}
 
