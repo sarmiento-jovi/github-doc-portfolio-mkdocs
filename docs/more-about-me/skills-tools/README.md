@@ -93,7 +93,7 @@ Explore my documentation capabilities, the tools and technologies I work with, a
 
   </article>
 
-  <article class="skills-capabilities__row" aria-labelledby="skills-api">
+  <!-- <article class="skills-capabilities__row" aria-labelledby="skills-api">
 
     <div class="skills-capabilities__capability">
 
@@ -121,7 +121,7 @@ Explore my documentation capabilities, the tools and technologies I work with, a
 
     </div>
 
-  </article>
+  </article> -->
 
   <article class="skills-capabilities__row" aria-labelledby="skills-visual">
 
@@ -135,7 +135,7 @@ Explore my documentation capabilities, the tools and technologies I work with, a
 
       <h3>What I use</h3>
 
-      <p>Microsoft Visio · draw.io · Microsoft PowerPoint · Adobe Illustrator · Adobe Photoshop</p>
+      <p>Microsoft Visio · draw.io · Microsoft PowerPoint</p>
 
     </div>
 
@@ -213,7 +213,7 @@ Explore my documentation capabilities, the tools and technologies I work with, a
       <ul>
         <li>Analytical reports</li>
         <li>Performance findings</li>
-        <li>API load-testing notes</li>
+        <!-- <li>API load-testing notes</li> -->
         <li>Data analysis</li>
         <li>Test-related documentation</li>
       </ul>
@@ -222,7 +222,7 @@ Explore my documentation capabilities, the tools and technologies I work with, a
 
   </article>
 
-  <article class="skills-capabilities__row" aria-labelledby="skills-ai">
+  <!-- <article class="skills-capabilities__row" aria-labelledby="skills-ai">
 
     <div class="skills-capabilities__capability">
 
@@ -250,6 +250,6 @@ Explore my documentation capabilities, the tools and technologies I work with, a
 
     </div>
 
-  </article>
+  </article> -->
 
 </section>
