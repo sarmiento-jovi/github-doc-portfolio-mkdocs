@@ -213,7 +213,7 @@ Browse and download selected deliverables from across the portfolio, including d
 </section>
 </div>
 
-## API Documentation {#api-documentation}
+<!-- ## API Documentation {#api-documentation}
 
 <div class="downloads-page">
 <section aria-labelledby="api-documentation">
@@ -225,7 +225,7 @@ Browse and download selected deliverables from across the portfolio, including d
 </p>
 
 </section>
-</div>
+</div> -->
 
 ## Visual Documentation {#visual-documentation}
 

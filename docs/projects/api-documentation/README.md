@@ -1,10 +1,16 @@
 # API Documentation
 
-This project area presents developer-focused documentation demonstrating my understanding of API concepts and the technical communication practices used to make APIs easier to understand and integrate. The samples in this section focus on communicating API behavior clearly through structured reference information, practical examples, and supporting guidance for developers.
+<aside class="project-status" aria-label="Project status">
+  <p class="project-status__heading">ONGOING LEARNING &amp; DEVELOPMENT</p>
+  <p class="project-status__text">Currently being developed as part of my ongoing study of API documentation.</p>
+</aside>
 
-## What This Project Area Demonstrates
+<!-- This project area presents developer-focused documentation demonstrating my understanding of API concepts and the technical communication practices used to make APIs easier to understand and integrate. The samples in this section focus on communicating API behavior clearly through structured reference information, practical examples, and supporting guidance for developers. -->
+This project area focuses on applying **API documentation concepts** through practical exercises and representative documentation samples. The work will explore how API behavior and technical information can be structured and communicated clearly for developers.
 
-The API documentation samples demonstrate experience with:
+## Current Learning Focus
+
+My current learning focuses on developing practical knowledge in areas such as:
 
 - REST API documentation
 - Endpoint and operation descriptions

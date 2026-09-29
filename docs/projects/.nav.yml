@@ -1,6 +1,6 @@
 nav:
   - Projects Overview: README.md
   - SaaS Documentation: saas-documentation
-  - API Documentation: api-documentation/README.md
   - Visual Documentation: visual-documentation/README.md
+  - API Documentation: api-documentation/README.md  
   - AI Documentation & Automation: ai-documentation-automation/README.md

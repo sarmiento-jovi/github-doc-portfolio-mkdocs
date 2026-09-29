@@ -137,7 +137,7 @@ Access selected CardFlow documentation as complete, traditionally authored deliv
 - [Requirements Traceability Matrix](../../../assets/downloads/cardflow/05-ccop-requirements-traceability-matrix.xlsx){ target="_blank" rel="noopener noreferrer" }
 - [User Stories & Acceptance Criteria](../../../assets/downloads/cardflow/04-ccop-user-stories-and-acceptance-criteria.pdf){ target="_blank" rel="noopener noreferrer" }
 
-## Coming Soon
+<!-- ## Coming Soon
 Preview additional portfolio work planned to extend the CardFlow documentation set and demonstrate further documentation capabilities.
 
-- API Documentation
+- API Documentation -->

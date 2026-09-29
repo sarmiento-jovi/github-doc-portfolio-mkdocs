@@ -9,7 +9,10 @@ hide:
 
 Explore documentation projects and samples demonstrating how I analyze, structure, communicate, and manage technical information across different documentation contexts.
 
-The project areas range from end-to-end **Software as a Service (SaaS) documentation** and **API documentation** to **technical visualization** and **AI-enabled documentation workflows**. Together, they demonstrate both the creation of individual documentation artifacts and the broader practices required to keep documentation structured, maintainable, consistent, and useful throughout its lifecycle.
+The portfolio combines completed project work with areas of ongoing and planned development. Current work includes end-to-end Software as a **Service (SaaS) documentation and technical visualization**, while **API documentation** is an active learning project and **AI-enabled documentation and automation** represents a planned area for future development. Across these areas, the portfolio reflects the broader practices required to keep documentation structured, maintainable, consistent, and useful throughout its lifecycle.
+
+
+<!-- The project areas range from end-to-end **Software as a Service (SaaS) documentation** and **API documentation** to **technical visualization** and **AI-enabled documentation workflows**. Together, they demonstrate both the creation of individual documentation artifacts and the broader practices required to keep documentation structured, maintainable, consistent, and useful throughout its lifecycle. -->
 
 <div class="grid cards project-cards" markdown>
 
@@ -19,17 +22,17 @@ The project areas range from end-to-end **Software as a Service (SaaS) documenta
 
     [Explore SaaS Documentation →](saas-documentation/){ .card-link }
 
--   **API Documentation**
-
-    Developer-focused documentation demonstrating API concepts, endpoint reference, request and response structures, error handling, and OpenAPI.
-
-    [Explore API Documentation →](api-documentation/){ .card-link }
-
 -   **Visual Documentation**
 
     Technical visualization samples covering system architecture, workflows, data relationships, and business processes.
 
     [Explore Visual Documentation →](visual-documentation/README.md){ .card-link }
+
+-   **API Documentation**
+
+    Developer-focused documentation demonstrating API concepts, endpoint reference, request and response structures, error handling, and OpenAPI.
+
+    [Coming Soon](api-documentation/){ .card-link }
 
 -   **AI Documentation & Automation**
 
